@@ -1,0 +1,1459 @@
+zero to wordpress
+
+Diepgaande SEO-analyse: WPBeginner Bluehost Coupon-pagina
+Dit is een schoolvoorbeeld van een affiliate/coupon-pagina die op vrijwel elk vlak geoptimaliseerd is. Hieronder mijn bevindingen, opgedeeld per categorie.
+1. CONTENT & CONTENTSTRUCTUUR
+De pagina bevat circa 3.168 woorden — dat is uitzonderlijk lang voor een coupon-pagina. De meeste concurrenten hebben 300–500 woorden. WPBeginner behandelt het onderwerp exhaustief: van een stap-voor-stap handleiding, tot Pro Services, WooCommerce hosting, alternatieve coupons, en een uitgebreide FAQ met 11 vragen. Dit geeft Google het signaal dat dit de meest complete bron is voor "Bluehost coupon".
+De heading-structuur is strategisch opgezet: er is één H1 ("Bluehost Coupon"), één H2 voor het artikel ("Exclusive Bluehost Coupon Code 2026"), en vervolgens H4's voor alle subsecties. De koppen zijn keyword-geladen maar leesbaar: "How to Use the Bluehost Coupon Code", "Active Bluehost Coupons and Discount Deals", enzovoort.
+Er is een inhoudsopgave (Table of Contents) met 12 anchor links die naar secties op dezelfde pagina verwijzen. Dit genereert niet alleen "jump-to" links in de SERP maar verlaagt ook de bounce rate doordat bezoekers direct naar hun gewenste sectie kunnen navigeren.
+De auteur is Syed Balkhi — de oprichter van WPBeginner — wat E-E-A-T (Experience, Expertise, Authoritativeness, Trust) versterkt. Het artikel is geschreven in eerste persoon ("I negotiated directly", "I recommend"), wat "experience" signaleert.
+De pagina is oorspronkelijk gepubliceerd op 17 oktober 2012 en laatst bijgewerkt op 13 januari 2026, wat meer dan 13 jaar contentleeftijd betekent. Dit geeft enorme autoriteit en link equity die in de loop der jaren is opgebouwd.
+2. INTERNE LINKING (in het artikel)
+Binnen het artikel zijn 19 unieke interne links naar andere WPBeginner-pagina's. Dit is een van de krachtigste elementen. Ze linken naar:
+Topical hubs en pillar pages, zoals de WordPress performance-gids, SEO-pluginsgids, en de "How to Start an Online Store"-tutorial. Dit versterkt de topical authority rond WordPress hosting en creëert een content silo.
+Cross-links naar gerelateerde deal-pagina's (Hostinger Coupon, HostGator Coupon, GoDaddy Coupon, SiteGround Coupon, Network Solutions Coupon, WordPress.com Coupon). Dit vormt een compleet intern ecosysteem van "deals"-pagina's die elkaar versterken.
+Contextual deep links naar specifieke tutorials zoals "How to Choose the Best Domain Registrar", "How to Start a WordPress Blog", en "Migrate from Blogger to WordPress". Dit verdeelt link juice over de hele site en verhoogt de relevantie.
+Er is ook een vergelijkingstabel onderaan met 5 alternatieve hosting-coupons, elk met een interne link naar de bijbehorende WPBeginner deal-pagina. Dit is slim voor zowel gebruikerservaring als interne linkstructuur.
+3. AFFILIATE LINKS & REL-ATTRIBUTEN
+Er zijn 39 affiliate links in het artikel, allemaal naar /refer/bluehost/ en varianten (bluehost-vps, bluehost-woocommerce, bluehost-managed, etc.). Dit is bewust verspreid over de gehele pagina — bij elke sectie is er een CTA.
+Alle affiliate links hebben rel="nofollow" en target="_blank". De prominente CTA-knoppen hebben zelfs rel="noreferrer noopener nofollow". Dit is de correcte manier om affiliate links te behandelen — Google straft sites die dofollow affiliate links gebruiken. Opvallend is dat ze sponsored niet gebruiken (wat Google eigenlijk aanbeveelt), maar nofollow werkt in de praktijk hetzelfde.
+De CTA's zijn visueel opvallend: oranje knoppen met tekst als "→ Get 70% OFF With Bluehost Coupon Code ←" en "→ Start With Bluehost Today ←". Er zijn minstens 6 prominente CTA-knoppen verspreid over de pagina, plus talloze inline tekstlinks.
+De "Scratch Here"-coupon bovenaan is een briljant conversie-element dat nieuwsgierigheid opwekt.
+4. AFBEELDINGEN
+Er zijn 17 afbeeldingen in de content. Elke afbeelding heeft:
+
+Een alt-tag (100% dekking) met beschrijvende tekst zoals "Bluehost order summary and addons page" en "Bluehost Pricing Plans"
+Een title-tag (100% dekking)
+Srcset voor responsive afbeeldingen (300w en 680w varianten)
+Decoding="async" voor betere laadprestaties
+Dit zijn geen stockfoto's maar echte screenshots van het Bluehost-aanmeldproces, wat vertrouwen wekt bij de bezoeker en "experience" demonstreert.
+Afbeeldingen zijn gekoppeld aan affiliate links — klikken op een screenshot brengt je naar Bluehost. Dit is een extra conversiemogelijkheid.
+
+
+5. SIDEBAR (Primary Sidebar)
+De sidebar is een content-rijke zone met meerdere widgets:
+Social proof widget — "Over 2,000,000+ Readers" met social media-iconen (Facebook, X, YouTube, Instagram, Pinterest, LinkedIn, e-mail). Dit versterkt vertrouwen.
+Featured WordPress Plugin — SeedProd met logo, beschrijving en link. Dit is cross-promotion van een eigen product.
+"How to Start a Blog" banner — een visueel CTA naar hun populairste pillar page.
+WordPress Toolkit CTA — "Get FREE access to our toolkit" met een Download Now-knop naar een lead-magnet. Dit is hun e-mail lijst opbouwstrategie.
+"I need help with..." navigatie — 6 categorie-links (Starting a Blog, WordPress SEO, WordPress Performance, WordPress Errors, WordPress Security, Building an Online Store) met iconen. Dit fungeert als een mini-sitemap voor gerelateerde topical clusters.
+Zoekbalk — eigen site-zoekmachine.
+Latest Posts — 5 recente artikelen, steeds bijgewerkt.
+Useful WordPress Guides — 4 pagina's met uitgebreide guides-lijsten (verdeeld over meerdere tabbladen met paginering), inclusief hosting reviews, migratiehandleidingen, en beginner guides. Dit genereert enorm veel interne links vanuit de sidebar.
+In totaal bevat de sidebar 38 links, bijna allemaal intern. Dit is een krachtige interne linkstrategie die op elke pagina van de site draait.
+6. STRUCTURED DATA / SCHEMA MARKUP
+De pagina heeft een uitgebreide schema markup met 6 types:
+
+BreadcrumbList — voor breadcrumb rich snippets in de SERP
+FAQPage — met 11 vragen, wat FAQ rich snippets genereert (extra SERP-ruimte)
+ItemList — met 12 items (waarschijnlijk de vergelijkingstabel/deals)
+Organization — WPBeginner als organisatie
+WebPage — met datumstempels en beschrijving
+WebSite — sitewide schema
+De FAQ-schema is bijzonder waardevol: het geeft Google aanleiding om veelgestelde vragen direct in de zoekresultaten te tonen, wat de CTR drastisch verhoogt.
+
+
+7. META TAGS & ON-PAGE SEO
+De title tag is meesterlijk: [EXCLUSIVE] Bluehost Coupon: Save 70% OFF + Free Domain Name. De brackets [EXCLUSIVE] trekken de aandacht in de SERP, "Bluehost Coupon" is het hoofd-keyword, en "Save 70% OFF + Free Domain Name" is de value proposition.
+De meta description is scherp: het bevat het jaar (2026), het kortingspercentage (70%), en een call-to-action.
+Open Graph en Twitter Card tags zijn volledig ingevuld met afbeelding, titel en beschrijving voor optimale social media-sharing.
+Robots meta staat op max-snippet:-1, max-image-preview:large, max-video-preview:-1 — dit geeft Google maximale vrijheid om uitgebreide snippets te tonen.
+8. HREFLANG & INTERNATIONALISERING
+De pagina heeft 12 hreflang-tags voor: Engels (US), Spaans (MX), Roemeens, Portugees (BR), Frans, Italiaans, Duits, Japans, Turks, Zweeds, Pools, plus x-default. Dit betekent dat dezelfde pagina in 11 talen beschikbaar is, wat enorm bijdraagt aan internationaal organisch verkeer.
+In de footer staat ook een taalkeuze-dropdown met al deze talen.
+9. BREADCRUMBS
+De breadcrumb-trail is: WPBeginner → Deals → Featured Deals → Bluehost Coupon. Dit is zowel visueel aanwezig als in schema markup opgenomen. Het creëert een duidelijke hiërarchie voor Google en verbetert de navigatie voor gebruikers.
+10. "OTHER AMAZING DEALS" SECTIE
+Na het artikel verschijnt een cross-linking sectie met 4 gerelateerde deals: GoDaddy Coupon, Pixelemu Coupon, PanKogut Coupon, en Wholesale Suite Coupon. Elk met logo, korte beschrijving en "View this Deal"-link. Dit houdt bezoekers op de site en verdeelt link juice naar andere deal-pagina's.
+11. FOOTER
+De footer is een linkmonster met drie kolommen:
+
+Site Links — About us, Editorial Standards, Review Board, Press, Contact, Privacy Policy, Terms of Service, FTC Disclosure, Growth Fund
+Free Tools — 7 eigen tools (Business Name Generator, WordPress Theme Detector, SEO Keyword Generator, Headline Analyzer, etc.)
+Resources — WordPress Courses, Glossary, Product Reviews, Deals, SEO, Security, Free Blog Setup
+Plus een "Our Brands"-sectie met 16 eigen producten (OptinMonster, WPForms, All in One SEO, MonsterInsights, etc.). Dit is zowel cross-promotie als een demonstratie van authority.
+
+
+12. E-E-A-T SIGNALEN
+De pagina is doordrenkt met trust-signalen: auteursinformatie (Syed Balkhi als oprichter), "Reader Disclosure" link, "Editorial Standards" in de footer, een "Meet Our Review Board"-pagina, FTC Disclosure, en de eerste-persoon schrijfstijl die persoonlijke ervaring communiceert.
+De "25 Million+ websites using our plugins", "16+ years of WordPress experience", en "3000+ WordPress tutorials by experts" banner bovenaan versterkt de authority van de gehele site.
+SAMENVATTING: WAAROM SCOORT DEZE PAGINA ZO GOED?
+De pagina combineert vrijwel elke bekende SEO-tactiek op meesterlijke wijze: een 13+ jaar oud domein met opgebouwde autoriteit, exhaustieve content van 3.000+ woorden, uitgebreide schema markup (FAQ + BreadcrumbList + ItemList), een strak intern linknetwerk met 19 contextuele interne links plus 38 sidebar-links, geoptimaliseerde afbeeldingen met volledige alt/title/srcset, internationalisering in 11 talen, sterke E-E-A-T signalen, en een slimme CTA-strategie met 39 affiliate links die allemaal correct gemarkeerd zijn met nofollow. De sidebar en footer fungeren als een permanente linkstructuur die de gehele site versterkt. Dit is een pagina die zowel voor Google als voor de gebruiker is gebouwd — en dat is precies waarom het werkt.uitstekende analyse!Dank je! WPBeginner is echt een masterclass in hoe je een affiliate site opbouwt. Wat me het meest opviel is hoe alles samenwerkt als één systeem — de interne links, de sidebar, de footer, de schema markup, de hreflang-tags — niets staat op zichzelf. Elke pagina versterkt de rest van de site.
+Als je wilt kan ik ook een vergelijkbare analyse doen op een van je eigen pagina's, of specifieke elementen van deze aanpak vertalen naar een concrete strategie voor jouw site. Laat maar weten!
+
+
+=========
+
+Diepgaande SEO-analyse: "11 Best Blogging Platforms in 2026 (Expert Picks)"
+Dit is een compleet ander type pagina dan de Bluehost Coupon-pagina: het is een pillar/comparison article — een van de meest waardevolle contenttypes in affiliate SEO. Laat me alles ontleden.
+1. CONTENT & CONTENTSTRUCTUUR
+Dit is een mammoetartikel van naar schatting 5.500+ woorden (de artikeltekst is aanzienlijk langer dan de Bluehost-pagina). Het behandelt 11 blogging-platformen, elk met een screenshot, uitgebreide Pros/Cons-sectie, en prijsinformatie.
+De pagina is oorspronkelijk gepubliceerd op 10 november 2016 en laatst bijgewerkt op 20 januari 2026 — bijna 10 jaar oud. Dit is een enorme troef: de URL heeft jarenlang backlinks en autoriteit opgebouwd.
+De URL-structuur is strategisch: /beginners-guide/how-to-choose-the-best-blogging-platform/. Merk op dat de URL "how to choose the best blogging platform" bevat terwijl de titel "11 Best Blogging Platforms in 2026" is. Dit geeft ze dekking op twee zoekintenten tegelijk: een informationele ("how to choose") en een commerciële vergelijking ("best blogging platforms").
+De content begint met een persoonlijke introductie van Syed Balkhi waarin hij zijn ervaring en testmethodologie uitlegt — een "How I Picked" sectie die expliciete E-E-A-T demonstreert. Er is zelfs een apart blok "How I Test and Review Tools for WPBeginner" met een link naar hun editorial guidelines. Dit is precies wat Google wil zien bij review-content na de Helpful Content Updates.
+Elk platform volgt een consistent format: genummerde heading, header-afbeelding (logo/banner), beschrijvende tekst, screenshot van het platform, Pros (als opsomming), Cons (als opsomming), en Pricing met specifieke bedragen. Deze consistentie is goed voor gebruikerservaring én voor Google om de structuur te begrijpen.
+Het artikel eindigt met een "My Pick"-sectie waar de auteur zijn definitieve aanbeveling doet, gevolgd door een Video List met een embedded YouTube-video, een Disclaimer over niet-opgenomen platformen, en een uitgebreide FAQ-sectie met 9 vragen.
+2. HEADING-STRUCTUUR
+De pagina heeft 20 headings in een logische hiërarchie:
+De H1 is: "11 Best Blogging Platforms in 2026 (Expert Picks)" — bevat het hoofd-keyword, het jaar, en een trust-trigger ("Expert Picks").
+De H2 dient als ondertitel van het artikel. Vervolgens gebruiken ze H3's voor de genummerde platformsecties ("1. WordPress.org", "2. Hostinger Website Builder", etc.) en H4's voor subsecties zoals "How I Picked the Best Blogging Platforms", "My Pick for the Best Blogging Platform", "Video List", en "Best Blog Platforms: FAQs".
+Wat opvalt: de heading-hiërarchie springt op sommige plekken van H2 naar H4, wat technisch niet ideaal is maar in de praktijk geen probleem vormt voor ranking.
+3. INTERNE LINKING — DIT IS DE KRACHTPATSER
+Dit artikel bevat 132 links in totaal, waarvan 64 unieke interne links naar andere WPBeginner-pagina's. Dit is uitzonderlijk — meer dan 3x zoveel als de Bluehost coupon-pagina. De interne links vormen een spinnenweb van topical authority.
+De links gaan naar een enorme diversiteit aan pagina-types: reviews (WordPress review, HubSpot review, Hostinger review, AIOSEO review), vergelijkingsartikelen (WordPress vs Blogger, WordPress vs Medium, WordPress vs Squarespace, Wix vs WordPress, WordPress vs Ghost), how-to guides (how to start a blog, how to start an online store, how to create online courses), plugin-lijsten (best SEO plugins, best forum plugins, best membership plugins), hosting-gids (WordPress hosting), en conceptuele uitleg (verschil WordPress.org vs WordPress.com, wat kost een WordPress website).
+Wat bijzonder slim is: elke platformsectie bevat links naar de specifieke vergelijking met WordPress (Wix vs WordPress, Blogger vs WordPress, etc.) én naar de migratieguide van dat platform naar WordPress. Dit creëert een perfect web van gerelateerde content.
+Daarnaast linken ze naar hun eigen producten via contextuele verwijzingen: All in One SEO, OptinMonster, MonsterInsights, WPForms — altijd relevant en in context.
+4. AFFILIATE LINKS
+Het artikel bevat 38 affiliate links naar 10 unieke bestemmingen: Bluehost, Hostinger Website Builder, Wix, HubSpot Website Builder, HubSpot CRM, HubSpot WordPress Plugin, WordPress.com, Network Solutions, Squarespace, en Weebly.
+Alle affiliate links hebben rel="nofollow" (64 nofollowed links totaal) en openen in een nieuw tabblad (target="_blank"). De grote CTA-knoppen gebruiken rel="noreferrer noopener nofollow".
+Slim: niet alle platformen hebben affiliate links. Blogger, Medium en Ghost zijn puur informatief opgenomen — ze genereren geen directe inkomsten. Dit geeft het artikel geloofwaardigheid: het is niet puur een affiliate-vehikel maar een oprechte vergelijking. Google waardeert dit, en lezers vertrouwen het meer.
+5. EXTERNE LINKS
+Er zijn 14 externe links (buiten WPBeginner), allemaal naar de platforms zelf: wordpress.org, blogger.com, medium.com, ghost.org, aioseo.com, en youtube.com. Bijna allemaal zijn nofollow gemarkeerd.
+Het feit dat ze naar de officiële sites van besproken platformen linken is goed voor topical relevantie — Google begrijpt hierdoor beter waar het artikel over gaat.
+6. AFBEELDINGEN
+De pagina bevat 23 afbeeldingen in de content. Alle 23 hebben een alt-tag en een title-tag — 100% dekking. Dit is voorbeeldig.
+De afbeeldingen bestaan uit twee types per platform: een breed logo/header-banner (680×300px) en een screenshot van het daadwerkelijke platform in gebruik. Dit patroon is consistent voor alle 11 platformen. De consistentie helpt bij featured snippet-kansen en Google Image search.
+De featured image bovenaan ("Best Blogging Platforms — Expert Picks") is een custom illustratie — geen stockfoto — wat uniekheid en brandherkenning versterkt.
+7. VIDEO-EMBED
+Er is een YouTube-video geëmbed met de titel "How to Choose the Best Blogging Platform" van het WPBeginner-kanaal (1 miljoen+ abonnees). Dit is een krachtig multi-media signaal voor Google en verhoogt de dwell time. De video heeft ook een "Subscribe to WPBeginner" CTA eronder.
+8. SOCIAL SHARE BUTTONS — INNOVATIEF
+Wat bijzonder opvalt: naast de standaard deelknoppen (Facebook, X, LinkedIn, WhatsApp, Email) zijn er ChatGPT en Perplexity deelknoppen. Dit is uiterst vooruitstrevend — WPBeginner optimaliseert al voor AI-discovery. De ChatGPT-knop stuurt de URL naar ChatGPT met een prompt om de pagina te bezoeken.
+Het artikel toont 2.3k shares — een sterk social proof-signaal dat het artikel populair en gedeeld is.
+9. SCHEMA MARKUP / STRUCTURED DATA
+De pagina heeft 5 schema-types:
+Article schema — met headline, publicatie- en wijzigingsdatum. Dit is het juiste type voor een blog-artikel (niet WebPage zoals de coupon-pagina).
+BreadcrumbList — met 3 niveaus (Home → Blog → Beginners Guide → artikel).
+FAQPage — met 9 vragen. Dit genereert FAQ rich snippets in de SERP en neemt extra ruimte in.
+Organization — WPBeginner.
+WebSite — site-breed schema.
+Merk op: er is geen "ItemList" schema zoals bij de coupon-pagina. Ze hadden een ItemList met de 11 platformen kunnen toevoegen voor rijkere SERP-weergave. Dat is een mogelijke verbetermogelijkheid.
+10. META TAGS
+De title tag is: "11 Best Blogging Platforms in 2026 (Expert Picks)" — bevat een getal (11), het hoofd-keyword, het jaar, en een trust-qualifier. Dit is een perfect geoptimaliseerde listicle-titel.
+De meta description is: "Are you looking for the right blogging platform to start a blog? See my expert advice on how to choose the best blogging platform with pros and cons." — bevat een vraag (engagement), het keyword, en een belofte (pros and cons).
+Open Graph is volledig ingevuld met een aparte OG-afbeelding (choose-best-blogging-platforms-og.png), wat betekent dat ze een specifieke afbeelding hebben gemaakt voor social sharing — niet dezelfde als de featured image.
+Robots meta: max-snippet:-1, max-image-preview:large, max-video-preview:-1 — maximale snippet-vrijheid voor Google.
+11. HREFLANG / INTERNATIONALISERING
+De pagina heeft 12 hreflang-tags: en-US, es-MX, ro-RO, pt-BR, fr-FR, it-IT, de-DE, ja-JP, tr-TR, sv-SE, pl-PL, plus x-default. Identiek aan de Bluehost-pagina — dit is sitewide geïmplementeerd. Elk taalversie is een vertaling van dezelfde pillar content.
+12. BREADCRUMBS
+De breadcrumb-trail is: WPBeginner → Blog → Beginners Guide → 11 Best Blo... (afgekapt in de UI). Dit is 4 niveaus diep, zowel visueel als in schema. De categorie "Beginners Guide" is een content silo die honderden gerelateerde artikelen groepeert.
+13. SIDEBAR
+De sidebar bevat 53 links en dezelfde widget-structuur als de Bluehost-pagina: social proof ("2,000,000+ Readers"), featured plugin (OptinMonster dit keer, vs. SeedProd op de andere pagina — ze roteren dit), "How to Start a Blog" banner, WordPress Toolkit CTA, "I need help with..." categorieën, zoekbalk, Latest Posts (4 artikelen), Useful WordPress Guides (gepagineerd in 4 tabs), en een zoekfunctie.
+Merk op dat de Featured Plugin hier OptinMonster is terwijl het bij de Bluehost-pagina SeedProd was — ze roteren welk eigen product ze promoten, afgestemd op de paginacontext.
+14. E-E-A-T SIGNALEN
+Deze pagina scoort maximaal op E-E-A-T:
+Experience: "I regularly test other popular blogging platforms", "When I was setting up my demo site", "During my testing" — doorlopend bewijs van persoonlijke ervaring.
+Expertise: Een apart "How I Test and Review Tools" blok dat het testproces uitlegt, met verwijzing naar editorial guidelines. De auteur (Syed Balkhi) wordt gepresenteerd met "16+ years of experience in blogging, WordPress, SEO, and online marketing".
+Authoritativeness: "We've helped over 2 million users", verwijzingen naar eigen research data (CMS market share report), en de WPBeginner-brand zelf.
+Trust: Reader Disclosure link, consistent Pros/Cons-format, opname van gratis platformen zonder affiliate links (Blogger, Medium, Ghost), en een eerlijke disclaimer over niet-opgenomen platformen.
+15. VERGELIJKING MET DE BLUEHOST COUPON-PAGINA
+ElementBluehost CouponBlogging PlatformsTypeAffiliate/couponPillar/comparisonWoorden~3.168~5.500+Interne links1964Affiliate links3938Afbeeldingen1723Schema types65FAQ vragen119VideoNeeJa (YouTube)Share buttonsNeeJa (2.3k shares)Social proofNeeChatGPT + Perplexity knoppenPublicatiedatum20122016
+
+SAMENVATTING: WAAROM SCOORT DEZE PAGINA ZO GOED?
+Deze pagina is een schoolvoorbeeld van hoe je een vergelijkingsartikel/pillar page bouwt dat zowel voor Google als voor gebruikers werkt. De 64 interne links maken het tot een centraal knooppunt in WPBeginner's content-architectuur — het verbindt reviews, vergelijkingen, how-to guides, en productpagina's in één organisch web. De 10 jaar oude URL heeft enorme autoriteit opgebouwd. Het consistente Pros/Cons/Pricing-format per platform maakt het scanbaar en nuttig. De E-E-A-T signalen (testmethodologie, persoonlijke ervaring, editorial guidelines) voldoen precies aan wat Google verwacht na de Helpful Content Updates. De mix van affiliate links (voor commerciële platformen) en puur informatieve secties (Blogger, Medium, Ghost) geeft het artikel geloofwaardigheid. En de toevoeging van ChatGPT/Perplexity deelknoppen laat zien dat WPBeginner al optimaliseert voor de volgende golf van AI-driven discovery. Dit is geen artikel — dit is een strategisch SEO-wapen.
+
+===
+
+# Ahrefs-analyse WPBeginner.com → Strategie voor ZeroToWordPress.com
+
+Hier is alles wat ik uit Ahrefs heb gehaald, vertaald naar bruikbare inzichten voor jouw nieuwe site.
+
+---
+
+## WPBeginner.com — Kerncijfers
+
+**Domain Rating (DR): 90** — een van de sterkste WordPress-gerelateerde sites ter wereld
+**URL Rating (UR): 11** — de homepage zelf is niet het sterkste punt, de kracht zit in de subpagina's
+**Ahrefs Rank: 1.726** (top 2.000 wereldwijd)
+
+**Backlink profiel:**
+- 6.6 miljoen backlinks (43M all-time)
+- 28.200 referring domains (159K all-time)
+- 82.4% dofollow, 17.6% nofollow — gezond profiel
+- 94.1% van de backlinks zijn followed
+
+**Organisch verkeer (US):**
+- 61.6K maandelijks verkeer uit de VS (53.8% van totaal)
+- Totaal verkeer over alle landen: ~114K/maand
+- Verkeerswaarde: $153K–$200K/maand
+- 18.4K organische keywords in de VS (32.1K globaal)
+- 3.200 keywords in top 3
+
+**AI Citations:** Dit is bijzonder relevant: WPBeginner wordt 874x geciteerd in Google AI Overviews, 831x in ChatGPT, 2.100x in Perplexity, 331x in Gemini, en 554x in Copilot. Ze zijn een dominante bron voor AI-assistenten.
+
+---
+
+## Traffic by Intent — Hier ligt jouw kans
+
+De verdeling van WPBeginner's keywords per zoekintentie (US):
+
+- **Informational: 18.3K keywords → 61.6K traffic** (dit is de motor)
+- **Commercial: 5.9K keywords → 29.5K traffic** (dit is het geld)
+- **Transactional: 528 keywords → 1.4K traffic** (klein maar waardevol)
+- **Navigational: 82 keywords → 87 traffic** (puur brandverkeer)
+- **Branded: 8.3K keywords → 39.3K traffic**
+- **Non-branded: 10K keywords → 22.3K traffic**
+
+**Insight voor ZeroToWordPress:** WPBeginner haalt 63% van hun niet-branded verkeer uit informatieve content ("how to", "what is", "guide"). Dit is het patroon dat jij moet kopiëren. Begin met informatieve content en bouw daarna de commerciële vergelijkingspagina's.
+
+---
+
+## Top Entities — Waar WPBeginner over gaat
+
+De "Top entities" data onthult waar Google WPBeginner het sterkst associeert:
+
+- **WordPress** → 74.1% van traffic, 69.5% van posities (3.554 keywords)
+- **WPBeginner** (eigen brand) → 3.2% traffic
+- **Bluehost** → 2.8% traffic
+- **Etsy** → 2.3% traffic
+- **WP Engine** → 2.1% traffic
+
+**Takeaway:** WordPress zelf is verreweg de belangrijkste entity. Voor ZeroToWordPress.com is dit goed nieuws — je domainnaam bevat al "WordPress", wat topical relevantie signaleert.
+
+---
+
+## Top 20 pagina's — Het verdienmodel ontleed
+
+Dit is de meest waardevolle data voor jou. De top pages van WPBeginner op basis van organisch verkeer:
+
+| # | Pagina | Traffic | Waarde | Ref. Domains | Keywords |
+|---|--------|---------|--------|--------------|----------|
+| 1 | /beginners-guide/how-to-choose-the-best-blogging-platform/ | 3.372 | $4.7K | 579 | 668 |
+| 2 | /managed-wordpress-hosting/ | 3.142 | $15.5K | 455 | 260 |
+| 3 | /showcase/fastest-wordpress-hosting/ | 3.052 | $17.0K | 172 | 117 |
+| 4 | /opinion/semrush-vs-ahrefs-vs-moz/ | 2.738 | $7.1K | 28 | 65 |
+| 5 | /showcase/best-cms-platforms-compared/ | 2.479 | $6.8K | 463 | 343 |
+| 6 | /homepage | 2.123 | $1.0K | 4.506 | 381 |
+| 7 | /wordpress-seo/ | 1.745 | $2.2K | 612 | 186 |
+| 8 | /showcase/best-wordpress-development-agencies/ | 1.530 | $4.2K | 72 | 146 |
+| 9 | /showcase/9-best-wordpress-seo-plugins/ | 1.431 | $1.3K | 505 | 157 |
+| 10 | /plugins/5-best-wordpress-membership-plugins/ | 1.273 | $1.5K | 251 | 63 |
+| 11 | /guides/ | 1.202 | $2.3K | 880 | 435 |
+| 12 | /showcase/best-wordpress-themes/ | 1.070 | $1.1K | 215 | 224 |
+| 13 | /plugins/5-best-wordpress-appointment-booking/ | 976 | $1.7K | 114 | 76 |
+| 14 | /best-woocommerce-hosting/ | 919 | $6.5K | 217 | 41 |
+| 15 | /showcase/best-free-wordpress-blog-themes/ | 919 | $551 | 149 | 137 |
+| 16 | /plugins/5-best-contact-form-plugins/ | 907 | $1.2K | 283 | 85 |
+| 17 | /plugins/best-wordpress-ecommerce-plugins/ | 883 | $1.2K | 310 | 78 |
+
+**Cruciale inzichten:**
+
+De #1 pagina is de "blogging platforms" vergelijking die we net geanalyseerd hebben — 3.372 bezoeken/maand. De #2 en #3 zijn hosting-vergelijkingen met de **hoogste traffic-waarde** ($15.5K en $17K). Dit is waar het geld zit: hosting affiliate content.
+
+Pagina #4 is fascinerend: "Semrush vs Ahrefs vs Moz" met slechts 28 referring domains maar 2.738 traffic en $7.1K waarde. Dit laat zien dat je niet altijd honderden backlinks nodig hebt als je de juiste keyword-targeting hebt.
+
+---
+
+## Organic Competitors — Je echte concurrenten
+
+WPBeginner's top 5 concurrenten op basis van keyword overlap (US):
+
+| Concurrent | Common Keywords | Share | Traffic | DR |
+|---|---|---|---|---|
+| wordpress.org | 7.887 | 14.9% | 353K | 97 |
+| aioseo.com | 2.343 | 7.4% | 162.9K | 83 |
+| wpengine.com | 2.216 | 6.7% | 163K | 93 |
+| elementor.com | 3.250 | 6.2% | 155.5K | 92 |
+| hostinger.com | 4.805 | 6.0% | 612.8K | 92 |
+
+Daaronder: seedprod.com, yoast.com, wp101.com, wpforms.com, siteground.com, godaddy.com, wp-rocket.me, themeforest.net, woocommerce.com.
+
+**Insight voor ZeroToWordPress:** **wp101.com** (DR 80, 11.5K traffic, 170 pages) is je meest realistische rolmodel. Ze hebben een vergelijkbaar concept als jij — WordPress-tutorials — maar op een veel kleinere schaal dan WPBeginner. Ze ranken met slechts 170 pagina's voor meer dan 17.000 keywords.
+
+---
+
+## Organic Pages by Traffic — De 80/20 regel
+
+De data laat een dramatisch patroon zien:
+
+- **31.9%** van de pagina's genereert **0 traffic** (zero-click pages)
+- **67.8%** van de pagina's genereert **1-1.000 visits**
+- Slechts **0.3%** van de pagina's genereert **1.001-10.000 visits** — maar deze genereren **84.3% van het totale traffic**
+
+Dit bevestigt de Pareto-regel: een handvol pillar pages drijft het overgrote deel van het verkeer. Voor ZeroToWordPress.com betekent dit: **focus op 20-30 uitmuntende pagina's in plaats van 200 middelmatige.**
+
+---
+
+## Crawled Pages & Technische gezondheid
+
+- 72.014 gecrawlde pagina's
+- 69.5% retourneert 200 OK
+- 24% zijn 3XX redirects (vrij hoog — wijst op veel URL-migraties over de jaren)
+- 6.5% zijn 404 errors (4.665 pagina's — aanzienlijk)
+
+---
+
+## STRATEGISCH ACTIEPLAN VOOR ZEROTOWORDPRESS.COM
+
+Op basis van alles wat ik nu weet over WPBeginner's succesformule, hier is mijn aanbeveling:
+
+**Fase 1 — Fundament (maand 1-3): 10 pillar pages**
+
+Richt je op informatieve "beginner" content rond WordPress. Dit zijn de keywords waar WPBeginner het sterkst is maar waar je met betere, nieuwere content kunt concurreren op long-tail varianten. Denk aan: "WordPress installeren stap voor stap", "WordPress voor beginners complete gids", "WordPress hosting kiezen", "WordPress thema installeren", "WordPress plugins installeren". Gebruik exact het patroon dat we bij WPBeginner zagen: persoonlijke toon, screenshots, Pros/Cons, stap-voor-stap.
+
+**Fase 2 — Vergelijkingscontent (maand 3-6): 15 comparison pages**
+
+Dit is waar het geld zit. Volg WPBeginner's exacte format: genummerde lijst, consistent Pros/Cons/Pricing, affiliate links met nofollow, FAQ met schema markup. Focus op niches waar WPBeginner minder dominant is of waar hun content verouderd is. "Best WordPress hosting" is te competitief — zoek naar long-tail vergelijkingen zoals "best WordPress hosting for beginners in Nederland" of specifiekere plugin-vergelijkingen.
+
+**Fase 3 — Topical authority (maand 6-12): Content clusters**
+
+Bouw content silos zoals WPBeginner doet: een pillar page (bijv. "WordPress SEO Complete Guide") ondersteund door 10-15 cluster-artikelen die naar de pillar linken en vice versa. Dit is precies het interne linkpatroon dat WPBeginner zo effectief maakt met hun 60+ interne links per artikel.
+
+**Technisch:** Implementeer vanaf dag 1: schema markup (Article + FAQ + BreadcrumbList), optimale heading-structuur, alt-tags op alle afbeeldingen, hreflang als je meertalig wilt, en een sidebar met interne links naar je pillar content — exact zoals WPBeginner.
+
+Wil je dat ik een specifiek onderdeel verder uitwerk, bijvoorbeeld de concrete keywords die ik zou targeten of een gedetailleerde content silo-structuur?
+
+=====
+
+# ZeroToWordPress.com — Complete Sitemap, Content Plan & Interne Linkstrategie
+
+---
+
+## SITE-ARCHITECTUUR OVERZICHT
+
+```
+zerotowordpress.com/
+├── /getting-started/          ← Hub 1: Beginner pillar
+├── /hosting/                  ← Hub 2: Hosting pillar
+├── /plugins/                  ← Hub 3: Plugins pillar
+├── /themes/                   ← Hub 4: Themes pillar
+├── /seo/                      ← Hub 5: SEO pillar
+├── /tutorials/                ← Hub 6: How-to pillar
+├── /tools/                    ← Hub 7: Tools & resources
+├── /about/                    ← Over jou / E-E-A-T pagina
+├── /contact/                  ← Contactpagina
+└── 30 artikelen (platte URLs)
+```
+
+---
+
+## 7 HUB-PAGINA'S (Pillar Pages)
+
+Dit zijn je belangrijkste pagina's. Elke hub is een uitgebreide gids (2.000–4.000 woorden) die als overzichtspagina dient en naar alle cluster-artikelen linkt.
+
+**Hub 1 — `/getting-started/`**
+"How to Start a WordPress Website in 2026 — Complete Beginner's Guide"
+Dit is je #1 pagina. Dekt het hele traject: hosting kiezen → WordPress installeren → thema kiezen → eerste pagina's maken → essentiële plugins. Linkt naar vrijwel elk ander artikel op je site.
+
+**Hub 2 — `/hosting/`**
+"Best WordPress Hosting in 2026 — Honest Comparison"
+Vergelijking van 7-10 hosting providers met Pros/Cons/Pricing tabel. Hoge affiliate waarde. WPBeginner haalt $15K-$17K/maand traffic value uit hun hosting pagina's.
+
+**Hub 3 — `/plugins/`**
+"25 Best WordPress Plugins Every Site Needs in 2026"
+Overzicht van essentiële plugins per categorie (SEO, security, forms, speed, backup). Linkt naar individuele plugin-reviews en vergelijkingen.
+
+**Hub 4 — `/themes/`**
+"Best WordPress Themes in 2026 — Free & Premium Picks"
+Vergelijking van themes per use case (blog, business, ecommerce, portfolio). Linkt naar theme-reviews en page builder vergelijkingen.
+
+**Hub 5 — `/seo/`**
+"WordPress SEO — The Complete Guide for Beginners"
+Alles over WordPress SEO: on-page, technical, plugins, content. Dit is een enorme traffic driver — WPBeginner haalt 1.745 visits/maand alleen al van hun SEO-gids.
+
+**Hub 6 — `/tutorials/`**
+"WordPress Tutorials — Step-by-Step Guides"
+Indexpage met alle how-to artikelen gegroepeerd per onderwerp. Fungeert als een sitemap voor gebruikers.
+
+**Hub 7 — `/tools/`**
+"Free WordPress Tools & Resources"
+Verzameling van nuttige tools: theme detector, speed test links, SEO checklist, hosting vergelijkingstool. Genereert backlinks omdat mensen naar tools linken.
+
+---
+
+## 30 ARTIKELEN — Geordend per Hub
+
+### CLUSTER 1: Getting Started (6 artikelen)
+
+| # | URL | Titel | Type | Affiliate potentieel |
+|---|-----|-------|------|---------------------|
+| 1 | `/install-wordpress/` | How to Install WordPress — Step-by-Step for Beginners | Tutorial | Hosting affiliates |
+| 2 | `/wordpress-com-vs-wordpress-org/` | WordPress.com vs WordPress.org — Which Should You Use? | Comparison | Hosting affiliates |
+| 3 | `/what-is-wordpress/` | What Is WordPress? Everything You Need to Know | Informational | Low (traffic builder) |
+| 4 | `/cost-to-build-wordpress-site/` | How Much Does a WordPress Website Really Cost in 2026? | Informational | Hosting + plugin affiliates |
+| 5 | `/wordpress-dashboard-explained/` | The WordPress Dashboard Explained — Beginner's Tour | Tutorial | Low (traffic builder) |
+| 6 | `/domain-name-guide/` | How to Choose & Register a Domain Name for Your Blog | Tutorial | Domain affiliates |
+
+### CLUSTER 2: Hosting (5 artikelen)
+
+| # | URL | Titel | Type | Affiliate potentieel |
+|---|-----|-------|------|---------------------|
+| 7 | `/bluehost-review/` | Bluehost Review 2026 — Is It Still Worth It? | Review | High |
+| 8 | `/siteground-review/` | SiteGround Review 2026 — Performance, Pricing & Verdict | Review | High |
+| 9 | `/hostinger-review/` | Hostinger Review 2026 — Best Budget WordPress Hosting? | Review | High |
+| 10 | `/bluehost-vs-siteground/` | Bluehost vs SiteGround — Which Is Better for WordPress? | Comparison | High |
+| 11 | `/cheap-wordpress-hosting/` | Best Cheap WordPress Hosting — Quality on a Budget | Listicle | High |
+
+### CLUSTER 3: Plugins (5 artikelen)
+
+| # | URL | Titel | Type | Affiliate potentieel |
+|---|-----|-------|------|---------------------|
+| 12 | `/best-seo-plugins/` | Best WordPress SEO Plugins Compared | Listicle | Medium |
+| 13 | `/best-contact-form-plugins/` | Best Contact Form Plugins for WordPress | Listicle | Medium (WPForms etc.) |
+| 14 | `/best-security-plugins/` | Best WordPress Security Plugins to Protect Your Site | Listicle | Medium |
+| 15 | `/best-caching-plugins/` | Best WordPress Caching Plugins for Speed | Listicle | Medium |
+| 16 | `/must-have-plugins-new-site/` | 15 Must-Have Plugins After Installing WordPress | Listicle | Medium |
+
+### CLUSTER 4: Themes (3 artikelen)
+
+| # | URL | Titel | Type | Affiliate potentieel |
+|---|-----|-------|------|---------------------|
+| 17 | `/best-free-wordpress-themes/` | Best Free WordPress Themes for Blogs & Business | Listicle | Low-Medium |
+| 18 | `/elementor-vs-divi/` | Elementor vs Divi — Which Page Builder Is Better? | Comparison | High |
+| 19 | `/astra-theme-review/` | Astra Theme Review — Is It the Best WordPress Theme? | Review | Medium |
+
+### CLUSTER 5: SEO (5 artikelen)
+
+| # | URL | Titel | Type | Affiliate potentieel |
+|---|-----|-------|------|---------------------|
+| 20 | `/wordpress-seo-checklist/` | WordPress SEO Checklist — 20 Steps to Rank Higher | Tutorial | Low (traffic builder) |
+| 21 | `/install-google-analytics-wordpress/` | How to Add Google Analytics to WordPress (Easy Way) | Tutorial | Low (traffic builder) |
+| 22 | `/yoast-vs-rank-math/` | Yoast vs Rank Math — Which SEO Plugin Should You Use? | Comparison | Medium |
+| 23 | `/keyword-research-beginners/` | Keyword Research for Bloggers — A Beginner's Guide | Tutorial | Tool affiliates (Ahrefs, Semrush) |
+| 24 | `/write-blog-post-that-ranks/` | How to Write a Blog Post That Actually Ranks on Google | Tutorial | Low (traffic builder) |
+
+### CLUSTER 6: Tutorials (6 artikelen)
+
+| # | URL | Titel | Type | Affiliate potentieel |
+|---|-----|-------|------|---------------------|
+| 25 | `/speed-up-wordpress/` | How to Speed Up WordPress — Complete Performance Guide | Tutorial | Hosting + caching affiliates |
+| 26 | `/wordpress-backup-guide/` | How to Backup Your WordPress Site (3 Easy Methods) | Tutorial | Plugin affiliates |
+| 27 | `/wordpress-security-guide/` | WordPress Security Guide — Protect Your Site from Hackers | Tutorial | Security plugin affiliates |
+| 28 | `/create-online-store-wordpress/` | How to Create an Online Store with WordPress & WooCommerce | Tutorial | Hosting + WooCommerce affiliates |
+| 29 | `/start-a-blog/` | How to Start a Blog with WordPress — From Zero to Launch | Tutorial | High (hosting affiliates) |
+| 30 | `/wordpress-email-setup/` | How to Set Up Email for Your WordPress Site (Stop Going to Spam) | Tutorial | WP Mail SMTP affiliate |
+
+---
+
+## INTERNE LINKSTRATEGIE — Het Spinnenweb
+
+Dit is het cruciale deel. Elke pagina moet strategisch naar andere pagina's linken, precies zoals WPBeginner doet met 60+ interne links per artikel.
+
+### Regel 1: Elke artikel linkt naar zijn hub
+
+`/bluehost-review/` → linkt naar `/hosting/`
+`/best-seo-plugins/` → linkt naar `/plugins/`
+`/wordpress-seo-checklist/` → linkt naar `/seo/`
+
+### Regel 2: Elke hub linkt naar al zijn cluster-artikelen
+
+`/hosting/` → linkt naar `/bluehost-review/`, `/siteground-review/`, `/hostinger-review/`, `/bluehost-vs-siteground/`, `/cheap-wordpress-hosting/`
+
+### Regel 3: Cross-cluster linking waar relevant
+
+Dit is waar de magie zit. Voorbeelden:
+
+`/install-wordpress/` linkt naar:
+- `/getting-started/` (hub)
+- `/bluehost-review/` (je hebt hosting nodig)
+- `/cheap-wordpress-hosting/` (budget optie)
+- `/must-have-plugins-new-site/` (volgende stap)
+- `/wordpress-dashboard-explained/` (volgende stap)
+
+`/bluehost-review/` linkt naar:
+- `/hosting/` (hub)
+- `/bluehost-vs-siteground/` (vergelijking)
+- `/install-wordpress/` (na aankoop)
+- `/start-a-blog/` (complete guide)
+- `/cheap-wordpress-hosting/` (alternatieven)
+- `/speed-up-wordpress/` (performance context)
+
+`/best-seo-plugins/` linkt naar:
+- `/plugins/` (hub)
+- `/seo/` (hub)
+- `/yoast-vs-rank-math/` (diepere vergelijking)
+- `/wordpress-seo-checklist/` (actionable follow-up)
+- `/keyword-research-beginners/` (gerelateerd)
+- `/write-blog-post-that-ranks/` (content SEO)
+
+### Regel 4: De homepage linkt naar alle 7 hubs
+
+De homepage is je sterkste pagina qua autoriteit. Zorg dat elke hub duidelijk zichtbaar is met een sectie op de homepage.
+
+### Regel 5: Sidebar & footer op elke pagina
+
+Net als WPBeginner, maak een sidebar met:
+- "Start Here" link → `/getting-started/`
+- "Popular Guides" → je top 5 artikelen
+- Email signup CTA
+- Search bar
+
+Footer met links naar alle 7 hubs + About + Contact.
+
+---
+
+## PUBLICATIEVOLGORDE — Wat schrijf je eerst?
+
+Dit is strategisch. Je wilt eerst de pagina's publiceren waar andere artikelen naar kunnen linken.
+
+**Week 1-2:** `/getting-started/` + `/what-is-wordpress/` + `/install-wordpress/`
+→ Je fundament staat. Alles kan hiernaar linken.
+
+**Week 3-4:** `/hosting/` + `/bluehost-review/` + `/siteground-review/`
+→ Je eerste affiliate content. Hosting is het snelste geld.
+
+**Week 5-6:** `/start-a-blog/` + `/domain-name-guide/` + `/cost-to-build-wordpress-site/`
+→ Top-of-funnel content die veel zoekvolume heeft.
+
+**Week 7-8:** `/plugins/` + `/must-have-plugins-new-site/` + `/best-contact-form-plugins/`
+→ Plugin cluster begint te groeien.
+
+**Week 9-10:** `/seo/` + `/wordpress-seo-checklist/` + `/best-seo-plugins/`
+→ SEO cluster, enorm zoekvolume.
+
+**Week 11-12:** `/themes/` + `/best-free-wordpress-themes/` + `/elementor-vs-divi/`
+→ Theme cluster.
+
+**Week 13-16:** Resterende artikelen invullen + bestaande artikelen uitbreiden met meer interne links naarmate er meer content bijkomt.
+
+---
+
+## SCHEMA MARKUP PER PAGINA-TYPE
+
+- **Hub-pagina's:** Article + BreadcrumbList + ItemList
+- **Reviews:** Article + BreadcrumbList + Review (met rating)
+- **Vergelijkingen:** Article + BreadcrumbList + FAQ
+- **Tutorials:** Article + BreadcrumbList + HowTo + FAQ
+- **Listicles:** Article + BreadcrumbList + ItemList + FAQ
+
+---
+
+Dit geeft je een complete blauwdruk om mee te starten. De structuur is schaalbaar — als je later van 30 naar 100 of 300 artikelen groeit, blijft het patroon werken. Wil je dat ik voor een specifiek artikel de volledige outline schrijf met heading-structuur, interne links, en keyword-targeting?
+
+
+
+# ZeroToWordPress.com — Systematisch Stappenplan
+
+Ik verdeel dit in 4 fasen. Elke fase bouwt voort op de vorige. Doe ze in deze volgorde — sla niets over.
+
+---
+
+## FASE 0: TECHNISCH FUNDAMENT (Week 1)
+
+Voordat je ook maar één woord content schrijft, moet je technische basis perfect staan. Dit doe je één keer goed en dan nooit meer aan zitten.
+
+**WordPress installeren** op betrouwbare hosting (Cloudways of SiteGround zijn mijn keuze voor een nieuwe site — niet Bluehost, die promoot je alleen als affiliate). Installeer een snel, lichtgewicht thema — GeneratePress of Astra. Geen fancy pagebuilders voor je blog-content, die vertragen je site.
+
+**Essentiële plugins installeren:** Rank Math of Yoast (SEO), WP Rocket of LiteSpeed Cache (snelheid), ShortPixel (afbeeldingscompressie), UpdraftPlus (backups), WPForms Lite (contactformulier). Dat is alles — elke extra plugin is ballast.
+
+**Permanente structuur instellen in WordPress:** Ga naar Settings → Permalinks → selecteer "Post name" (/%postname%/). Dit geeft je de platte URL-structuur die we besproken hebben. Dit doe je NU, vóór je enige content publiceert. Later wijzigen betekent redirects.
+
+**Hub-pagina's aanmaken als WordPress Pages** (niet Posts). Maak de 7 lege pagina's aan: /getting-started/, /hosting/, /plugins/, /themes/, /seo/, /tutorials/, /tools/. Zet ze in je hoofdnavigatie. De content komt later — maar de structuur staat er alvast.
+
+**Google Search Console en Google Analytics koppelen.** Dien je sitemap in (sitemap.xml). Installeer Microsoft Clarity (gratis heatmaps — onmisbaar om te zien hoe bezoekers je content lezen).
+
+**About-pagina schrijven.** Dit is je E-E-A-T fundament. Wie ben je, waarom schrijf je over WordPress, hoeveel ervaring heb je. Met foto. Dit is geen ijdelheid — Google evalueert dit bij "Your Money Your Life" content. WPBeginner heeft Syed Balkhi's profiel op élke pagina. Jij doet hetzelfde.
+
+---
+
+## FASE 1: FUNDAMENT-CONTENT (Week 2-5)
+
+Nu ga je je eerste 10 artikelen schrijven. De volgorde is cruciaal — je schrijft eerst de pagina's waar alle andere artikelen later naar kunnen linken.
+
+**Week 2:** Schrijf `/getting-started/` — je belangrijkste hub. Dit is je pillar page van 3.000-4.000 woorden die het hele WordPress-traject dekt. Beschrijf elke stap op hoog niveau en verwijs naar "(ik schrijf hier binnenkort een uitgebreide guide over)" voor de artikelen die nog komen. Die placeholders vervang je later door echte links. Publiceer ook `/what-is-wordpress/` als ondersteunend artikel. Link ze aan elkaar.
+
+**Week 3:** Schrijf `/install-wordpress/` en `/wordpress-dashboard-explained/`. Dit zijn logische vervolgstappen op "getting started". Na publicatie ga je terug naar `/getting-started/` en voeg je interne links toe naar deze twee nieuwe artikelen. Dit teruglinken na elke publicatie is een gewoonte die je vanaf nu altijd doet.
+
+**Week 4:** Schrijf `/hosting/` (hub) en `/bluehost-review/`. De hosting hub is voorlopig compact — je hebt nog maar één review. Dat is prima. De hub groeit mee. Meld je aan bij het Bluehost affiliate programma (en SiteGround, Hostinger). Voeg affiliate links toe met rel="nofollow" en target="_blank", exact zoals WPBeginner doet.
+
+**Week 5:** Schrijf `/siteground-review/` en `/cheap-wordpress-hosting/`. Update de `/hosting/` hub met links naar alle drie de hosting-artikelen. Update `/install-wordpress/` met links naar je hosting-reviews. Ga terug naar `/getting-started/` en voeg de hosting-links toe.
+
+**Einde fase 1 check:** Je hebt nu 8 artikelen + 2 hubs met content. Elke pagina linkt naar minstens 3 andere pagina's op je site. Je hosting-cluster is compleet genoeg om affiliate inkomsten te genereren.
+
+---
+
+## FASE 2: TRAFFIC BUILDERS (Week 6-10)
+
+Nu verschuif je focus naar artikelen met hoog zoekvolume die traffic trekken. Dit zijn informatieve artikelen die misschien minder affiliate-inkomsten genereren, maar die je domeinautoriteit opbouwen en bezoekers naar je commerciële pagina's leiden.
+
+**Week 6:** `/start-a-blog/` en `/domain-name-guide/`. "How to start a blog" is een van de meest gezochte WordPress-gerelateerde termen. Dit artikel linkt naar je hosting-reviews, je install-guide, je plugin-lijst — het is een spinnenweb-pagina die alles met elkaar verbindt.
+
+**Week 7:** `/cost-to-build-wordpress-site/` en `/wordpress-com-vs-wordpress-org/`. Beide zijn high-intent informatieve pagina's. De WordPress.com vs .org vergelijking is een evergreen die continu verkeer trekt — WPBeginner linkt er vanuit tientallen artikelen naar.
+
+**Week 8:** `/plugins/` (hub) en `/must-have-plugins-new-site/`. De plugin hub wordt je tweede grote verkeerskanaal na hosting. "Must have plugins" is een perfecte gateway-pagina die naar al je toekomstige individuele plugin-reviews linkt.
+
+**Week 9:** `/best-seo-plugins/` en `/best-contact-form-plugins/`. Twee plugin-listicles met affiliate potentieel (Rank Math Pro, WPForms Pro, etc.). Na publicatie: update de `/plugins/` hub en `/must-have-plugins-new-site/` met links naar deze nieuwe artikelen.
+
+**Week 10:** `/seo/` (hub) en `/wordpress-seo-checklist/`. Je SEO-cluster begint. De hub is voorlopig compact maar groeit mee. De checklist is een highly shareable format dat backlinks kan aantrekken.
+
+**Einde fase 2 check:** Je hebt nu 18 artikelen + 4 hubs. Je site begint er als een echte resource uit te zien. Google heeft genoeg content om je topical authority te begrijpen. Nu is het moment om je sitemap opnieuw in te dienen bij Search Console.
+
+---
+
+## FASE 3: GELD-CONTENT (Week 11-16)
+
+Nu je een basis van autoriteit hebt, schrijf je de artikelen met de hoogste commerciële waarde. Vergelijkingsartikelen en reviews converteren het best.
+
+**Week 11:** `/bluehost-vs-siteground/` en `/hostinger-review/`. De directe vergelijking (X vs Y) is een van de meest winstgevende content-types. WPBeginner's "Semrush vs Ahrefs vs Moz" haalt 2.738 visits/maand met slechts 28 backlinks. Dat is de kracht van comparison content.
+
+**Week 12:** `/themes/` (hub) en `/best-free-wordpress-themes/`. Thema-content trekt veel beginners. Na publicatie: link vanuit `/getting-started/` en `/start-a-blog/`.
+
+**Week 13:** `/elementor-vs-divi/` en `/astra-theme-review/`. Page builder vergelijkingen zijn enorm populair en hebben hoge affiliate commissies.
+
+**Week 14:** `/speed-up-wordpress/` en `/best-caching-plugins/`. Performance-content linkt natuurlijk naar hosting-reviews en plugins. Update je hosting-artikelen met links naar de speed guide.
+
+**Week 15:** `/wordpress-security-guide/` en `/best-security-plugins/`. Security is een onderwerp waar mensen actief naar zoeken als ze een probleem hebben — hoge urgentie, hoge engagement.
+
+**Week 16:** `/yoast-vs-rank-math/` en `/keyword-research-beginners/`. Sluit je SEO-cluster af. Update de `/seo/` hub met alle nieuwe links.
+
+**Einde fase 3 check:** 28 artikelen + 6 hubs. Je hebt nu een complete site met hosting, plugins, themes, SEO, tutorials, en vergelijkingen. Elke hub linkt naar 4-6 cluster-artikelen.
+
+---
+
+## FASE 4: OPTIMALISATIE & GROEI (Week 17+)
+
+Vanaf nu verschuift je focus van "content creëren" naar "content optimaliseren en promoten."
+
+**Week 17-18: De Grote Interne Link Audit.** Ga elk artikel langs en voeg interne links toe naar alle pagina's die sindsdien gepubliceerd zijn. Je vroegste artikelen hebben waarschijnlijk maar 3-4 interne links. Na deze audit heeft elk artikel er 8-15. Dit is exact wat WPBeginner doet — hun oudere artikelen worden continu bijgewerkt met links naar nieuwere content.
+
+**Week 19-20: Schema markup review.** Voeg FAQ-schema toe aan alle artikelen die een FAQ-sectie hebben. Voeg HowTo-schema toe aan tutorials. Voeg Review-schema toe aan reviews. Check met Google's Rich Results Test of alles correct werkt.
+
+**Week 21+: Publiceer 1-2 artikelen per week.** De resterende artikelen uit het plan (#29, #30 plus nieuwe ideeën). Begin met outreach voor backlinks — gastartikelen op WordPress-gerelateerde blogs, HARO-reacties, community-deelname op Reddit r/WordPress en WordPress.org forums.
+
+---
+
+## WEKELIJKSE ROUTINE (elke week, altijd)
+
+**Maandag:** Schrijf content (2.000-4.000 woorden per artikel, met screenshots).
+
+**Dinsdag:** Maak/optimaliseer afbeeldingen (eigen screenshots, gecomprimeerd met ShortPixel, alt-tags en title-tags op alles).
+
+**Woensdag:** Interne links bijwerken. Elke keer dat je een nieuw artikel publiceert, open je 5-10 bestaande artikelen en voeg je links naar het nieuwe artikel toe waar relevant.
+
+**Donderdag:** Publiceer het artikel. Deel het op Twitter/X en relevante Reddit communities.
+
+**Vrijdag:** Check Google Search Console — welke queries beginnen te verschijnen? Welke pagina's krijgen impressies maar weinig clicks? Optimaliseer die titels en meta descriptions.
+
+---
+
+## TRACKING — Hoe weet je of het werkt?
+
+Maak een simpel spreadsheet met voor elk artikel: URL, publicatiedatum, target keyword, huidige positie in Google (check wekelijks via Search Console), organisch verkeer (maandelijks via Analytics), aantal interne links naar dit artikel, en aantal interne links vanuit dit artikel. Update dit elke vrijdag. Na 3 maanden begin je patronen te zien. Na 6 maanden weet je welke clusters het best presteren en waar je moet verdubbelen.
+
+---
+
+Dit is je complete roadmap voor de eerste 4 maanden. De sleutel is discipline en consistentie — niet perfectie. Een gepubliceerd artikel van 80% kwaliteit is oneindig meer waard dan een perfect artikel dat in je drafts zit. Publiceer, optimaliseer later, en bouw gestaag je interne linkweb op. Dat is het recept dat WPBeginner al 16 jaar succesvol maakt.
+
+Wil je dat ik voor een specifiek artikel (bijvoorbeeld `/getting-started/` of `/best-wordpress-hosting/`) een complete outline schrijf met exacte headings, keyword-targeting per sectie, en welke interne links erin moeten?
+
+
+------- Versie 2:
+
+Zeker. Hieronder staat een **aangescherpte V2** die ik persoonlijk sterker vind voor **ZeroToWordPress.com**.
+
+De kern van de verbetering:
+
+* **minder vage hubs**
+* **meer zoekintentie per cluster**
+* **meer buyer-intent content**
+* **duidelijk onderscheid tussen traffic pages en money pages**
+* **betere schaalbaarheid naar 50–100+ artikelen**
+
+---
+
+# ZeroToWordPress.com — V2 Sitemap, Content Plan & Interne Linkstrategie
+
+---
+
+# 1. Positionering van de site
+
+## Hoek van het merk
+
+**ZeroToWordPress.com** moet niet voelen als “weer een algemene WordPress blog”.
+
+Het moet voelen als:
+
+> **de plek voor beginners die zonder gedoe een WordPress-site willen starten, kiezen, bouwen en laten groeien**
+
+Dus:
+
+* beginner-first
+* praktisch
+* duidelijke aanbevelingen
+* weinig technisch geneuzel
+* focus op “from zero to live”
+
+Dat past perfect bij de naam.
+
+---
+
+# 2. Nieuwe site-architectuur
+
+Ik zou V2 zo opzetten:
+
+```txt
+zerotowordpress.com/
+├── /start-here/                  ← Hoofdhub / main pillar
+├── /hosting/                     ← Money pillar
+├── /plugins/                     ← Money + utility pillar
+├── /themes/                      ← Money + utility pillar
+├── /seo/                         ← Traffic + authority pillar
+├── /speed/                       ← Utility + affiliate pillar
+├── /security/                    ← Utility + trust pillar
+├── /blog/                        ← Optioneel artikeloverzicht / updates
+├── /about/
+├── /contact/
+├── /affiliate-disclosure/
+├── /how-we-test/
+└── losse artikel-URLs
+```
+
+---
+
+# 3. Waarom deze hubs sterker zijn dan V1
+
+## Wat ik bewust heb veranderd
+
+### `/getting-started/` → `/start-here/`
+
+Sterker als merkroute.
+Dit voelt directer en menselijker. Op homepage en sidebar werkt **Start Here** veel beter.
+
+### `/tutorials/` verwijderd
+
+Die was te breed en te zwak als echte pillar.
+
+### `/tools/` verwijderd als hoofd-pillar
+
+Kan later terugkomen als losse pagina of resource center, maar is in het begin meestal te dun.
+
+### `/speed/` toegevoegd
+
+Sterke practical intent. Goed voor:
+
+* hosting links
+* caching tools
+* CDN tools
+* performance plugins
+
+### `/security/` toegevoegd
+
+Sterk voor vertrouwen en plugin-affiliate content.
+
+---
+
+# 4. De 7 kern-hubs in V2
+
+---
+
+## Hub 1 — `/start-here/`
+
+**Titel:**
+**How to Start a WordPress Website in 2026 — From Zero to Launch**
+
+### Doel
+
+Dit wordt je belangrijkste beginners-pagina.
+Alles begint hier.
+
+### Wat deze hub moet doen
+
+* uitleggen wat WordPress is
+* uitleggen hoe je begint
+* hosting kiezen
+* domeinnaam kiezen
+* WordPress installeren
+* thema kiezen
+* plugins toevoegen
+* eerste pagina’s maken
+* site live zetten
+
+### Linkt naar
+
+* `/what-is-wordpress/`
+* `/wordpress-com-vs-wordpress-org/`
+* `/cost-to-build-wordpress-site/`
+* `/domain-name-guide/`
+* `/install-wordpress/`
+* `/wordpress-dashboard-explained/`
+* `/start-a-blog/`
+* `/create-online-store-wordpress/`
+
+---
+
+## Hub 2 — `/hosting/`
+
+**Titel:**
+**Best WordPress Hosting in 2026 — Honest Picks for Beginners**
+
+### Doel
+
+Dit is je zwaarste money hub.
+
+### Linkt naar
+
+* `/best-wordpress-hosting-beginners/`
+* `/cheap-wordpress-hosting/`
+* `/managed-wordpress-hosting/`
+* `/hostinger-review/`
+* `/siteground-review/`
+* `/bluehost-review/`
+* `/hostinger-vs-siteground/`
+* `/bluehost-vs-siteground/`
+* `/wordpress-hosting-vs-shared-hosting/`
+
+---
+
+## Hub 3 — `/plugins/`
+
+**Titel:**
+**Best WordPress Plugins in 2026 — Essential Tools for Every Site**
+
+### Doel
+
+Commerciële + praktische hub.
+
+### Linkt naar
+
+* `/must-have-plugins-new-site/`
+* `/best-seo-plugins/`
+* `/best-contact-form-plugins/`
+* `/best-caching-plugins/`
+* `/best-security-plugins/`
+* `/best-backup-plugins-wordpress/`
+* `/yoast-vs-rank-math/`
+
+---
+
+## Hub 4 — `/themes/`
+
+**Titel:**
+**Best WordPress Themes in 2026 — Free & Premium Options**
+
+### Doel
+
+Theme-intent en page builder intent opvangen.
+
+### Linkt naar
+
+* `/best-free-wordpress-themes/`
+* `/best-wordpress-themes-beginners/`
+* `/astra-theme-review/`
+* `/elementor-vs-divi/`
+* `/best-page-builders-wordpress/`
+
+---
+
+## Hub 5 — `/seo/`
+
+**Titel:**
+**WordPress SEO for Beginners — The Complete Guide**
+
+### Doel
+
+Traffic + authority hub.
+
+### Linkt naar
+
+* `/wordpress-seo-checklist/`
+* `/best-seo-plugins/`
+* `/yoast-vs-rank-math/`
+* `/keyword-research-beginners/`
+* `/write-blog-post-that-ranks/`
+* `/install-google-analytics-wordpress/`
+
+---
+
+## Hub 6 — `/speed/`
+
+**Titel:**
+**How to Speed Up WordPress — Complete Performance Guide**
+
+### Doel
+
+Sterke utility hub met affiliate-kansen.
+
+### Linkt naar
+
+* `/speed-up-wordpress/`
+* `/best-caching-plugins/`
+* `/best-wordpress-hosting-beginners/`
+* `/managed-wordpress-hosting/`
+* `/wordpress-hosting-vs-shared-hosting/`
+
+---
+
+## Hub 7 — `/security/`
+
+**Titel:**
+**WordPress Security Guide — Protect Your Site the Smart Way**
+
+### Doel
+
+Trust + utility + plugin-affiliate.
+
+### Linkt naar
+
+* `/wordpress-security-guide/`
+* `/best-security-plugins/`
+* `/wordpress-backup-guide/`
+* `/best-backup-plugins-wordpress/`
+
+---
+
+# 5. V2 contentplan — 30 startartikelen
+
+Hier is de versie die ik strakker vind.
+
+---
+
+## Cluster A — Start Here / Beginner Fundamentals
+
+| # | URL                                | Titel                                                   | Intent                     | Money level |
+| - | ---------------------------------- | ------------------------------------------------------- | -------------------------- | ----------- |
+| 1 | `/what-is-wordpress/`              | What Is WordPress? A Beginner-Friendly Explanation      | Informational              | Low         |
+| 2 | `/wordpress-com-vs-wordpress-org/` | WordPress.com vs WordPress.org — What’s the Difference? | Comparison                 | Medium      |
+| 3 | `/install-wordpress/`              | How to Install WordPress Step by Step                   | Tutorial                   | Medium      |
+| 4 | `/cost-to-build-wordpress-site/`   | How Much Does a WordPress Website Cost in 2026?         | Informational / commercial | Medium      |
+| 5 | `/wordpress-dashboard-explained/`  | WordPress Dashboard Explained for Beginners             | Tutorial                   | Low         |
+| 6 | `/domain-name-guide/`              | How to Choose a Domain Name for Your WordPress Site     | Tutorial                   | Medium      |
+| 7 | `/start-a-blog/`                   | How to Start a Blog with WordPress                      | Tutorial / commercial      | High        |
+
+---
+
+## Cluster B — Hosting
+
+| #  | URL                                     | Titel                                | Intent       | Money level |
+| -- | --------------------------------------- | ------------------------------------ | ------------ | ----------- |
+| 8  | `/best-wordpress-hosting-beginners/`    | Best WordPress Hosting for Beginners | Buyer intent | High        |
+| 9  | `/cheap-wordpress-hosting/`             | Best Cheap WordPress Hosting         | Buyer intent | High        |
+| 10 | `/managed-wordpress-hosting/`           | Best Managed WordPress Hosting       | Buyer intent | High        |
+| 11 | `/hostinger-review/`                    | Hostinger Review 2026                | Review       | High        |
+| 12 | `/siteground-review/`                   | SiteGround Review 2026               | Review       | High        |
+| 13 | `/bluehost-review/`                     | Bluehost Review 2026                 | Review       | High        |
+| 14 | `/hostinger-vs-siteground/`             | Hostinger vs SiteGround              | Comparison   | High        |
+| 15 | `/bluehost-vs-siteground/`              | Bluehost vs SiteGround               | Comparison   | High        |
+| 16 | `/wordpress-hosting-vs-shared-hosting/` | WordPress Hosting vs Shared Hosting  | Comparison   | Medium-High |
+
+---
+
+## Cluster C — Plugins
+
+| #  | URL                               | Titel                                         | Intent           | Money level |
+| -- | --------------------------------- | --------------------------------------------- | ---------------- | ----------- |
+| 17 | `/must-have-plugins-new-site/`    | 15 Must-Have Plugins for a New WordPress Site | Listicle         | Medium      |
+| 18 | `/best-seo-plugins/`              | Best WordPress SEO Plugins Compared           | Buyer / research | Medium      |
+| 19 | `/best-contact-form-plugins/`     | Best Contact Form Plugins for WordPress       | Buyer / research | Medium      |
+| 20 | `/best-caching-plugins/`          | Best Caching Plugins for WordPress            | Buyer / research | Medium      |
+| 21 | `/best-security-plugins/`         | Best WordPress Security Plugins               | Buyer / research | Medium      |
+| 22 | `/best-backup-plugins-wordpress/` | Best WordPress Backup Plugins                 | Buyer / research | Medium      |
+| 23 | `/yoast-vs-rank-math/`            | Yoast vs Rank Math                            | Comparison       | Medium      |
+
+---
+
+## Cluster D — Themes / Builders
+
+| #  | URL                                 | Titel                               | Intent           | Money level |
+| -- | ----------------------------------- | ----------------------------------- | ---------------- | ----------- |
+| 24 | `/best-free-wordpress-themes/`      | Best Free WordPress Themes          | Listicle         | Low-Medium  |
+| 25 | `/best-wordpress-themes-beginners/` | Best WordPress Themes for Beginners | Buyer / research | Medium      |
+| 26 | `/astra-theme-review/`              | Astra Theme Review                  | Review           | Medium      |
+| 27 | `/elementor-vs-divi/`               | Elementor vs Divi                   | Comparison       | High        |
+| 28 | `/best-page-builders-wordpress/`    | Best Page Builders for WordPress    | Buyer / research | High        |
+
+---
+
+## Cluster E — SEO / Growth
+
+| #  | URL                                    | Titel                                    | Intent                 | Money level |
+| -- | -------------------------------------- | ---------------------------------------- | ---------------------- | ----------- |
+| 29 | `/wordpress-seo-checklist/`            | WordPress SEO Checklist for Beginners    | Tutorial               | Low         |
+| 30 | `/keyword-research-beginners/`         | Keyword Research for Beginner Bloggers   | Tutorial / tool intent | Medium      |
+| 31 | `/write-blog-post-that-ranks/`         | How to Write a Blog Post That Ranks      | Tutorial               | Low         |
+| 32 | `/install-google-analytics-wordpress/` | How to Add Google Analytics to WordPress | Tutorial               | Low         |
+
+---
+
+## Cluster F — Performance / Security / Site Operations
+
+| #  | URL                               | Titel                                        | Intent                       | Money level |
+| -- | --------------------------------- | -------------------------------------------- | ---------------------------- | ----------- |
+| 33 | `/speed-up-wordpress/`            | How to Speed Up WordPress                    | Tutorial / commercial assist | Medium      |
+| 34 | `/wordpress-security-guide/`      | WordPress Security Guide for Beginners       | Tutorial                     | Medium      |
+| 35 | `/wordpress-backup-guide/`        | How to Backup Your WordPress Site            | Tutorial                     | Medium      |
+| 36 | `/create-online-store-wordpress/` | How to Create an Online Store with WordPress | Tutorial / commercial        | High        |
+| 37 | `/wordpress-email-setup/`         | How to Set Up Email for WordPress            | Tutorial / affiliate         | Medium      |
+
+---
+
+# 6. De echte money pages
+
+Dit zijn de pagina’s waar je omzet waarschijnlijk vandaan gaat komen:
+
+## Tier 1 money pages
+
+* `/best-wordpress-hosting-beginners/`
+* `/cheap-wordpress-hosting/`
+* `/managed-wordpress-hosting/`
+* `/hostinger-review/`
+* `/siteground-review/`
+* `/bluehost-review/`
+* `/hostinger-vs-siteground/`
+* `/bluehost-vs-siteground/`
+* `/elementor-vs-divi/`
+* `/best-page-builders-wordpress/`
+* `/start-a-blog/`
+* `/create-online-store-wordpress/`
+
+## Tier 2 money support pages
+
+* `/best-seo-plugins/`
+* `/best-contact-form-plugins/`
+* `/best-caching-plugins/`
+* `/best-security-plugins/`
+* `/best-backup-plugins-wordpress/`
+* `/wordpress-email-setup/`
+* `/cost-to-build-wordpress-site/`
+
+---
+
+# 7. Traffic builders
+
+Dit zijn de artikelen die topical authority bouwen en links/support geven aan money pages:
+
+* `/what-is-wordpress/`
+* `/wordpress-dashboard-explained/`
+* `/wordpress-seo-checklist/`
+* `/keyword-research-beginners/`
+* `/write-blog-post-that-ranks/`
+* `/install-google-analytics-wordpress/`
+* `/wordpress-security-guide/`
+* `/wordpress-backup-guide/`
+
+---
+
+# 8. V2 interne linkstrategie
+
+Nu komt het belangrijkste deel.
+
+---
+
+## Regel 1 — Elke pagina linkt omhoog naar de juiste hub
+
+Voorbeeld:
+
+* `/hostinger-review/` → `/hosting/`
+* `/best-seo-plugins/` → `/plugins/` en `/seo/`
+* `/speed-up-wordpress/` → `/speed/`
+
+---
+
+## Regel 2 — Elke hub linkt omlaag naar alle children
+
+De hub is geen dun indexje, maar een echte pillar met context, samenvatting en linkblokken.
+
+---
+
+## Regel 3 — Elke traffic page moet minstens 2 money pages voeden
+
+Voorbeeld:
+
+### `/what-is-wordpress/` linkt naar:
+
+* `/start-here/`
+* `/wordpress-com-vs-wordpress-org/`
+* `/install-wordpress/`
+* `/best-wordpress-hosting-beginners/`
+* `/start-a-blog/`
+
+### `/wordpress-dashboard-explained/` linkt naar:
+
+* `/install-wordpress/`
+* `/must-have-plugins-new-site/`
+* `/best-wordpress-themes-beginners/`
+
+### `/wordpress-seo-checklist/` linkt naar:
+
+* `/best-seo-plugins/`
+* `/yoast-vs-rank-math/`
+* `/keyword-research-beginners/`
+* `/write-blog-post-that-ranks/`
+
+---
+
+## Regel 4 — Money pages moeten horizontaal linken
+
+Dat is cruciaal.
+
+### `/hostinger-review/` linkt naar:
+
+* `/siteground-review/`
+* `/bluehost-review/`
+* `/hostinger-vs-siteground/`
+* `/cheap-wordpress-hosting/`
+* `/best-wordpress-hosting-beginners/`
+
+### `/elementor-vs-divi/` linkt naar:
+
+* `/best-page-builders-wordpress/`
+* `/best-wordpress-themes-beginners/`
+* `/astra-theme-review/`
+
+### `/best-caching-plugins/` linkt naar:
+
+* `/speed-up-wordpress/`
+* `/managed-wordpress-hosting/`
+* `/best-wordpress-hosting-beginners/`
+
+---
+
+## Regel 5 — Start Here moet overal terugkomen
+
+Op bijna elke beginner-relevante pagina moet ergens een blok staan:
+
+* New to WordPress? Start here
+* Follow the full beginner setup guide
+* See the complete zero-to-launch roadmap
+
+Dat helpt UX en stuurt link equity terug naar je hoofdpillar.
+
+---
+
+# 9. Homepage structuur in V2
+
+De homepage moet niet alleen een mooie hero hebben.
+Hij moet ook fungeren als **navigatie + vertrouwen + funnel**.
+
+## Aanbevolen homepage opbouw
+
+### Hero
+
+* duidelijke belofte
+* voor beginners
+* “Start your WordPress site the right way”
+
+### Start flow
+
+4 of 5 kaarten:
+
+1. Choose hosting
+2. Install WordPress
+3. Pick a theme
+4. Add plugins
+5. Launch your site
+
+### Featured beginner guides
+
+* What is WordPress
+* Start a Blog
+* Cost to Build a WordPress Site
+
+### Best hosting picks
+
+* Hostinger
+* SiteGround
+* Bluehost
+
+### Popular comparisons
+
+* Hostinger vs SiteGround
+* Yoast vs Rank Math
+* Elementor vs Divi
+
+### Trust section
+
+* how we test
+* affiliate disclosure
+* who this site is for
+
+### Footer
+
+* alle hubs
+* about
+* contact
+* affiliate disclosure
+* how we test
+
+---
+
+# 10. E-E-A-T pagina’s die je echt moet toevoegen
+
+Deze zou ik absoluut live zetten:
+
+## `/about/`
+
+Wie je bent, voor wie de site is, waarom je dit doet.
+
+## `/how-we-test/`
+
+Hoe je hosting, plugins, themes en tools beoordeelt.
+
+## `/affiliate-disclosure/`
+
+Heldere affiliate disclosure.
+
+## Optioneel: `/recommended-stack/`
+
+Jouw favoriete beginner stack:
+
+* hosting
+* theme
+* page builder
+* SEO plugin
+* form plugin
+* backup plugin
+
+Dat kan een verrassend sterke conversion page worden.
+
+---
+
+# 11. Publicatievolgorde V2
+
+Ik zou dit zo aanpakken:
+
+---
+
+## Fase 1 — Fundament + eerste geldkansen
+
+Publiceer eerst deze 10:
+
+1. `/start-here/`
+2. `/what-is-wordpress/`
+3. `/wordpress-com-vs-wordpress-org/`
+4. `/install-wordpress/`
+5. `/cost-to-build-wordpress-site/`
+6. `/start-a-blog/`
+7. `/hosting/`
+8. `/best-wordpress-hosting-beginners/`
+9. `/cheap-wordpress-hosting/`
+10. `/hostinger-review/`
+
+### Waarom
+
+Omdat je dan meteen hebt:
+
+* topical start
+* beginner trust
+* interne linkbasis
+* eerste affiliate intent
+
+---
+
+## Fase 2 — Hosting dominance
+
+11. `/siteground-review/`
+12. `/bluehost-review/`
+13. `/hostinger-vs-siteground/`
+14. `/bluehost-vs-siteground/`
+15. `/wordpress-hosting-vs-shared-hosting/`
+16. `/managed-wordpress-hosting/`
+
+---
+
+## Fase 3 — Plugin + SEO support
+
+17. `/plugins/`
+18. `/must-have-plugins-new-site/`
+19. `/best-seo-plugins/`
+20. `/yoast-vs-rank-math/`
+21. `/wordpress-seo-checklist/`
+22. `/keyword-research-beginners/`
+
+---
+
+## Fase 4 — Themes / builders
+
+23. `/themes/`
+24. `/best-free-wordpress-themes/`
+25. `/best-wordpress-themes-beginners/`
+26. `/astra-theme-review/`
+27. `/elementor-vs-divi/`
+28. `/best-page-builders-wordpress/`
+
+---
+
+## Fase 5 — Performance / security / money support
+
+29. `/speed/`
+30. `/speed-up-wordpress/`
+31. `/best-caching-plugins/`
+32. `/security/`
+33. `/wordpress-security-guide/`
+34. `/best-security-plugins/`
+35. `/wordpress-backup-guide/`
+36. `/best-backup-plugins-wordpress/`
+37. `/wordpress-email-setup/`
+38. `/create-online-store-wordpress/`
+
+---
+
+# 12. Pagina-templates die je standaard moet gebruiken
+
+Om schaalbaar te blijven, zou ik 5 vaste formats maken.
+
+## A. Review template
+
+Voor:
+
+* Hostinger review
+* SiteGround review
+* Astra review
+
+Structuur:
+
+* quick verdict
+* pros / cons
+* pricing
+* performance
+* ease of use
+* support
+* best for
+* alternatives
+* FAQ
+
+---
+
+## B. Comparison template
+
+Voor:
+
+* Hostinger vs SiteGround
+* Yoast vs Rank Math
+* Elementor vs Divi
+
+Structuur:
+
+* quick winner
+* comparison table
+* ease of use
+* features
+* speed/performance
+* pricing
+* best for beginners
+* final verdict
+* FAQ
+
+---
+
+## C. Tutorial template
+
+Voor:
+
+* install WordPress
+* start a blog
+* add analytics
+* backup guide
+
+Structuur:
+
+* what you’ll learn
+* what you need first
+* step-by-step
+* common mistakes
+* next steps
+* recommended tools
+* FAQ
+
+---
+
+## D. Listicle template
+
+Voor:
+
+* best cheap hosting
+* best SEO plugins
+* best themes
+* best caching plugins
+
+Structuur:
+
+* quick picks
+* comparison table
+* individual entries
+* how to choose
+* final recommendation
+* FAQ
+
+---
+
+## E. Pillar hub template
+
+Voor:
+
+* start-here
+* hosting
+* plugins
+* themes
+* seo
+* speed
+* security
+
+Structuur:
+
+* intro
+* who this guide is for
+* key takeaways
+* grouped subtopics
+* featured child pages
+* recommended next step
+* FAQ
+
+---
+
+# 13. Interne linkmatrix — simpele regelset
+
+Hou het praktisch:
+
+## Per artikel minimaal:
+
+* 1 link naar hub
+* 2 links naar sibling artikelen
+* 2 links naar money pages
+* 1 link naar Start Here als relevant
+
+## Per money page minimaal:
+
+* 1 link naar hub
+* 2 links naar direct competitors / alternatieven
+* 2 links naar setup/tutorial pages
+* 1 link naar recommendation page of beginner flow
+
+---
+
+# 14. Mijn eindoordeel over V2
+
+Deze versie is sterker omdat hij:
+
+* scherper is in zoekintentie
+* beter is voor affiliate omzet
+* minder “algemene blog” vibes heeft
+* makkelijker door te trekken is naar 100 pagina’s
+* betere relatie heeft tussen traffic en money pages
+
+## Mijn advies in één zin
+
+**Bouw ZeroToWordPress niet als een encyclopedie, maar als een beginner-to-buyer funnel met sterke content hubs.**
+
+---
+
+# 15. Wat ik hierna voor je zou doen
+
+De slimste volgende stap is nu één van deze 3:
+
+## Optie A
+
+Ik maak voor je een **top 20 prioriteitenlijst** met:
+
+* target keyword
+* search intent
+* money score
+* difficulty inschatting
+* publicatievolgorde
+
+## Optie B
+
+Ik maak een **homepage wireframe + sitemap navigatie** voor ZeroToWordPress.
+
+## Optie C
+
+Ik werk direct de **volledige outline uit van `/start-here/`**, inclusief:
+
+* H1/H2/H3
+* interne links
+* CTA’s
+* affiliate plaatsing
+* schema aanbeveling
+
+Ik raad aan dat we nu meteen **Optie A of C** doen.
+
+
+

@@ -1,0 +1,58 @@
+Keyword Research voor ZeroToWordPress.com
+Uit Ahrefs heb ik 1.320 matching keywords (KD ≤ 30) en 96 question-based keywords gevonden. Hieronder het complete overzicht, gesorteerd per cluster en prioriteit.
+SEED KEYWORDS (Head Terms — je hoofddoelen)
+Dit zijn de 20 kern-keywords. Hoge volumes maar ook hogere concurrentie. Je bouwt hier naartoe met je pillar pages.
+KeywordVolumeKDCPCJouw URLmanaged wordpress hosting6.1K78$0.30/hosting/wordpress plugins6.0K38$1.40/plugins/wordpress themes5.4K85$1.40/themes/wordpress seo3.1K77$2.00/seo/best wordpress hosting2.7K62$9.00/hosting/best blogging platform1.9K34$1.50/getting-started/cheap wordpress hosting1.9K48$8.00/cheap-wordpress-hosting/wordpress tutorial1.9K71$0.60/tutorials/wix vs wordpress1.8K5$0.70/wordpress-vs-wix/wordpress page builder1.2K47$4.00/elementor-vs-divi/start a blog1.2K70$1.30/start-a-blog/wordpress security1.1K70$2.00/wordpress-security-guide/wordpress ecommerce1.0K47$3.00/create-online-store-wordpress/install wordpress80082$2.50/install-wordpress/wordpress backup70022$0.80/wordpress-backup-guide/wordpress website cost45030$3.50/cost-to-build-wordpress-site/
+
+LOW-KD KEYWORDS (KD ≤ 30) — Jouw laaghangend fruit
+Dit zijn de keywords waar je als nieuwe site het snelst kunt ranken. Totaal: 1.320 keywords gevonden.
+Hosting cluster (hoge affiliate waarde)
+KeywordVolumeKDJouw URLwordpress vs wix1.8K5/wordpress-vs-wix/wordpress backup70022/wordpress-backup-guide/wordpress website cost45030/cost-to-build-wordpress-site/best seo plugin for wordpress1.8K16/best-seo-plugins/best seo plugin wordpress1.2K24/best-seo-plugins/wordpress seo tips1.1K25/wordpress-seo-checklist/best seo for wordpress1.1K28/seo/best wordpress seo plugins1.0K20/best-seo-plugins/
+SEO cluster (traffic builders)
+KeywordVolumeKDJouw URLhow to improve wordpress seo80019/wordpress-seo-checklist/how to improve seo ranking wordpress45023/wordpress-seo-checklist/how to add seo keywords in wordpress4502/wordpress-seo-checklist/how to do seo yourself wordpress40026/seo/is wordpress seo friendly4008/what-is-wordpress/what is seo title in wordpress4002/wordpress-seo-checklist/what is wordpress seo35024/seo/how to improve seo score on wordpress3507/wordpress-seo-checklist/
+Comparison cluster (hoge conversie)
+KeywordVolumeKDJouw URLwix vs wordpress2.8K6/wordpress-vs-wix/wordpress vs wix1.8K5/wordpress-vs-wix/wordpress seo services3.0K5Content opportunitywordpress seo agency1.8K6Content opportunitywordpress seo consultant1.7K5Content opportunitywordpress seo expert1.6K6Content opportunitywordpress seo company1.6K9Content opportunity
+
+QUESTION-BASED KEYWORDS (96 gevonden, KD ≤ 30)
+Dit zijn gouden FAQ-content en featured snippet kansen:
+"How to" vragen (hoogste volume)
+KeywordVolumeKDhow to improve wordpress seo80019how to improve seo ranking wordpress45023how to add seo keywords in wordpress4502how to do seo yourself wordpress40026how to add seo keywords in wordpress website4001how to improve seo on wordpress35027how to improve seo score on wordpress3507
+"What is" vragen
+KeywordVolumeKDwhat is seo title in wordpress4002what is wordpress seo35024
+"Is" vragen
+KeywordVolumeKDis wordpress seo friendly4008
+
+VERBORGEN KANSEN — Keywords die WPBeginner mist
+Uit de data valt op dat er een enorme cluster zit rond WordPress SEO services/agency/consultant/expert/company — allemaal KD 5-9 met volumes van 1.600-3.000. WPBeginner richt zich hier niet op omdat het niet hun content-type is. Maar jij zou een vergelijkingsartikel kunnen schrijven: "Best WordPress SEO Services in 2026" (/best-wordpress-seo-services/). Dat is één artikel dat potentieel 5.000+ maandelijks verkeer kan trekken met een KD van 5-9.
+PRIORITEITSMATRIX — Wat schrijf je eerst?
+Ik heb de keywords gerangschikt op een combinatie van lage KD, hoog volume, en match met je bestaande contentplan:
+Tier 1 — Schrijf deze EERST (KD ≤ 10, volume 400+):
+
+wix vs wordpress / wordpress vs wix (KD 5-6, 2.8K+1.8K vol) → /wordpress-vs-wix/
+how to add seo keywords in wordpress (KD 2, 450 vol) → /wordpress-seo-checklist/
+what is seo title in wordpress (KD 2, 400 vol) → /wordpress-seo-checklist/
+is wordpress seo friendly (KD 8, 400 vol) → /what-is-wordpress/
+how to improve seo score on wordpress (KD 7, 350 vol) → /wordpress-seo-checklist/
+Tier 2 — Schrijf deze in maand 2-3 (KD 10-20, volume 800+):
+best seo plugin for wordpress (KD 16, 1.8K vol) → /best-seo-plugins/
+how to improve wordpress seo (KD 19, 800 vol) → /wordpress-seo-checklist/
+Tier 3 — Schrijf deze in maand 3-6 (KD 20-30, volume 400+):
+wordpress backup (KD 22, 700 vol) → /wordpress-backup-guide/
+best seo plugin wordpress (KD 24, 1.2K vol) → /best-seo-plugins/
+wordpress seo tips (KD 25, 1.1K vol) → /wordpress-seo-checklist/
+wordpress website cost (KD 30, 450 vol) → /cost-to-build-wordpress-site/
+best blogging platform (KD 34, 1.9K vol) → Toekomstige pillar page
+
+
+EXTRA CONTENT KANS: "WordPress SEO Services" cluster
+Dit was de grootste verrassing uit het onderzoek. Hier is een complete mini-cluster die je naast je bestaande plan kunt bouwen:
+Hub: /best-wordpress-seo-services/ — "Best WordPress SEO Services in 2026"
+Dekt deze keywords in één artikel:
+
+wordpress seo services (3.0K vol, KD 5)
+wordpress seo agency (1.8K vol, KD 6)
+wordpress seo consultant (1.7K vol, KD 5)
+wordpress seo expert (1.6K vol, KD 6)
+wordpress seo company (1.6K vol, KD 9)
+wordpress seo service (1.2K vol, KD 5)
+Totaal potentieel: 11.000+ maandelijks zoekvolume bij KD 5-9. Dit is een absoluut goudmijntje voor een nieuwe site.

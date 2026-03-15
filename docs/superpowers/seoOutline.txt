@@ -1,0 +1,394 @@
+# 📋 Complete Outline: /seo/ Hub Page
+
+**URL:** `zerotowordpress.com/seo/`
+**WordPress page type:** Statische Page (geen blogpost)
+
+---
+
+## 🎯 Keyword Strategie
+
+| Keyword | KD | SV | TP | Rol |
+|---|---|---|---|---|
+| learn wordpress seo | 14 | 200 | 700 | **Primary** |
+| wordpress seo guide | 46 | 150 | 4.7K | Long-term target |
+| wordpress seo basics | 35 | 70 | 4.4K | Secondary |
+| seo for wordpress | 51 | 1,500 | 12K | Aspirational (long-term) |
+| wordpress seo | 77 | 3,100 | 13K | Aspirational (long-term) |
+
+**Strategie:** Target "learn wordpress seo" (KD 14) als primary keyword op korte termijn. Naarmate de site authority groeit, zal deze pagina automatisch ook ranken voor de hogere KD-termen dankzij de topical authority van het hele cluster.
+
+### Waarom "learn wordpress seo" als primary?
+
+De SERP bevat een Reddit thread op positie #4 (DR 95, 0 backlinks), eduonix.com op #5 (DR 65, 21 backlinks), en Udemy op #7. Dit zijn course/learn pagina's — een hub page past perfect in dit patroon. En met KD 14 en TP 700 is dit realistisch haalbaar.
+
+---
+
+### Title Tag
+`Learn WordPress SEO: The Complete Guide for Beginners (2026)`
+
+### Meta Description
+`Master WordPress SEO from zero to expert. This free guide covers everything: setup, plugins, on-page optimization, technical SEO, speed, and more — with step-by-step tutorials.`
+
+---
+
+## 🏗️ Pagina Concept
+
+Dit is GEEN gewoon artikel. Dit is een **resource hub page** — een gestructureerde landingspagina die:
+
+1. Zelf waardevolle content bevat (~3,000-3,500 woorden)
+2. Fungeert als het **navigatie-centrum** voor het hele SEO cluster
+3. Elke sectie linkt naar een diepgaand artikel
+4. Visueel onderscheidend is met cards, iconen en overzichtelijke secties
+5. Regelmatig geüpdatet wordt (evergreen "last updated" date)
+
+Denk aan het als een **interactieve inhoudsopgave + mini-cursus** in één.
+
+---
+
+## 📝 Volledige Structuur
+
+---
+
+### **Hero Section** (boven de fold, geen H-tag nodig — puur visueel)
+
+- Kop: "Learn WordPress SEO"
+- Subkop: "Everything you need to rank your WordPress site higher on Google — from zero to expert"
+- Korte beschrijving: 2-3 zinnen over wat je gaat leren
+- Visueel: custom illustration of hero image (WordPress logo + magnifying glass + Google)
+- CTA button: "Start Learning →" (scroll naar eerste sectie)
+- Trust signal: "Free guide · No account needed · Updated March 2026"
+
+---
+
+### **H2: What Is WordPress SEO?** (300-350 woorden)
+
+Keywords: learn wordpress seo, wordpress seo basics
+
+Wat behandelen:
+- Definitie van SEO in de context van WordPress
+- Waarom WordPress al een voorsprong geeft (clean code, plugins)
+- Maar: WordPress alleen is niet genoeg — je moet het optimaliseren
+- Kort overzicht van de 5 pilaren: Setup, On-Page, Technical, Content, Off-Page
+- **Link →** /is-wordpress-good-for-seo/ ("First, understand why WordPress is already great for SEO")
+
+Visueel: infographic met de 5 pilaren als iconen
+
+---
+
+### **H2: WordPress SEO Learning Path** (200 woorden intro)
+
+Keywords: learn wordpress seo, wordpress seo guide
+
+Dit is de **kern van de hub page**. Introduceer het als een learning path van beginner tot gevorderd. Elke sub-sectie hieronder is een "module" met een korte samenvatting + link naar het volledige artikel.
+
+Visueel: genummerde stappen met progress indicator (Step 1 → Step 2 → etc.)
+
+---
+
+#### **H3: Step 1 — Understand Why WordPress Is SEO-Friendly** (150-200 woorden)
+
+Samenvatting van de key points:
+- WordPress genereert clean, semantic HTML
+- Enorm plugin ecosystem voor SEO
+- Mobile responsive themes als standaard
+- Content management dat optimaal is voor zoekresultaten
+
+**Card CTA:** "Read the full guide → Is WordPress Good for SEO?"
+**Link →** /is-wordpress-good-for-seo/
+
+Visueel: kleine card met artikel preview (thumbnail + title + reading time)
+
+---
+
+#### **H3: Step 2 — Choose and Configure Your SEO Plugin** (150-200 woorden)
+
+Samenvatting:
+- Waarom een SEO plugin essentieel is
+- Top 3 opties kort benoemd: AIOSEO, Yoast, Rank Math
+- Wat een goed SEO plugin doet: sitemaps, meta tags, schema, on-page analysis
+
+**Card CTA:** "Compare all options → Best SEO Plugins for WordPress"
+**Link →** /best-seo-plugins-wordpress/
+
+---
+
+#### **H3: Step 3 — Follow the WordPress SEO Checklist** (150-200 woorden)
+
+Samenvatting:
+- 25+ stappen die elke WordPress site nodig heeft
+- Van permalink settings tot image optimization
+- Downloadbare PDF versie beschikbaar
+- Behandelt setup, technical, on-page en off-page SEO
+
+**Card CTA:** "Get the checklist → WordPress SEO Checklist"
+**Link →** /wordpress-seo-checklist/
+
+---
+
+#### **H3: Step 4 — Master On-Page SEO Techniques** (150-200 woorden)
+
+Samenvatting:
+- Title tags, meta descriptions, headings
+- Image optimization en alt tags
+- Internal linking strategie
+- Content optimization en keyword placement
+
+**Card CTA:** "Learn all 15 tips → WordPress SEO Tips to Boost Rankings"
+**Link →** /improve-wordpress-seo/
+
+---
+
+#### **H3: Step 5 — Implement Advanced SEO (Schema Markup)** (150-200 woorden)
+
+Samenvatting:
+- Wat schema markup is en waarom het helpt
+- Rich snippets in Google (FAQ, reviews, how-to)
+- Hoe je het toevoegt zonder code
+- Testen en valideren
+
+**Card CTA:** "Full tutorial → WordPress Schema Markup Guide"
+**Link →** /wordpress-schema-markup/
+
+---
+
+#### **H3: Step 6 — Optimize Speed & Performance** (150-200 woorden)
+
+Samenvatting:
+- Core Web Vitals en waarom snelheid een ranking factor is
+- Caching, CDN, image compression
+- Best caching plugins
+- Performance monitoring
+
+**Card CTA:** "Speed guide → How to Speed Up WordPress"
+**Link →** /speed-up-wordpress/
+
+---
+
+#### **H3: Step 7 — Consider Professional Help (When Ready)** (150-200 woorden)
+
+Samenvatting:
+- Wanneer DIY niet meer genoeg is
+- Verschil tussen agency, consultant en freelancer
+- Wat je kunt verwachten qua kosten
+- Hoe je de juiste service kiest
+
+**Card CTA:** "Find the right fit → Best WordPress SEO Services"
+**Link →** /best-wordpress-seo-services/
+
+---
+
+### **H2: Essential WordPress SEO Tools** (400-500 woorden)
+
+Keywords: wordpress seo basics, seo for wordpress
+
+Overzicht van tools in 3 categorieën, elk als visuele card:
+
+**H3: Free SEO Tools**
+- Google Search Console — monitoring, indexing, performance
+- Google Analytics — traffic analyse
+- PageSpeed Insights — snelheidstest
+- Google Rich Results Test — schema validatie
+
+**H3: WordPress SEO Plugins**
+- Link naar /best-seo-plugins-wordpress/ voor de volledige vergelijking
+- Top 3 kort met icoon + one-liner
+
+**H3: Professional SEO Tools**
+- Ahrefs — keyword research, competitor analysis
+- Semrush — all-in-one SEO suite
+- Ubersuggest — budget-friendly alternatief
+
+---
+
+### **H2: WordPress SEO by Topic** (300 woorden)
+
+Dit is een **visuele grid/card sectie** die fungeert als een categorized resource library. Elke card linkt naar een relevant artikel.
+
+**Grid Layout (2x4 of 3x3):**
+
+| Card | Link |
+|---|---|
+| 🚀 Getting Started with WordPress | /getting-started/ |
+| 🏠 Best WordPress Hosting | /best-wordpress-hosting/ |
+| 🔌 Best SEO Plugins | /best-seo-plugins-wordpress/ |
+| ✅ SEO Checklist | /wordpress-seo-checklist/ |
+| ⚡ Speed Optimization | /speed-up-wordpress/ |
+| 📊 Schema Markup | /wordpress-schema-markup/ |
+| 🎨 Best WordPress Themes | /best-wordpress-themes/ |
+| 💼 WordPress SEO Services | /best-wordpress-seo-services/ |
+
+Elke card bevat: icoon + titel + 1-zin beschrijving + "Read more →"
+
+---
+
+### **H2: WordPress SEO FAQ** (400-500 woorden, FAQ Schema)
+
+Keywords: wordpress seo basics, learn wordpress seo
+
+**Q: Is WordPress good for SEO?**
+Kort antwoord + **Link →** /is-wordpress-good-for-seo/
+
+**Q: What is the best WordPress SEO plugin?**
+Kort antwoord + **Link →** /best-seo-plugins-wordpress/
+
+**Q: How long does it take to rank on Google with WordPress?**
+Realistische verwachtingen: 3-6 maanden voor low-KD keywords
+
+**Q: Do I need to hire an SEO expert for WordPress?**
+Kort antwoord + **Link →** /best-wordpress-seo-services/
+
+**Q: Is WordPress SEO difficult for beginners?**
+Nee, met de juiste guide niet + **Link →** /wordpress-seo-checklist/
+
+**Q: How much does WordPress SEO cost?**
+Free (DIY) tot $5K+/maand (agency) — breakdown
+
+**Q: What are the most important WordPress SEO settings?**
+Top 5 settings kort benoemd
+
+**Q: Can I learn WordPress SEO for free?**
+Ja — dit is precies waar deze guide voor is!
+
+---
+
+### **H2: Start Your WordPress SEO Journey** (150 woorden — Conclusie/CTA)
+
+- Samenvatting: je hebt nu een roadmap van 7 stappen
+- Begin met Step 1: /is-wordpress-good-for-seo/
+- Of spring direct naar de checklist: /wordpress-seo-checklist/
+- Email opt-in CTA: "Get our free WordPress SEO starter kit (checklist + plugin comparison + speed optimization guide)"
+
+---
+
+## 🔗 Intern Link Overzicht van de Hub Page
+
+| Link naar | Aantal keer gelinkt | Vanuit sectie |
+|---|---|---|
+| /is-wordpress-good-for-seo/ | 3x | Intro, Step 1, FAQ |
+| /best-seo-plugins-wordpress/ | 3x | Step 2, Tools, FAQ |
+| /wordpress-seo-checklist/ | 3x | Step 3, Topic Grid, FAQ |
+| /improve-wordpress-seo/ | 2x | Step 4, Topic Grid |
+| /wordpress-schema-markup/ | 2x | Step 5, Topic Grid |
+| /speed-up-wordpress/ | 2x | Step 6, Topic Grid |
+| /best-wordpress-seo-services/ | 3x | Step 7, Topic Grid, FAQ |
+| /getting-started/ | 1x | Topic Grid |
+| /best-wordpress-hosting/ | 1x | Topic Grid |
+| /best-wordpress-themes/ | 1x | Topic Grid |
+| **TOTAAL** | **~21 interne links** | |
+
+---
+
+## 🔄 Hoe Andere Artikelen Terug Linken naar /seo/
+
+Elk van de 6 artikelen in het cluster linkt terug naar de hub page via:
+
+| Artikel | Waar in het artikel | Anchor text |
+|---|---|---|
+| /is-wordpress-good-for-seo/ | Intro | "WordPress SEO guide" |
+| /best-seo-plugins-wordpress/ | Intro | "Learn WordPress SEO" |
+| /wordpress-seo-checklist/ | Intro | "our complete SEO guide" |
+| /improve-wordpress-seo/ | Intro | "WordPress SEO hub" |
+| /wordpress-schema-markup/ | Intro | "WordPress SEO resource center" |
+| /best-wordpress-seo-services/ | Intro + DIY sectie | "learn WordPress SEO yourself" |
+
+Dit creëert een **bidirectioneel link-netwerk**: Hub → Articles → Hub
+
+---
+
+## 📋 Schema Markup voor de Hub Page
+
+```
+- WebPage schema (type: CollectionPage)
+- BreadcrumbList (Home > WordPress SEO)
+- FAQPage schema (8 vragen)
+- ItemList schema (7 stappen als geordende lijst)
+- Organization schema (zerotowordpress.com)
+```
+
+---
+
+## 🖼️ Visueel Design Richting
+
+De hub page moet visueel **anders** zijn dan reguliere blog posts:
+
+1. **Hero sectie** — full-width, donkere achtergrond met CTA
+2. **Learning path** — genummerde stappen met progress lijn (verticaal)
+3. **Article cards** — elke stap heeft een preview card met thumbnail, titel, leestijd, kort excerpt
+4. **Tools grid** — 3-kolom layout met icoon + naam + beschrijving
+5. **Topic grid** — 2x4 of 3x3 grid met gekleurde iconen
+6. **FAQ accordion** — expandable vragen
+
+Dit onderscheidt de hub page visueel van artikelen en geeft bezoekers een "course-achtige" ervaring.
+
+---
+
+## 📊 Verwacht Resultaat
+
+| Metric | Schatting |
+|---|---|
+| Direct traffic (learn wordpress seo) | 200-700/maand |
+| Long-term traffic (seo for wordpress, wordpress seo) | Potentieel 12K-16K/maand |
+| Interne links uitgaand | 21+ |
+| Interne links inkomend | 6+ (vanuit elk clusterartikel) |
+| Topical authority boost | Alle 6 cluster artikelen profiteren |
+
+---
+
+## ⏱️ Wanneer Publiceren?
+
+De hub page wordt als **WordPress Page** aangemaakt in **Week 1** (als onderdeel van de site-structuur), maar begint minimalistisch:
+
+**Fase 1 (Week 1):** Basis pagina met hero, intro, en placeholder cards voor de 7 stappen. De cards vermelden "Coming soon" voor artikelen die nog niet live zijn.
+
+**Fase 2 (Week 3-5):** Zodra de eerste 2-3 artikelen live zijn, update je de hub met echte links en previews.
+
+**Fase 3 (Week 6-8):** Alle 6 artikelen live → hub page is compleet met alle links, cards en schema markup.
+
+**Fase 4 (Ongoing):** Voeg nieuwe artikelen toe aan de Topic Grid naarmate je meer content publiceert.
+
+---
+
+## 📐 Compleet Cluster Overzicht — Het Ecosysteem
+
+```
+                        zerotowordpress.com
+                               │
+                    ┌──────────┴──────────┐
+                    │     /seo/ (HUB)     │
+                    │  "Learn WordPress   │
+                    │       SEO"          │
+                    │   21 outbound links  │
+                    │   6 inbound links    │
+                    └──────────┬──────────┘
+                               │
+        ┌──────────┬───────────┼───────────┬──────────┐
+        │          │           │           │          │
+   ┌────▼───┐ ┌───▼────┐ ┌───▼────┐ ┌───▼────┐ ┌───▼────┐
+   │is-wp-  │ │best-   │ │wp-seo- │ │wp-     │ │improve-│
+   │good-   │ │seo-    │ │check-  │ │schema- │ │wp-seo/ │
+   │for-seo/│ │plugins/│ │list/   │ │markup/ │ │        │
+   │ KD:0   │ │ KD:28  │ │ KD:17  │ │ KD:16  │ │ KD:25  │
+   │TP:12K  │ │TP:9.3K │ │TP:800  │ │TP:450  │ │TP:16K  │
+   └────┬───┘ └───┬────┘ └───┬────┘ └───┬────┘ └───┬────┘
+        │         │           │          │          │
+        └─────────┴─────┬─────┴──────────┴──────────┘
+                        │
+                 ┌──────▼──────┐
+                 │best-wp-seo- │
+                 │services/    │
+                 │ KD:3        │
+                 │ TP:5.1K     │
+                 │ VALUE:$31.4K│
+                 │(MONEY PAGE) │
+                 └─────────────┘
+
+     TOTAAL CLUSTER:
+     - 7 pagina's (1 hub + 5 supporting + 1 money page)
+     - Traffic Potential: ~44K/maand
+     - Estimated Traffic Value: $35K+/maand
+     - 50+ interne cross-links
+```
+
+---
+
+Wil je dat ik nu een van de artikelen volledig **uitschrijf** als kant-en-klaar concept? Ik zou aanraden te beginnen met "/is-wordpress-good-for-seo/" — dat is het makkelijkste artikel (KD 0) en de eerste stap in het learning path.
