@@ -39,6 +39,7 @@ const POST_DATES: Record<string, string> = {
   // SEO cluster — early Mar
   "wordpress-seo-guide": "2026-03-07",
   "is-wordpress-good-for-seo": "2026-03-08",
+  "improve-wordpress-seo": "2026-03-08",
   "wordpress-seo-checklist": "2026-03-09",
   "yoast-vs-rank-math": "2026-03-10",
   "install-google-analytics-wordpress": "2026-03-10",
