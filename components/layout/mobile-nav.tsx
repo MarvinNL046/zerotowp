@@ -49,10 +49,8 @@ export default function MobileNav() {
       >
         {/* Panel header */}
         <div className="flex items-center justify-between px-5 py-4 border-b border-slate-100">
-          <span className="text-lg font-bold tracking-tight">
-            <span className="text-[#f97316]">ZeroTo</span>
-            <span className="text-slate-900">WP</span>
-          </span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo-rocket.svg" alt="ZeroToWP" className="h-7" />
           <button
             type="button"
             aria-label="Close navigation menu"

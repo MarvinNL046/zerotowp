@@ -8,9 +8,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Col 1: Logo + tagline */}
           <div className="flex flex-col gap-3">
-            <Link href="/" className="text-xl font-bold tracking-tight">
-              <span className="text-[#f97316]">ZeroTo</span>
-              <span className="text-white">WP</span>
+            <Link href="/" className="flex items-center">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/logo-rocket-white.svg" alt="ZeroToWP" className="h-8" />
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed">
               Helping beginners build their first WordPress site

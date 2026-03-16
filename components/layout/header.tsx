@@ -6,9 +6,9 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white border-b border-slate-100 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="text-xl font-bold tracking-tight">
-          <span className="text-[#f97316]">ZeroTo</span>
-          <span className="text-slate-900">WP</span>
+        <Link href="/" className="flex items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo-rocket.svg" alt="ZeroToWP" className="h-8" />
         </Link>
 
         {/* Desktop nav links — hidden on mobile, visible on md+ */}
