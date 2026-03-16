@@ -187,7 +187,7 @@ const wordPressSeoGuideContent = `
 </tbody>
 </table>
 
-<p><strong>Pro tip:</strong> You can get surprisingly far with just the free tools. Google Search Console and Google Analytics are non-negotiable — install both from day one. For keyword research, start with Ubersuggest's free tier or even just Google's autocomplete suggestions. You don't need to spend $100/month on Ahrefs until you're serious about scaling your content strategy.</p>
+<p><strong>Pro tip:</strong> You can get surprisingly far with just the free tools. Google Search Console and Google Analytics are non-negotiable — install both from day one. For keyword research, start with Ubersuggest's free tier or even just Google's autocomplete suggestions. You don't need to spend $100/month on Ahrefs until you're serious about scaling your content strategy. See our <a href="/tools">complete toolkit</a> for all the SEO tools and plugins I recommend.</p>
 
 <img src="/screenshots/google-search-console.webp" alt="Google Search Console homepage — a free tool by Google to monitor your site's search performance" />
 

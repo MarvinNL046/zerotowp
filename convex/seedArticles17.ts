@@ -232,7 +232,7 @@ const wordpressVsWixContent = `
 <p>WordPress itself is free and open source. But "free" is a bit misleading because you need several things to actually run it:</p>
 
 <ul>
-<li><strong>Web hosting:</strong> $3–35/mo depending on the provider and plan. Shared hosting (like Bluehost or Hostinger) starts around $3/mo. <a href="/managed-wordpress-hosting">Managed WordPress hosting</a> runs $15–35/mo.</li>
+<li><strong>Web hosting:</strong> $3–35/mo depending on the provider and plan. Shared hosting (like Bluehost or Hostinger) starts around $3/mo. <a href="/managed-wordpress-hosting">Managed WordPress hosting</a> runs $15–35/mo. Check our <a href="/reviews">hosting reviews</a> for help picking the right one.</li>
 <li><strong>Domain name:</strong> $10–15/year (sometimes free for the first year with your hosting plan).</li>
 <li><strong>SSL certificate:</strong> Free with most hosting providers (via Let's Encrypt).</li>
 <li><strong>Theme:</strong> $0 (free themes) to $60 (premium themes, one-time purchase or annual license).</li>

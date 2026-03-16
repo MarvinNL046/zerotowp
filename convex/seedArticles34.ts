@@ -149,6 +149,7 @@ const speedOptimizationContent = `
 <li><a href="/core-web-vitals-wordpress/">Core Web Vitals Explained for WordPress</a> — understand LCP, INP, and CLS, what good scores look like, and exactly how to fix each metric on your WordPress site.</li>
 <li><a href="/best-image-optimization-plugins/">Best Image Optimization Plugins for WordPress</a> — detailed comparison of ShortPixel, Imagify, EWWW, Smush, and Optimole with free vs. paid breakdowns and real compression results.</li>
 <li><a href="/best-caching-plugins/">Best WordPress Caching Plugins</a> — our guide to the top caching solutions including WP Rocket, LiteSpeed Cache, WP Super Cache, and W3 Total Cache.</li>
+<li><a href="/tools">Recommended Tools</a> — browse our complete toolkit of speed optimization plugins and services.</li>
 </ul>
 
 <h2>Frequently Asked Questions</h2>

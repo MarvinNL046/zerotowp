@@ -383,7 +383,7 @@ const articleContent = `
 <h3>What happens after the intro period?</h3>
 <p>Your hosting renews at the regular price, which is 5-6x higher than the introductory rate. The Premium plan goes from $1.99/mo to $10.99/mo, and the Business plan goes from $2.99/mo to $16.99/mo. Hostinger will send renewal reminders before your plan expires. You have a few options: pay the renewal price, check for retention discounts (Hostinger often offers 30-40% off via email), renew early during a promotional period to lock in a lower rate, or migrate to another host before renewal. The 4-year term gives you plenty of time to evaluate whether the renewal price is worth it for your needs.</p>
 
-<p><em>Ready to get started with Hostinger? <a href="https://www.hostinger.com/zerotowp">Get Hostinger from $1.99/mo with a free domain name</a>. And if you need help building your first WordPress site, follow our complete guide on <a href="/how-to-make-a-wordpress-website">how to make a WordPress website</a>.</em></p>
+<p><em>Ready to get started with Hostinger? <a href="https://www.hostinger.com/zerotowp">Get Hostinger from $1.99/mo with a free domain name</a>. And if you need help building your first WordPress site, follow our complete guide on <a href="/how-to-make-a-wordpress-website">how to make a WordPress website</a>. Want to compare other hosts first? Browse <a href="/reviews">all our hosting reviews</a>.</em></p>
 `;
 
 export const seedHostingerReview = internalMutation({

@@ -576,7 +576,7 @@ const hostingPillarContent = `
 
 <p>If I could go back and give my younger self one piece of hosting advice, it would be this: <strong>don't optimize for the cheapest possible price in month one. Optimize for the best experience over the next three years.</strong> The difference between $2/mo and $5/mo hosting is $36/year — that's nothing compared to the headaches you'll avoid with better performance, better support, and features like automatic backups that can literally save your site.</p>
 
-<p>Trust me on this one. Spending a few extra dollars per month on good hosting is the single best investment you can make for your WordPress site. Everything else — <a href="/wordpress-plugins">plugins</a>, <a href="/wordpress-themes">themes</a>, <a href="/wordpress-speed">speed optimization</a>, <a href="/wordpress-security">security</a> — builds on top of a solid hosting foundation.</p>
+<p>Trust me on this one. Spending a few extra dollars per month on good hosting is the single best investment you can make for your WordPress site. Everything else — <a href="/wordpress-plugins">plugins</a>, <a href="/wordpress-themes">themes</a>, <a href="/wordpress-speed">speed optimization</a>, <a href="/wordpress-security">security</a> — builds on top of a solid hosting foundation. For a curated list of the plugins and services I personally use, browse our <a href="/tools">recommended tools</a>.</p>
 
 <h2>Frequently Asked Questions</h2>
 

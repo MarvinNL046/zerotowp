@@ -230,7 +230,7 @@ const securityCompleteGuideContent = `
 
 <p><strong>Using "admin" as a username.</strong> This one seems obvious, but I still encounter it on at least half the sites I audit. Every brute force bot in existence starts with "admin" as the username. Change it. Create a new administrator account with a unique name, log in with it, and delete the original "admin" account. Takes two minutes.</p>
 
-<p><strong>Not having backups.</strong> I cannot stress this enough. A backup is your insurance policy. Without it, a hack could mean losing everything — your content, your settings, your customizations. I've had clients come to me in tears because their site was hacked and they had no backup. Don't be that person. Set up <a href="/wordpress-backup-guide/">automated backups</a> today. Right now. Before you forget.</p>
+<p><strong>Not having backups.</strong> I cannot stress this enough. A backup is your insurance policy. Without it, a hack could mean losing everything — your content, your settings, your customizations. I've had clients come to me in tears because their site was hacked and they had no backup. Don't be that person. Set up <a href="/wordpress-backup-guide/">automated backups</a> today. Right now. Before you forget. For the full list of security plugins and tools I rely on, see our <a href="/tools">recommended toolkit</a>.</p>
 
 <h2>Frequently Asked Questions</h2>
 

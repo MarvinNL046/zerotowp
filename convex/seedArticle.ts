@@ -198,7 +198,7 @@ const articleContent = `
 <li><strong>Start creating content</strong> — Write your first post or page</li>
 </ol>
 
-<p>Or if you want the full step-by-step walkthrough, check out my <a href="/start-here">complete beginner's guide to WordPress</a>. It covers everything from zero to a live website.</p>
+<p>Or if you want the full step-by-step walkthrough, check out my <a href="/start-here">complete beginner's guide to WordPress</a>. It covers everything from zero to a live website. You can also browse our <a href="/tutorials">WordPress tutorials</a> for guided walkthroughs on installation, backups, SEO, and more.</p>
 
 <h2>Frequently Asked Questions</h2>
 

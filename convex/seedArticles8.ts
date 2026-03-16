@@ -586,6 +586,7 @@ const mustHavePluginsContent = `
 
 <ul>
 <li><a href="/start-here">Start Here</a> — My complete WordPress roadmap for beginners</li>
+<li><a href="/tutorials">WordPress Tutorials</a> — Step-by-step setup guides for every skill level</li>
 <li><a href="/how-to-make-a-wordpress-website">How to Make a WordPress Website</a> — Step-by-step from zero to published</li>
 <li><a href="/wordpress-hosting">WordPress Hosting Guide</a> — Choose the right foundation for your site</li>
 <li><a href="/best-wordpress-plugins">Best WordPress Plugins</a> — My full plugin roundup with alternatives for every category</li>
