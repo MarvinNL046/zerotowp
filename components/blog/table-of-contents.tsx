@@ -1,20 +1,14 @@
 "use client";
 
 import { useState } from "react";
+import { generateHeadingId } from "@/lib/heading-utils";
+
+export { generateHeadingId };
 
 interface Heading {
   level: 2 | 3;
   text: string;
   id: string;
-}
-
-export function generateHeadingId(text: string): string {
-  return text
-    .toLowerCase()
-    .replace(/<[^>]+>/g, "") // strip any inner HTML tags
-    .replace(/[^a-z0-9\s-]/g, "")
-    .trim()
-    .replace(/\s+/g, "-");
 }
 
 function extractHeadings(content: string): Heading[] {

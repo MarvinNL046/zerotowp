@@ -1,4 +1,4 @@
-import { generateHeadingId } from "./table-of-contents";
+import { generateHeadingId } from "@/lib/heading-utils";
 
 interface PostContentProps {
   content: string;
