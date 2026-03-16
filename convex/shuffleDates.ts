@@ -27,6 +27,11 @@ const POST_DATES: Record<string, string> = {
   "best-contact-form-plugins": "2026-02-23",
   "best-caching-plugins": "2026-02-25",
   "best-security-plugins": "2026-02-27",
+  "best-email-marketing-plugins": "2026-02-28",
+  "best-code-snippet-plugins": "2026-03-01",
+  "best-membership-plugins": "2026-03-02",
+  "best-translation-plugins": "2026-03-03",
+  "best-monetization-plugins": "2026-03-04",
 
   // Themes cluster — late Feb / early Mar
   "best-wordpress-themes": "2026-03-01",
