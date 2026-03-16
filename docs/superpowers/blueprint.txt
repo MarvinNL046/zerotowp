@@ -1,0 +1,82 @@
+Hier is de volledige sitestructuur van WPBeginner die je als blauwdruk kunt gebruiken voor **zerotowp.com**:
+
+---
+
+## WPBeginner Sitestructuur
+
+**1. Blog Posts (categorieën)**
+De kern van de site — 3.052 artikelen verdeeld over 8 categorieën:
+
+- **/category/wp-tutorials/** — WordPress tutorials (how-to's, stap-voor-stap)
+- **/category/beginners-guide/** — Beginnersgidsen
+- **/category/plugins/** — Plugin-gerelateerde artikelen
+- **/category/wp-themes/** — Theme-gerelateerde artikelen
+- **/category/showcase/** — Showcases (beste tools, voorbeelden)
+- **/category/opinion/** — Opiniestukken
+- **/category/news/** — WordPress nieuws
+- **/category/research/** — Onderzoek & data
+
+**2. Pillar Pages (statische pagina's)**
+Grote landingspagina's die als hub dienen voor hele onderwerpen:
+
+- **/wordpress-seo/** — SEO hub
+- **/wordpress-security/** — Security hub
+- **/wordpress-performance-speed/** — Performance hub
+- **/wordpress-hosting/** — Hosting vergelijking
+- **/wordpress-plugins/** — Plugin overzicht
+- **/common-wordpress-errors-and-how-to-fix-them/** — Errors hub
+- **/how-to-install-wordpress/** — Installatie guide
+- **/guides/** — Centrale gidsenpagina
+
+**3. Custom Post Type: Hosting Reviews (/hosting/)**
+19 individuele hosting reviews, bijv. Bluehost, SiteGround, WP Engine, Hostinger, etc.
+
+**4. Custom Post Type: Glossary (/glossary/)**
+177 items — een WordPress woordenboek/begrippenlijst.
+
+**5. Custom Post Type: Deals (/deals/)**
+136 kortingspagina's voor WordPress producten.
+
+**6. Custom Post Type: Solutions (/solution/)**
+138 items — een "Solution Center" met productreviews en vergelijkingen.
+
+**7. Sections (overzichtspagina's)**
+Landingspagina's per productcategorie:
+
+- **/section/hosting/** — Hosting overzicht
+- **/section/wp-plugins-2/** — Plugins overzicht
+- **/section/services/** — Services overzicht
+- **/section/wp-themes/** — Themes overzicht
+- **/section/featured-deals/** — Uitgelichte deals
+
+**8. Tools (/tools/)**
+Gratis tools om gebruikers aan te trekken:
+
+- SEO Analyzer, Keyword Density Checker, Keyword Generator, Email Signature Generator, Blog Post Idea Generator, Headline Analyzer, WordPress Theme Detector, Business Name Generator
+
+**9. Niche Blog-startgidsen**
+Sub-pagina's onder /start-a-wordpress-blog/:
+
+- /food-blog-recipes/
+- /fashion-blog-make-money/
+- /travel-blog-make-money/
+
+**10. Community & Overig**
+- /blueprint/ — Hun eigen stack/tools
+- /workshop/ — Training/workshops
+- /subscribe/ & /wordpress-newsletter/
+- /about-wpbeginner/, /contact/, /write-for-us/
+
+---
+
+## Advies voor ZeroToWP.com
+
+Als je deze structuur wilt toepassen, zou ik de volgende kernonderdelen aanraden:
+
+**Must-haves:** Blog met categorieën (tutorials, beginnersgidsen, plugins, themes), pillar pages voor SEO-toponderwerpen (hosting, SEO, security, speed), en een glossary voor long-tail SEO traffic.
+
+**Sterke aanvulling:** Een "Solution Center" met productreviews, een deals/coupons sectie (monetization), en 1-2 gratis tools die organisch verkeer aantrekken.
+
+**Slimme structuur:** De combinatie van pillar pages → blog posts → glossary vormt een sterk intern linknetwerk. Elke pillar page linkt naar gerelateerde tutorials, en de glossary linkt terug naar beide.
+
+Wil je dat ik een concreet sitemap-voorstel uitwerk specifiek voor zerotowp.com?

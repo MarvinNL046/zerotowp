@@ -16,6 +16,7 @@ import type * as media from "../media.js";
 import type * as pages from "../pages.js";
 import type * as posts from "../posts.js";
 import type * as reviews from "../reviews.js";
+import type * as search from "../search.js";
 import type * as seed from "../seed.js";
 import type * as seedArticle from "../seedArticle.js";
 import type * as seedArticles10 from "../seedArticles10.js";
@@ -87,6 +88,7 @@ declare const fullApi: ApiFromModules<{
   pages: typeof pages;
   posts: typeof posts;
   reviews: typeof reviews;
+  search: typeof search;
   seed: typeof seed;
   seedArticle: typeof seedArticle;
   seedArticles10: typeof seedArticles10;

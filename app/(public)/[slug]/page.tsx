@@ -12,6 +12,7 @@ import Breadcrumbs from "@/components/seo/breadcrumbs";
 import AuthorBio from "@/components/blog/author-bio";
 import CommentSection from "@/components/blog/comment-section";
 import TableOfContents from "@/components/blog/table-of-contents";
+import RelatedContent from "@/components/seo/related-content";
 import {
   ArticleSchema,
   ReviewSchema,
@@ -93,9 +94,34 @@ export default async function ContentPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const content = await getContent(slug);
+  const [content, allPosts, allReviews] = await Promise.all([
+    getContent(slug),
+    fetchQuery(api.posts.listPublished, {}),
+    fetchQuery(api.reviews.listPublished, {}),
+  ]);
 
   if (!content) notFound();
+
+  // Map to the shape RelatedContent expects
+  const relatedPosts = allPosts.map((p) => ({
+    _id: p._id,
+    slug: p.slug,
+    title: p.title,
+    excerpt: p.excerpt || "",
+    clusterId: p.clusterId,
+    category: p.category,
+    tags: p.tags || [],
+  }));
+
+  const relatedReviews = allReviews.map((r) => ({
+    _id: r._id,
+    slug: r.slug,
+    title: r.title,
+    excerpt: r.excerpt || "",
+    clusterId: r.clusterId,
+    category: r.category,
+    tags: r.tags || [],
+  }));
 
   if (content.type === "review") {
     const review = content.data;
@@ -206,6 +232,16 @@ export default async function ContentPage({
               <ClusterNav clusterId={review.clusterId} currentSlug={review.slug} contentType="review" />
             )}
 
+            <RelatedContent
+              currentId={review._id}
+              currentClusterId={review.clusterId}
+              currentCategory={review.category}
+              currentTags={review.tags || []}
+              manualRelatedIds={[]}
+              allPosts={relatedPosts}
+              allReviews={relatedReviews}
+            />
+
             <CommentSection postSlug={review.slug} />
           </article>
 
@@ -292,10 +328,17 @@ export default async function ContentPage({
             <ClusterNav clusterId={post.clusterId} currentSlug={post.slug} contentType="post" />
           )}
 
-          <CommentSection postSlug={post.slug} />
+          <RelatedContent
+            currentId={post._id}
+            currentClusterId={post.clusterId}
+            currentCategory={post.category}
+            currentTags={post.tags || []}
+            manualRelatedIds={[]}
+            allPosts={relatedPosts}
+            allReviews={relatedReviews}
+          />
 
-          {/* TODO: RelatedContent */}
-          <div data-placeholder="RelatedContent" />
+          <CommentSection postSlug={post.slug} />
         </article>
 
         <aside className="hidden lg:block w-80 shrink-0">

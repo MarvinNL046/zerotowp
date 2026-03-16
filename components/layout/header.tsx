@@ -1,12 +1,13 @@
 import Link from "next/link";
 import MobileNav from "./mobile-nav";
+import SearchBar from "./search";
 
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-slate-100 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center">
+        <Link href="/" className="flex items-center shrink-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/logo-rocket.svg" alt="ZeroToWP" className="h-10" />
         </Link>
@@ -57,8 +58,12 @@ export default function Header() {
           </Link>
         </nav>
 
-        {/* Mobile hamburger — client island, visible only on mobile */}
-        <MobileNav />
+        {/* Search + Mobile nav */}
+        <div className="flex items-center gap-2">
+          <SearchBar />
+          {/* Mobile hamburger — client island, visible only on mobile */}
+          <MobileNav />
+        </div>
       </div>
     </header>
   );
