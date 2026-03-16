@@ -590,6 +590,7 @@ const mustHavePluginsContent = `
 <li><a href="/wordpress-hosting">WordPress Hosting Guide</a> — Choose the right foundation for your site</li>
 <li><a href="/best-wordpress-plugins">Best WordPress Plugins</a> — My full plugin roundup with alternatives for every category</li>
 <li><a href="/wordpress-plugins">WordPress Plugins Hub</a> — All my plugin guides in one place</li>
+<li><a href="/tools">Recommended Tools</a> — Browse our complete toolkit of recommended plugins and services</li>
 </ul>
 
 <p>Happy building!</p>

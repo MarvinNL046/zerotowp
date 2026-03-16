@@ -121,7 +121,7 @@ const hostingPillarContent = `
 </tbody>
 </table>
 
-<p><strong>If you're in a rush:</strong> go with <a href="/hostinger-review">Hostinger</a> if you're on a tight budget, <a href="/siteground-review">SiteGround</a> if you want the best performance and support money can buy, and <a href="/bluehost-review">Bluehost</a> if you want the absolute simplest setup experience. Keep reading for the full breakdown — there's a lot more nuance than a quick table can capture.</p>
+<p><strong>If you're in a rush:</strong> go with <a href="/hostinger-review">Hostinger</a> if you're on a tight budget, <a href="/siteground-review">SiteGround</a> if you want the best performance and support money can buy, and <a href="/bluehost-review">Bluehost</a> if you want the absolute simplest setup experience. You can also browse <a href="/reviews">all our hosting reviews</a> for the full picture. Keep reading for the full breakdown — there's a lot more nuance than a quick table can capture.</p>
 
 <h2>What to Look for in WordPress Hosting</h2>
 
@@ -576,7 +576,7 @@ const hostingPillarContent = `
 
 <p>If I could go back and give my younger self one piece of hosting advice, it would be this: <strong>don't optimize for the cheapest possible price in month one. Optimize for the best experience over the next three years.</strong> The difference between $2/mo and $5/mo hosting is $36/year — that's nothing compared to the headaches you'll avoid with better performance, better support, and features like automatic backups that can literally save your site.</p>
 
-<p>Trust me on this one. Spending a few extra dollars per month on good hosting is the single best investment you can make for your WordPress site. Everything else — <a href="/wordpress-plugins">plugins</a>, themes, <a href="/wordpress-speed">speed optimization</a>, <a href="/wordpress-security">security</a> — builds on top of a solid hosting foundation.</p>
+<p>Trust me on this one. Spending a few extra dollars per month on good hosting is the single best investment you can make for your WordPress site. Everything else — <a href="/wordpress-plugins">plugins</a>, <a href="/wordpress-themes">themes</a>, <a href="/wordpress-speed">speed optimization</a>, <a href="/wordpress-security">security</a> — builds on top of a solid hosting foundation.</p>
 
 <h2>Frequently Asked Questions</h2>
 

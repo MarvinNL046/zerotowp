@@ -368,7 +368,7 @@ const pluginsPillarContent = `
 
 <p>Where WooCommerce gets expensive is the ecosystem. Need subscriptions? That's $199/year. Bookings? $249/year. Product add-ons, memberships, advanced shipping — each is a paid extension. A fully-featured WooCommerce store can easily cost $500-1000/year in extensions. But the base is free, and you can start selling with just the core plugin and free payment gateways.</p>
 
-<p>One caveat: WooCommerce is resource-heavy. It adds significant database overhead to your WordPress installation. If you're running it on a shared hosting plan, make sure you're on at least a mid-tier plan (like Hostinger Business or SiteGround GrowBig). For serious ecommerce, consider <a href="/wordpress-hosting">managed WooCommerce hosting</a>.</p>
+<p>One caveat: WooCommerce is resource-heavy. It adds significant database overhead to your WordPress installation. If you're running it on a shared hosting plan, make sure you're on at least a mid-tier plan (like Hostinger Business or SiteGround GrowBig). For serious ecommerce, consider <a href="/wordpress-hosting">managed WooCommerce hosting</a> — read our <a href="/reviews">detailed hosting reviews</a> to find the best fit.</p>
 
 <h2>Page Builder Plugins</h2>
 
@@ -508,7 +508,7 @@ const pluginsPillarContent = `
 
 <p>Choosing the right plugins is one of the most impactful decisions you'll make for your WordPress site. Get it right, and you'll have a fast, secure, SEO-friendly site that practically runs itself. Get it wrong, and you'll spend your time troubleshooting conflicts, worrying about security, and wondering why your site is so slow.</p>
 
-<p>My advice? Start with the essentials from this list — Yoast SEO, Wordfence, UpdraftPlus, a caching plugin, WPForms, and WP Mail SMTP. That's six plugins that cover the fundamentals. Then add only what you specifically need for your site's purpose. Resist the temptation to install a plugin for every little thing.</p>
+<p>My advice? Start with the essentials from this list — Yoast SEO, Wordfence, UpdraftPlus, a caching plugin, WPForms, and WP Mail SMTP. That's six plugins that cover the fundamentals. Then add only what you specifically need for your site's purpose. Resist the temptation to install a plugin for every little thing. For a broader overview of plugins and services I recommend, see our <a href="/tools">complete toolkit</a>.</p>
 
 <p>And remember: plugins are tools, not solutions. The best plugin in the world won't help if you don't configure it properly, keep it updated, and understand what it's doing. Take the time to learn each plugin you install. Read the documentation. Explore the settings. Understand what each option does before toggling it.</p>
 

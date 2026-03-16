@@ -363,7 +363,7 @@ const pillarContent = `
 <li><strong>Customize your design</strong> — If you want to go deeper on themes and page builders, my <a href="/wordpress-themes">WordPress themes guide</a> covers what's available and what's worth using.</li>
 </ul>
 
-<p>For the full structured learning path — a step-by-step sequence that covers everything in order — visit my <a href="/start-here">Start Here</a> page. It maps out the journey from complete beginner to a confident WordPress site owner.</p>
+<p>For the full structured learning path — a step-by-step sequence that covers everything in order — visit my <a href="/start-here">Start Here</a> page. You can also explore our <a href="/tutorials">step-by-step tutorials</a> for more hands-on walkthroughs. It maps out the journey from complete beginner to a confident WordPress site owner.</p>
 
 <h2>Frequently Asked Questions</h2>
 

@@ -219,7 +219,7 @@ const wordPressSeoGuideContent = `
 
 <h2>Start Your SEO Journey</h2>
 
-<p>If you've made it this far, you've got a solid overview of what WordPress SEO involves and a clear roadmap to follow. Don't try to do everything at once — that's a recipe for overwhelm. Instead, start with Step 1 and work your way through the learning path one step at a time. Each article builds on the previous one, so by the time you finish all six steps, you'll have a WordPress site that's fully optimized for search engines.</p>
+<p>If you've made it this far, you've got a solid overview of what WordPress SEO involves and a clear roadmap to follow. Don't try to do everything at once — that's a recipe for overwhelm. Instead, start with Step 1 and work your way through the learning path one step at a time. Each article builds on the previous one, so by the time you finish all six steps, you'll have a WordPress site that's fully optimized for search engines. For hands-on implementation help, explore our <a href="/tutorials">WordPress tutorials</a> section.</p>
 
 <p>Here's the beautiful thing about SEO: the work you do today compounds over time. A well-optimized post published today can bring you traffic for <em>years</em>. I have posts from 2019 that still rank on page 1 and send me traffic every single day. That's the power of getting WordPress SEO right from the start.</p>
 

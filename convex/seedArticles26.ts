@@ -90,7 +90,7 @@ const keywordResearchContent = `
 
 <h2>What Is Keyword Research (And Why Should You Care)?</h2>
 
-<p>Keyword research is the process of finding out what people actually type into Google — and then deciding which of those searches you should create content for. That's it. It's not rocket science, and you don't need a $99/month tool to do it well.</p>
+<p>Keyword research is the process of finding out what people actually type into Google — and then deciding which of those searches you should create content for. That's it. It's not rocket science, and you don't need a $99/month tool to do it well. It's a core part of any solid <a href="/wordpress-seo-guide">WordPress SEO strategy</a>, and once you get the hang of it, you'll wonder how you ever wrote content without it.</p>
 
 <p>Here's why it matters: every blog post you write is a bet. You're investing hours of your time creating content, and keyword research tells you whether that bet has a chance of paying off. Without it, you're writing blind. You might create a masterpiece that nobody ever finds because nobody searches for the topic — or because 50 authority sites already own that keyword.</p>
 
@@ -206,7 +206,7 @@ const keywordResearchContent = `
 
 <h3>Step 5: Pick Your Primary + Secondary Keywords</h3>
 
-<p>From my remaining candidates, I pick one primary keyword and 2-3 secondary keywords for the article. The primary keyword goes in my title, H1, and meta description. The secondary keywords go in H2s and naturally throughout the body text.</p>
+<p>From my remaining candidates, I pick one primary keyword and 2-3 secondary keywords for the article. The primary keyword goes in my title, H1, and meta description. The secondary keywords go in H2s and naturally throughout the body text. For a complete walkthrough on using those keywords effectively in your content, see my guide on <a href="/write-blog-post-that-ranks">writing blog posts that rank</a>.</p>
 
 <p>For example, for the article you're reading right now:</p>
 
@@ -252,9 +252,9 @@ const keywordResearchContent = `
 <ul>
 <li><strong>Targeting high-volume keywords on a new site.</strong> I know it's tempting. "Best WordPress hosting" with 12,000 monthly searches sounds amazing. But if your site has zero authority, you're bringing a knife to a gunfight. Start with KD 0-20 keywords and build up.</li>
 <li><strong>Ignoring search intent.</strong> I once wrote a beautiful 3,000-word guide for a keyword where every result on page one was a short listicle. Google wanted listicles, not guides. My article never ranked because it didn't match what searchers wanted.</li>
-<li><strong>Keyword stuffing.</strong> This is 2026, not 2010. You don't need to cram your keyword into every paragraph. Use it naturally in your title, one H2, and a few times in the body. Google is smart enough to understand what your content is about without you being repetitive.</li>
-<li><strong>Only researching once.</strong> I used to do keyword research when planning an article and then never revisit it. Now I check my rankings monthly and update my keyword targets if new opportunities emerge. SEO is ongoing, not a one-time task.</li>
-<li><strong>Skipping keyword research entirely.</strong> "I'll just write about what I know and hope for the best." That was me for my first six months of blogging. Don't be me. Twenty minutes of research before writing can be the difference between 0 visitors and 500 visitors per month for a single article.</li>
+<li><strong>Keyword stuffing.</strong> This is 2026, not 2010. You don't need to cram your keyword into every paragraph. Use it naturally in your title, one H2, and a few times in the body. Google is smart enough to understand what your content is about without you being repetitive. A good <a href="/best-seo-plugins">SEO plugin</a> will help you strike the right balance.</li>
+<li><strong>Only researching once.</strong> I used to do keyword research when planning an article and then never revisit it. Now I check my rankings monthly and update my keyword targets if new opportunities emerge. SEO is ongoing, not a one-time task — my <a href="/wordpress-seo-checklist">WordPress SEO checklist</a> includes a recurring keyword review step.</li>
+<li><strong>Skipping keyword research entirely.</strong> "I'll just write about what I know and hope for the best." That was me for my first six months of blogging. Don't be me. Twenty minutes of research before writing can be the difference between 0 visitors and 500 visitors per month for a single article. If you're just <a href="/start-a-blog">starting a blog</a>, build this habit from day one.</li>
 </ul>
 
 <h2>Frequently Asked Questions</h2>
