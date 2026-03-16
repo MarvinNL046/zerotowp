@@ -94,34 +94,42 @@ export default async function ContentPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const [content, allPosts, allReviews] = await Promise.all([
-    getContent(slug),
-    fetchQuery(api.posts.listPublished, {}),
-    fetchQuery(api.reviews.listPublished, {}),
-  ]);
+  const content = await getContent(slug);
 
   if (!content) notFound();
 
-  // Map to the shape RelatedContent expects
-  const relatedPosts = allPosts.map((p) => ({
-    _id: p._id,
-    slug: p.slug,
-    title: p.title,
-    excerpt: p.excerpt || "",
-    clusterId: p.clusterId,
-    category: p.category,
-    tags: p.tags || [],
-  }));
+  // Fetch related content separately — don't let it break the page
+  let relatedPosts: Array<{ _id: string; slug: string; title: string; excerpt: string; clusterId?: string; category: string; tags: string[] }> = [];
+  let relatedReviews: Array<{ _id: string; slug: string; title: string; excerpt: string; clusterId?: string; category: string; tags: string[] }> = [];
 
-  const relatedReviews = allReviews.map((r) => ({
-    _id: r._id,
-    slug: r.slug,
-    title: r.title,
-    excerpt: r.excerpt || "",
-    clusterId: r.clusterId,
-    category: r.category,
-    tags: r.tags || [],
-  }));
+  try {
+    const [allPosts, allReviews] = await Promise.all([
+      fetchQuery(api.posts.listPublished, {}),
+      fetchQuery(api.reviews.listPublished, {}),
+    ]);
+
+    relatedPosts = (allPosts || []).map((p) => ({
+      _id: p._id,
+      slug: p.slug,
+      title: p.title,
+      excerpt: p.excerpt || "",
+      clusterId: p.clusterId,
+      category: p.category,
+      tags: p.tags || [],
+    }));
+
+    relatedReviews = (allReviews || []).map((r) => ({
+      _id: r._id,
+      slug: r.slug,
+      title: r.title,
+      excerpt: r.excerpt || "",
+      clusterId: r.clusterId,
+      category: r.category,
+      tags: r.tags || [],
+    }));
+  } catch {
+    // Related content is non-critical — page still works without it
+  }
 
   if (content.type === "review") {
     const review = content.data;
