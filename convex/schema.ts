@@ -111,4 +111,17 @@ export default defineSchema({
     alt: v.string(),
     caption: v.optional(v.string()),
   }),
+
+  glossary: defineTable({
+    term: v.string(),
+    slug: v.string(),
+    shortDefinition: v.string(),
+    content: v.string(),
+    relatedTerms: v.array(v.string()),
+    relatedArticles: v.array(v.string()),
+    category: v.string(),
+    publishedAt: v.optional(v.number()),
+  })
+    .index("by_slug", ["slug"])
+    .index("by_category", ["category"]),
 });

@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { label: "Themes", href: "/wordpress-themes" },
   { label: "SEO", href: "/wordpress-seo" },
   { label: "Tutorials", href: "/tutorials" },
+  { label: "Glossary", href: "/glossary" },
   { label: "Reviews", href: "/reviews" },
 ];
 

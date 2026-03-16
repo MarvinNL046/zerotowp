@@ -51,6 +51,12 @@ export default function Header() {
             Tutorials
           </Link>
           <Link
+            href="/glossary"
+            className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
+          >
+            Glossary
+          </Link>
+          <Link
             href="/reviews"
             className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
           >

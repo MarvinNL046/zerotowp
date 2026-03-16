@@ -11,6 +11,7 @@
 import type * as clusters from "../clusters.js";
 import type * as comments from "../comments.js";
 import type * as deals from "../deals.js";
+import type * as glossary from "../glossary.js";
 import type * as lib_reservedSlugs from "../lib/reservedSlugs.js";
 import type * as media from "../media.js";
 import type * as pages from "../pages.js";
@@ -83,6 +84,7 @@ declare const fullApi: ApiFromModules<{
   clusters: typeof clusters;
   comments: typeof comments;
   deals: typeof deals;
+  glossary: typeof glossary;
   "lib/reservedSlugs": typeof lib_reservedSlugs;
   media: typeof media;
   pages: typeof pages;

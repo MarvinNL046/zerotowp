@@ -5,9 +5,10 @@ import type { MetadataRoute } from "next";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://zerotowp.com";
 
-  const [posts, reviews] = await Promise.all([
+  const [posts, reviews, glossaryTerms] = await Promise.all([
     fetchQuery(api.posts.listPublished, {}),
     fetchQuery(api.reviews.listPublished, {}),
+    fetchQuery(api.glossary.listAll, {}),
   ]);
 
   const staticPages = [
@@ -24,6 +25,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${baseUrl}/wordpress-security`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/tutorials`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/tools`, lastModified: new Date(), priority: 0.8 },
+    { url: `${baseUrl}/glossary`, lastModified: new Date(), priority: 0.7 },
     { url: `${baseUrl}/about`, lastModified: new Date(), priority: 0.5 },
     { url: `${baseUrl}/contact`, lastModified: new Date(), priority: 0.5 },
     { url: `${baseUrl}/authors`, lastModified: new Date(), priority: 0.5 },
@@ -50,5 +52,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...postPages, ...reviewPages];
+  const glossaryPages = glossaryTerms.map((term: any) => ({
+    url: `${baseUrl}/glossary/${term.slug}`,
+    lastModified: new Date(),
+    priority: 0.5,
+  }));
+
+  return [...staticPages, ...postPages, ...reviewPages, ...glossaryPages];
 }

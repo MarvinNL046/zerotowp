@@ -54,6 +54,7 @@ export default function Footer() {
                 { label: "Speed", href: "/wordpress-speed" },
                 { label: "Security", href: "/wordpress-security" },
                 { label: "Tutorials", href: "/tutorials" },
+                { label: "Glossary", href: "/glossary" },
                 { label: "Reviews", href: "/reviews" },
               ].map(({ label, href }) => (
                 <li key={href}>

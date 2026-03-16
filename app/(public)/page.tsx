@@ -14,6 +14,7 @@ import {
   Plug,
   Server,
   BookOpen,
+  BookText,
 } from "lucide-react";
 
 const CLUSTERS = [
@@ -72,6 +73,13 @@ const CLUSTERS = [
     icon: BookOpen,
     description: "Step-by-step guides for common tasks",
     color: "bg-indigo-100 text-indigo-700",
+  },
+  {
+    label: "Glossary",
+    href: "/glossary",
+    icon: BookText,
+    description: "WordPress terms explained in plain English",
+    color: "bg-teal-100 text-teal-700",
   },
 ];
 
