@@ -25,10 +25,17 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${baseUrl}/tutorials`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/tools`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/about`, lastModified: new Date(), priority: 0.5 },
+    { url: `${baseUrl}/contact`, lastModified: new Date(), priority: 0.5 },
+    { url: `${baseUrl}/authors`, lastModified: new Date(), priority: 0.5 },
+    { url: `${baseUrl}/sitemap-page`, lastModified: new Date(), priority: 0.4 },
     { url: `${baseUrl}/how-we-test`, lastModified: new Date(), priority: 0.5 },
     { url: `${baseUrl}/affiliate-disclosure`, lastModified: new Date(), priority: 0.3 },
     { url: `${baseUrl}/disclaimer`, lastModified: new Date(), priority: 0.3 },
     { url: `${baseUrl}/search`, lastModified: new Date(), priority: 0.3 },
+    { url: `${baseUrl}/privacy`, lastModified: new Date(), priority: 0.3 },
+    { url: `${baseUrl}/terms`, lastModified: new Date(), priority: 0.3 },
+    { url: `${baseUrl}/cookie-policy`, lastModified: new Date(), priority: 0.3 },
+    { url: `${baseUrl}/editorial-policy`, lastModified: new Date(), priority: 0.3 },
   ];
 
   const postPages = posts.map((post: any) => ({

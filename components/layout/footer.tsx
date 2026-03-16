@@ -84,9 +84,15 @@ export default function Footer() {
         <div className="mt-8 pt-6 border-t border-slate-800 flex flex-wrap gap-4 justify-center">
           {[
             { label: "About", href: "/about" },
+            { label: "Authors", href: "/authors" },
+            { label: "Contact", href: "/contact" },
             { label: "How We Test", href: "/how-we-test" },
             { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
             { label: "Disclaimer", href: "/disclaimer" },
+            { label: "Privacy Policy", href: "/privacy" },
+            { label: "Terms", href: "/terms" },
+            { label: "Cookie Policy", href: "/cookie-policy" },
+            { label: "Editorial Policy", href: "/editorial-policy" },
           ].map(({ label, href }) => (
             <Link
               key={href}
