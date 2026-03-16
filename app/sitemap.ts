@@ -23,6 +23,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${baseUrl}/wordpress-speed`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/wordpress-security`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/tutorials`, lastModified: new Date(), priority: 0.8 },
+    { url: `${baseUrl}/tools`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/about`, lastModified: new Date(), priority: 0.5 },
     { url: `${baseUrl}/how-we-test`, lastModified: new Date(), priority: 0.5 },
     { url: `${baseUrl}/affiliate-disclosure`, lastModified: new Date(), priority: 0.3 },
