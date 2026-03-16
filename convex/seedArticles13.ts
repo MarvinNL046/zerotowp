@@ -168,7 +168,7 @@ const costToBuildContent = `
 <ul>
   <li><strong>Introductory pricing tricks.</strong> Some registrars advertise domains for $0.99 the first year, then jump to $18–20 on renewal. Always check the renewal price before you buy.</li>
   <li><strong>Premium domains.</strong> If someone already owns the domain you want, they might be willing to sell it — but "premium" domains can cost anywhere from $100 to $100,000. For a new site, just pick an available name and save your money.</li>
-  <li><strong>Exotic TLDs.</strong> Extensions like .io, .dev, or .ai tend to cost more — sometimes $30–50 per year. Stick with .com if budget is a concern. I cover domain name strategy in detail in my guide on <a href="/blog/how-to-choose-a-domain-name">how to choose a domain name</a>.</li>
+  <li><strong>Exotic TLDs.</strong> Extensions like .io, .dev, or .ai tend to cost more — sometimes $30–50 per year. Stick with .com if budget is a concern. I cover domain name strategy in detail in my guide on <a href="/how-to-choose-a-domain-name">how to choose a domain name</a>.</li>
   <li><strong>WHOIS privacy.</strong> This used to be an extra cost, but most registrars now include it for free. Make sure yours does — it keeps your personal contact details out of the public WHOIS database.</li>
 </ul>
 
@@ -253,7 +253,7 @@ const costToBuildContent = `
   <li><strong>Divi by Elegant Themes</strong> — $89/year or $249 lifetime. Includes a powerful visual page builder. Great for people who want to design visually without touching code. Can be a bit heavy on page load though.</li>
 </ul>
 
-<p>One mistake I see beginners make all the time: buying a theme before they have installed WordPress. Install WordPress first, pick a free theme, get your content going, and <em>then</em> decide if you need a premium theme. You might find that a free theme does everything you need. I walk you through the full setup process in my <a href="/blog/how-to-install-wordpress">WordPress installation guide</a>.</p>
+<p>One mistake I see beginners make all the time: buying a theme before they have installed WordPress. Install WordPress first, pick a free theme, get your content going, and <em>then</em> decide if you need a premium theme. You might find that a free theme does everything you need. I walk you through the full setup process in my <a href="/how-to-install-wordpress">WordPress installation guide</a>.</p>
 
 <h2>Plugins — Free to $1,000+ per Year</h2>
 
@@ -364,7 +364,7 @@ const costToBuildContent = `
   <li><strong>WordPress Facebook groups</strong> — communities like "Advanced WordPress" on Facebook have many developers who take freelance work. Just be careful with vetting.</li>
 </ul>
 
-<p>For what it is worth, I built this very site (ZeroToWP.com) myself without hiring anyone. WordPress gives you all the tools you need. If you follow the guides on this site, particularly the <a href="/blog/how-to-make-a-wordpress-website">step-by-step website building guide</a>, you can absolutely do it yourself and save the developer budget for later when your site is earning money.</p>
+<p>For what it is worth, I built this very site (ZeroToWP.com) myself without hiring anyone. WordPress gives you all the tools you need. If you follow the guides on this site, particularly the <a href="/how-to-make-a-wordpress-website">step-by-step website building guide</a>, you can absolutely do it yourself and save the developer budget for later when your site is earning money.</p>
 
 <h2>Hidden and Often-Forgotten Costs</h2>
 
@@ -507,7 +507,7 @@ const costToBuildContent = `
 
 <p>WordPress.com is a hosted version of WordPress that handles the technical stuff for you. Their free plan gives you a website, but it comes with WordPress.com ads, a subdomain (yoursite.wordpress.com), and severe limitations on themes and plugins.</p>
 
-<p>Their paid plans start at $4/month (Personal) and go up to $25/month (Business) for the ability to install custom plugins and themes. I have a detailed comparison in my <a href="/blog/wordpress-com-vs-wordpress-org">WordPress.com vs WordPress.org guide</a> if you want to dig deeper.</p>
+<p>Their paid plans start at $4/month (Personal) and go up to $25/month (Business) for the ability to install custom plugins and themes. I have a detailed comparison in my <a href="/wordpress-com-vs-wordpress-org">WordPress.com vs WordPress.org guide</a> if you want to dig deeper.</p>
 
 <p>My honest take: for a serious website, self-hosted WordPress.org is almost always the better choice. You have full control, the total cost is comparable, and you are not locked into anyone's platform. The learning curve is a bit steeper, but that is exactly what this site is here to help you with.</p>
 
@@ -536,7 +536,7 @@ const costToBuildContent = `
 
 <p>My advice? Start small. Get a cheap domain and budget hosting, install a free theme, and focus on your content. You can always upgrade your hosting, switch to a premium theme, or add paid plugins later — and by then, you will be making informed decisions based on actual experience rather than marketing hype.</p>
 
-<p>If you are ready to get started, head over to my <a href="/blog/how-to-make-a-wordpress-website">complete guide to building a WordPress website</a>. I will walk you through every step, from buying a domain to publishing your first post.</p>
+<p>If you are ready to get started, head over to my <a href="/how-to-make-a-wordpress-website">complete guide to building a WordPress website</a>. I will walk you through every step, from buying a domain to publishing your first post.</p>
 
 <p>Got questions about WordPress costs that I did not cover? Feel free to leave a comment below — I am happy to help you figure out the right budget for your specific project.</p>
 `;
@@ -637,7 +637,7 @@ const dashboardExplainedContent = `
 
 <p><strong>yourdomain.com/wp-admin</strong></p>
 
-<p>Type that into your browser, enter the username and password you created during <a href="/blog/how-to-install-wordpress">WordPress installation</a>, and you are in. You can also reach the login page at <strong>yourdomain.com/wp-login.php</strong> — both work the same way.</p>
+<p>Type that into your browser, enter the username and password you created during <a href="/how-to-install-wordpress">WordPress installation</a>, and you are in. You can also reach the login page at <strong>yourdomain.com/wp-login.php</strong> — both work the same way.</p>
 
 <p><strong>Pro tip:</strong> Bookmark your login page. You will be visiting it a lot, and typing "/wp-admin" every time gets old fast. I also recommend using a password manager like Bitwarden or 1Password — your WordPress password should be long, random, and unique, which means you will never remember it on your own.</p>
 
@@ -798,7 +798,7 @@ const dashboardExplainedContent = `
 <ul>
   <li><strong>Delete plugins you are not using.</strong> Inactive plugins can still be a security risk if they have vulnerabilities. If you are not using it, delete it — do not just deactivate it.</li>
   <li><strong>Keep plugins updated.</strong> Plugin updates often include security patches. I check for updates at least once a week, and I have auto-updates enabled for trusted plugins.</li>
-  <li><strong>Less is more.</strong> Every plugin you add increases your site's load time and potential attack surface. I try to keep my active plugin count under 15. If I can accomplish something with my theme's built-in features or a small code snippet, I skip the plugin. I go deeper on choosing the right plugins in my <a href="/blog/must-have-wordpress-plugins">must-have plugins guide</a>.</li>
+  <li><strong>Less is more.</strong> Every plugin you add increases your site's load time and potential attack surface. I try to keep my active plugin count under 15. If I can accomplish something with my theme's built-in features or a small code snippet, I skip the plugin. I go deeper on choosing the right plugins in my <a href="/must-have-plugins-new-site">must-have plugins guide</a>.</li>
   <li><strong>Read reviews before installing.</strong> Check the star rating, the number of active installations, when it was last updated, and whether it is compatible with your version of WordPress. A plugin that has not been updated in two years is a plugin you should probably avoid.</li>
 </ul>
 
@@ -1013,7 +1013,7 @@ const dashboardExplainedContent = `
 
 <p>Focus on the essentials first: <strong>Posts</strong> for writing, <strong>Pages</strong> for static content, <strong>Appearance</strong> for how your site looks, and <strong>Settings > Permalinks</strong> for your URL structure. Everything else can wait until you need it.</p>
 
-<p>If you have not set up your WordPress site yet, head over to my <a href="/blog/how-to-make-a-wordpress-website">complete guide to building a WordPress website</a> to get started from scratch. And if you have just finished installing WordPress and found this guide helpful, the next step is to start creating content — which is, after all, the whole point of having a website.</p>
+<p>If you have not set up your WordPress site yet, head over to my <a href="/how-to-make-a-wordpress-website">complete guide to building a WordPress website</a> to get started from scratch. And if you have just finished installing WordPress and found this guide helpful, the next step is to start creating content — which is, after all, the whole point of having a website.</p>
 
 <p>Feel free to bookmark this page and come back whenever you need a reminder of where something lives in the dashboard. I still occasionally reference guides like this when a WordPress update moves things around — it happens more often than you might think.</p>
 `;

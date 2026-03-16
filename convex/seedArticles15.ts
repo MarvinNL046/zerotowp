@@ -831,7 +831,7 @@ const cheapWordPressHostingContent = `
 
 <img src="/screenshots/hostinger-homepage.webp" alt="Hostinger homepage showing WordPress hosting deals starting at $1.99 per month" />
 
-<p>I've written a <a href="/blog/hostinger-review">full Hostinger review</a>, so I'll keep this focused on why it earned the top spot for budget hosting.</p>
+<p>I've written a <a href="/hostinger-review">full Hostinger review</a>, so I'll keep this focused on why it earned the top spot for budget hosting.</p>
 
 <p>Hostinger hits a sweet spot that no other budget host matches: genuinely low prices, modern LiteSpeed server infrastructure, a beginner-friendly control panel (hPanel), and AI tools that actually help rather than just existing as marketing bullet points.</p>
 

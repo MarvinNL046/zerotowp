@@ -240,6 +240,8 @@ const mustHavePluginsContent = `
 
 <p><strong>Active installs:</strong> 10 million+</p>
 
+<p>If you need to add custom PHP snippets to your site — Google Analytics code, custom functions, or tracking pixels — check out my guide to the <a href="/best-code-snippet-plugins/">best code snippet plugins</a>. They let you add code safely without editing theme files, and your snippets survive theme updates.</p>
+
 <p class="pro-tip"><strong>Pro Tip:</strong> Don't obsess over the green dots in Yoast's content analysis. I've seen people rewrite perfectly good articles just to turn every circle green. Focus on writing genuinely helpful content first, <em>then</em> optimize. A well-written article with an orange Yoast score will outrank a keyword-stuffed article with a green score every single time.</p>
 
 <p><strong>When you DON'T need it:</strong> If you're already using Rank Math or All in One SEO, don't switch. They all do the same fundamental job. The worst thing you can do is run two SEO plugins at once — that will cause duplicate meta tags and conflicting sitemaps. Pick one and stick with it.</p>
@@ -367,7 +369,7 @@ const mustHavePluginsContent = `
 
 <p class="pro-tip"><strong>Pro Tip:</strong> For the simplest free setup, use the "Other SMTP" option with your hosting provider's email server. For better deliverability, create a free SendGrid account (100 emails/day free) or use Gmail SMTP. Either way, configure this before your site goes live — don't wait until someone complains their password reset email never arrived.</p>
 
-<p><strong>When you DON'T need it:</strong> Honestly? You almost always need it. The only exception is if your hosting provider has already configured reliable email delivery at the server level (rare) or if you're using a managed WordPress host that handles email for you (also rare).</p>
+<p><strong>When you DON'T need it:</strong> Honestly? You almost always need it. The only exception is if your hosting provider has already configured reliable email delivery at the server level (rare) or if you're using a managed WordPress host that handles email for you (also rare). And once your transactional emails are sorted, you'll want to think about building an email list — see my <a href="/best-email-marketing-plugins/">best email marketing plugins</a> guide for that.</p>
 
 <h3>7. Redirection — Manage Your URL Changes</h3>
 

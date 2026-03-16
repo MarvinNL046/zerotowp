@@ -167,7 +167,7 @@ const yoastVsRankMathContent = `
 
 <p>Both plugins have gotten serious about performance over the past few years. Early criticisms of Rank Math being "bloated" with features haven't held up — the modular architecture lets you disable features you don't need, keeping overhead low.</p>
 
-<p>In my testing across a handful of sites, the difference in page load time between Yoast and Rank Math is negligible — we're talking single-digit milliseconds. Both plugins generate clean, well-structured markup. Neither will be the bottleneck on your site's performance. If your site is slow, look at your <a href="/best-wordpress-hosting/">hosting</a>, theme, and image optimization before blaming your SEO plugin.</p>
+<p>In my testing across a handful of sites, the difference in page load time between Yoast and Rank Math is negligible — we're talking single-digit milliseconds. Both plugins generate clean, well-structured markup. Neither will be the bottleneck on your site's performance. If your site is slow, look at your <a href="/how-to-choose-wordpress-hosting/">hosting</a>, theme, and image optimization before blaming your SEO plugin.</p>
 
 <p>Yoast has made meaningful performance improvements in recent versions, including a faster indexable system and reduced database queries. Rank Math similarly benefits from its modular approach — you only load the features you actually use.</p>
 
@@ -230,7 +230,7 @@ const yoastVsRankMathContent = `
 <p>Rank Math's free version is genuinely feature-rich — not a crippled trial. You get 5 focus keywords, 20+ schema types, a redirect manager, Google Search Console integration, and more. The Pro version ($59/year) adds advanced features like keyword rank tracking and Content AI, but the free tier is fully functional for most sites.</p>
 
 <h3>Does Yoast slow down my WordPress site?</h3>
-<p>Both Yoast and Rank Math have minimal impact on page load times in their current versions. Any performance difference between the two is negligible — we're talking single-digit milliseconds. If your site is slow, investigate your <a href="/best-wordpress-hosting/">hosting provider</a>, theme, and unoptimized images before blaming your SEO plugin. The SEO plugin is almost never the bottleneck.</p>
+<p>Both Yoast and Rank Math have minimal impact on page load times in their current versions. Any performance difference between the two is negligible — we're talking single-digit milliseconds. If your site is slow, investigate your <a href="/how-to-choose-wordpress-hosting/">hosting provider</a>, theme, and unoptimized images before blaming your SEO plugin. The SEO plugin is almost never the bottleneck.</p>
 
 <h3>Which plugin has better support?</h3>
 <p>Yoast Premium includes 24/7 support from SEO specialists, which is a genuine advantage. Rank Math offers support through their forum and ticket system, with faster response times on paid plans. For free users, both rely primarily on community forums and documentation. If premium support is critical to you, Yoast has the edge.</p>

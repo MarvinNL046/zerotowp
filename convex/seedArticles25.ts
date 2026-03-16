@@ -290,7 +290,7 @@ add_action('wp_head', 'add_google_analytics');</code></pre>
 
 <h3>3. Top Pages</h3>
 
-<p>Go to <strong>Reports &rarr; Engagement &rarr; Pages and Screens</strong>. This shows which pages get the most traffic. This is gold for content strategy — it tells you what topics your audience cares about so you can create more content in those areas. It also reveals underperforming pages that might need updating or better <a href="/best-wordpress-seo-plugins">on-page SEO</a>.</p>
+<p>Go to <strong>Reports &rarr; Engagement &rarr; Pages and Screens</strong>. This shows which pages get the most traffic. This is gold for content strategy — it tells you what topics your audience cares about so you can create more content in those areas. It also reveals underperforming pages that might need updating or better <a href="/best-seo-plugins">on-page SEO</a>.</p>
 
 <h3>4. Engagement Rate</h3>
 
@@ -315,7 +315,7 @@ add_action('wp_head', 'add_google_analytics');</code></pre>
 <p>The Google Analytics tracking script adds roughly 28KB to your page load — barely noticeable on modern connections. In my testing across multiple sites, the impact on Core Web Vitals is minimal (typically 0-50ms on Largest Contentful Paint). The insights you gain far outweigh this tiny performance cost. If speed is a major concern, consider loading the script with a delay or using a plugin that optimizes script loading.</p>
 
 <h3>Can I use Google Analytics with an SEO plugin like Rank Math or Yoast?</h3>
-<p>Absolutely. Google Analytics and <a href="/best-wordpress-seo-plugins">SEO plugins</a> serve different purposes and work perfectly together. Analytics tracks your visitor behavior and traffic sources, while SEO plugins help you optimize your content for search engines. In fact, using both together is the standard setup for any serious WordPress site — the SEO plugin helps you rank, and Analytics shows you whether it's working.</p>
+<p>Absolutely. Google Analytics and <a href="/best-seo-plugins">SEO plugins</a> serve different purposes and work perfectly together. Analytics tracks your visitor behavior and traffic sources, while SEO plugins help you optimize your content for search engines. In fact, using both together is the standard setup for any serious WordPress site — the SEO plugin helps you rank, and Analytics shows you whether it's working.</p>
 
 <h2>What's Next?</h2>
 
@@ -323,7 +323,7 @@ add_action('wp_head', 'add_google_analytics');</code></pre>
 
 <ul>
 <li><strong><a href="/wordpress-seo">WordPress SEO Guide</a></strong> — Learn how to optimize your site for Google so you actually have traffic worth tracking</li>
-<li><strong><a href="/best-wordpress-seo-plugins">Best SEO Plugins</a></strong> — Compare Rank Math, Yoast, and AIOSEO to find the right SEO plugin for your site</li>
+<li><strong><a href="/best-seo-plugins">Best SEO Plugins</a></strong> — Compare Rank Math, Yoast, and AIOSEO to find the right SEO plugin for your site</li>
 <li><strong><a href="/install-wordpress">Install WordPress</a></strong> — Just getting started? Here's my step-by-step guide to setting up WordPress from scratch</li>
 </ul>
 

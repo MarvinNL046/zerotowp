@@ -119,7 +119,7 @@ const pluginsPillarContent = `
 <tr>
 <td><strong>Wordfence</strong></td>
 <td>Security</td>
-<td>Free / $119/yr</td>
+<td>Free / $149/yr</td>
 <td>5M+</td>
 </tr>
 <tr>
@@ -278,7 +278,7 @@ const pluginsPillarContent = `
 
 <p>The <strong>free version</strong> is excellent. It includes the full firewall (with rules delayed by 30 days compared to Premium), malware scanning, 2FA, and brute force protection. For most personal and small business sites, Wordfence Free is more than enough.</p>
 
-<p><strong>Wordfence Premium ($119/year)</strong> adds real-time firewall rules (instead of the 30-day delay), real-time IP blocklists, country blocking, and premium support. If your site handles sensitive data, processes payments, or is a frequent target, Premium is worth the investment.</p>
+<p><strong>Wordfence Premium ($149/year)</strong> adds real-time firewall rules (instead of the 30-day delay), real-time IP blocklists, country blocking, and premium support. If your site handles sensitive data, processes payments, or is a frequent target, Premium is worth the investment.</p>
 
 <p>One thing I love about Wordfence: it sends you detailed email notifications. Every blocked attack, every failed login attempt, every file change — you know exactly what's happening on your site. Some people find the emails overwhelming. I find them reassuring. I'd rather get too many security alerts than too few.</p>
 
@@ -286,7 +286,7 @@ const pluginsPillarContent = `
 
 <p><strong>Sucuri</strong> takes a different approach — it's a cloud-based web application firewall that sits between your visitors and your server. All traffic passes through Sucuri's network first, where malicious requests get blocked before they ever reach your site. This makes it especially effective against DDoS attacks and large-scale bot attacks.</p>
 
-<p>The free WordPress plugin is basically just a security audit tool. The real power is in the <strong>Sucuri Firewall ($199/year)</strong>, which includes CDN, DDoS protection, and virtual patching. It's more expensive than Wordfence, but for sites that are under active attack or need enterprise-grade protection, it's hard to beat.</p>
+<p>The free WordPress plugin is basically just a security audit tool. The real power is in the <strong>Sucuri Firewall ($229/year)</strong>, which includes CDN, DDoS protection, and virtual patching. It's more expensive than Wordfence, but for sites that are under active attack or need enterprise-grade protection, it's hard to beat.</p>
 
 <p>My recommendation: <strong>Wordfence for most sites, Sucuri if you need cloud-based protection or are dealing with active attacks.</strong></p>
 
@@ -464,7 +464,7 @@ const pluginsPillarContent = `
 
 <p>This is one of the most common questions I get, and the honest answer is: <strong>there's no magic number.</strong> I've seen sites with 30 plugins that run beautifully, and sites with 12 plugins that are a mess. It depends entirely on the quality of the plugins and how well they're configured.</p>
 
-<p>That said, I aim for <strong>15-20 active plugins maximum</strong> on a typical site. That gives me room for the essentials (SEO, security, backups, caching, forms) plus a few category-specific plugins (WooCommerce for stores, an events plugin for event sites, etc.) without going overboard.</p>
+<p>That said, I aim for <strong>15-20 active plugins maximum</strong> on a typical site. That gives me room for the essentials (SEO, security, backups, caching, forms) plus a few category-specific plugins (WooCommerce for stores, a <a href="/best-translation-plugins/">translation plugin</a> for multilingual sites, etc.) without going overboard.</p>
 
 <p>I've seen sites with 50+ plugins that are basically unusable. Every page load triggers dozens of database queries, loads hundreds of kilobytes of CSS and JavaScript, and creates so many potential conflict points that updating any single plugin becomes a high-stress event.</p>
 

@@ -100,7 +100,7 @@ const cloudflareCDNContent = `
 <li><strong>Web analytics</strong> — basic traffic insights without any tracking scripts</li>
 </ul>
 
-<p>For a free service, that's an absurd amount of value. Most WordPress sites will never need to upgrade to a paid plan. I only recommend the Pro plan ($20/month) for sites that need image optimization (Polish) or the Web Application Firewall (WAF) with managed rulesets.</p>
+<p>For a free service, that's an absurd amount of value. Most WordPress sites will never need to upgrade to a paid plan. I only recommend the Pro plan ($25/month) for sites that need image optimization (Polish) or the Web Application Firewall (WAF) with managed rulesets.</p>
 
 <img src="/screenshots/cloudflare-homepage.webp" alt="Cloudflare homepage showing their global network and free tier offering" />
 
@@ -201,7 +201,7 @@ const cloudflareCDNContent = `
 <tr>
 <th>Feature</th>
 <th>Cloudflare (Free)</th>
-<th>Cloudflare Pro ($20/mo)</th>
+<th>Cloudflare Pro ($25/mo)</th>
 <th>BunnyCDN</th>
 <th>KeyCDN</th>
 </tr>
@@ -210,7 +210,7 @@ const cloudflareCDNContent = `
 <tr>
 <td>Price</td>
 <td>Free</td>
-<td>$20/month</td>
+<td>$25/month</td>
 <td>~$1/mo for small sites</td>
 <td>Pay-per-use ($0.04/GB)</td>
 </tr>

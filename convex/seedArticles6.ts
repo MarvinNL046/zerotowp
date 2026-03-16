@@ -590,7 +590,7 @@ const hostingPillarContent = `
 
 <h3>Can I switch hosts later?</h3>
 
-<p>Absolutely. Migrating a WordPress site to a new host is easier than most people think. SiteGround and Hostinger both offer free migration tools and services. The whole process usually takes 30-60 minutes. Don't let fear of migration lock you into a host you're not happy with. See my guide on <a href="/how-to-install-wordpress">installing WordPress</a> for more on the setup process.</p>
+<p>Absolutely. Migrating a WordPress site to a new host is easier than most people think. SiteGround and Hostinger both offer free migration tools and services. The whole process usually takes 30-60 minutes. Don't let fear of migration lock you into a host you're not happy with. I've written a complete <a href="/migrate-wordpress-to-new-host/">guide to migrating WordPress to a new host</a> that walks through every step. You can also see my guide on <a href="/how-to-install-wordpress">installing WordPress</a> for more on the setup process.</p>
 
 <h3>Is free WordPress hosting worth it?</h3>
 

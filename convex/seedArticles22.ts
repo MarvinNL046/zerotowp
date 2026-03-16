@@ -274,5 +274,5 @@ Good: <code>/wordpress-seo-checklist/</code></p>
 
 <p>Print this checklist out if it helps. Stick it next to your monitor. Run through it every time you publish a new post and do a full site audit quarterly. The compound effect of getting these 20 things right, consistently, is genuinely powerful.</p>
 
-<p>For a comprehensive strategy guide, head over to my <a href="/wordpress-seo-guide/">WordPress SEO guide</a>. And if you haven't chosen your SEO plugin yet, my <a href="/best-seo-plugins/">SEO plugin comparison</a> will help you pick the right one in under 5 minutes.</p>
+<p>For a comprehensive strategy guide, head over to my <a href="/wordpress-seo-guide/">WordPress SEO guide</a>. If you want more hands-on tactics beyond this checklist, my article on <a href="/improve-wordpress-seo/">how to improve your WordPress SEO</a> dives deeper into advanced techniques. And if you haven't chosen your SEO plugin yet, my <a href="/best-seo-plugins/">SEO plugin comparison</a> will help you pick the right one in under 5 minutes.</p>
 `;

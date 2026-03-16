@@ -86,7 +86,7 @@ const speedUpWordPressContent = `
 
 <img src="/screenshots/gtmetrix-speed-test.webp" alt="GTmetrix homepage showing the website speed test interface with URL input field and performance report preview" />
 
-<p><strong>What the scores mean:</strong> In GTmetrix, you want a Performance score above 90% and a fully loaded time under 2 seconds. In PageSpeed Insights, aim for "Good" on all three Core Web Vitals: Largest Contentful Paint (LCP) under 2.5s, First Input Delay (FID) under 100ms, and Cumulative Layout Shift (CLS) under 0.1. If your numbers are worse than this, the optimizations below will help — a lot.</p>
+<p><strong>What the scores mean:</strong> In GTmetrix, you want a Performance score above 90% and a fully loaded time under 2 seconds. In PageSpeed Insights, aim for "Good" on all three Core Web Vitals: Largest Contentful Paint (LCP) under 2.5s, Interaction to Next Paint (INP) under 200ms, and Cumulative Layout Shift (CLS) under 0.1. If your numbers are worse than this, the optimizations below will help — a lot.</p>
 
 <h2>10 Speed Optimizations Ranked by Impact</h2>
 
@@ -146,11 +146,11 @@ const speedUpWordPressContent = `
 
 <p>Lazy loading means images and videos below the fold don't load until the visitor scrolls down to them. This dramatically reduces initial page weight and speeds up the perceived load time. WordPress has built-in lazy loading since version 5.5, but it only covers images. For embedded YouTube videos (which are shockingly heavy — each embed loads 500KB+ of scripts), use your caching plugin's lazy load feature or a plugin like WP YouTube Lyte that replaces the embed with a lightweight placeholder until clicked.</p>
 
-<p><strong>Pro tip:</strong> Don't lazy load your above-the-fold hero image or LCP element. That actually hurts your Core Web Vitals score because the browser delays loading the most important content. Most caching plugins let you exclude specific images from lazy loading.</p>
+<p><strong>Pro tip:</strong> Don't lazy load your above-the-fold hero image or LCP element. That actually hurts your Core Web Vitals score because the browser delays loading the most important content. Most caching plugins let you exclude specific images from lazy loading. For a complete walkthrough of lazy loading best practices, see my <a href="/wordpress-lazy-loading/">WordPress lazy loading guide</a>.</p>
 
 <h3>#9 — Optimize Your Database</h3>
 
-<p>Over time, your WordPress database accumulates junk: post revisions, spam comments, transient options, orphaned metadata, and auto-drafts. On a site that's been running for a year or two, I routinely find databases bloated to 3-4x their necessary size. Install <strong>WP-Optimize</strong> (free), run a cleanup, and schedule automatic weekly optimizations. It safely removes expired transients, trashed posts, spam comments, and old revisions while keeping your data intact. I typically see database query times improve by 20-30% after a good cleanup.</p>
+<p>Over time, your WordPress database accumulates junk: post revisions, spam comments, transient options, orphaned metadata, and auto-drafts. On a site that's been running for a year or two, I routinely find databases bloated to 3-4x their necessary size. Install <strong>WP-Optimize</strong> (free), run a cleanup, and schedule automatic weekly optimizations. It safely removes expired transients, trashed posts, spam comments, and old revisions while keeping your data intact. I typically see database query times improve by 20-30% after a good cleanup. For a deeper dive into keeping your database lean, see my dedicated <a href="/wordpress-database-optimization/">WordPress database optimization</a> guide.</p>
 
 <h3>#10 — Use PHP 8.2+</h3>
 

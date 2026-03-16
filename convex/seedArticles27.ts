@@ -120,7 +120,7 @@ const writeBlogPostThatRanksContent = `
 
 <h3>Add a Table of Contents for Long Posts</h3>
 
-<p>Any post over 1,500 words should have a table of contents near the top. This isn't just good for readers (though it absolutely is — people love being able to jump to the section they care about). It's also great for SEO because Google sometimes uses your TOC links to create sitelinks in search results, which makes your listing bigger and more clickable. Most <a href="/best-wordpress-seo-plugins">SEO plugins</a> can generate a table of contents automatically, or you can use a dedicated plugin like Easy Table of Contents.</p>
+<p>Any post over 1,500 words should have a table of contents near the top. This isn't just good for readers (though it absolutely is — people love being able to jump to the section they care about). It's also great for SEO because Google sometimes uses your TOC links to create sitelinks in search results, which makes your listing bigger and more clickable. Most <a href="/best-seo-plugins">SEO plugins</a> can generate a table of contents automatically, or you can use a dedicated plugin like Easy Table of Contents.</p>
 
 <h3>Use an H2/H3 Hierarchy That Matches Search Intent</h3>
 
@@ -156,7 +156,7 @@ const writeBlogPostThatRanksContent = `
 
 <p><strong>Meta description:</strong></p>
 <ul>
-<li>Write a custom meta description of 150-160 characters that includes your keyword and compels people to click. Your <a href="/best-wordpress-seo-plugins">SEO plugin</a> (Rank Math or Yoast) will have a field for this. Don't leave it blank — Google will auto-generate one, and it's almost always worse than what you'd write yourself.</li>
+<li>Write a custom meta description of 150-160 characters that includes your keyword and compels people to click. Your <a href="/best-seo-plugins">SEO plugin</a> (Rank Math or Yoast) will have a field for this. Don't leave it blank — Google will auto-generate one, and it's almost always worse than what you'd write yourself.</li>
 </ul>
 
 <p><strong>Images:</strong></p>
@@ -206,7 +206,7 @@ const writeBlogPostThatRanksContent = `
 
 <p>This is the "secret weapon" most bloggers ignore. Updating an existing post with authority is far more effective than writing a new one from scratch. Every quarter, I update my top-performing posts: add new information, refresh screenshots, update year references, and add internal links to newer content.</p>
 
-<p><strong>Pro tip:</strong> When you update a post, change the "last modified" date. Your <a href="/best-wordpress-seo-plugins">SEO plugin</a> should handle this automatically, but double-check. Google's search results often show dates, and a post from 2024 will get fewer clicks than one updated in 2026 — even if the content is identical. I've seen posts jump 10-20 positions just from a thorough update.</p>
+<p><strong>Pro tip:</strong> When you update a post, change the "last modified" date. Your <a href="/best-seo-plugins">SEO plugin</a> should handle this automatically, but double-check. Google's search results often show dates, and a post from 2024 will get fewer clicks than one updated in 2026 — even if the content is identical. I've seen posts jump 10-20 positions just from a thorough update.</p>
 
 <h2>Real Example: Anatomy of a Post That Ranks</h2>
 
@@ -230,7 +230,7 @@ const writeBlogPostThatRanksContent = `
 <p>Both, but improving existing posts gives faster results. A post already ranking on page 2-3 just needs a push to reach page 1, while a new post has to build authority from scratch. My rule: 60% creating new posts, 40% updating existing ones. Use Google Search Console to find posts ranking in positions 8-20 and give them a thorough update.</p>
 
 <h3>Do I need an SEO plugin to write posts that rank?</h3>
-<p>Technically no, but practically yes. An SEO plugin like <a href="/best-wordpress-seo-plugins">Rank Math or Yoast SEO</a> gives you real-time feedback — telling you whether your keyword appears in the right places and flagging readability issues. It's like having an SEO expert looking over your shoulder. I use Rank Math on all my sites and recommend it for beginners and experienced users alike.</p>
+<p>Technically no, but practically yes. An SEO plugin like <a href="/best-seo-plugins">Rank Math or Yoast SEO</a> gives you real-time feedback — telling you whether your keyword appears in the right places and flagging readability issues. It's like having an SEO expert looking over your shoulder. I use Rank Math on all my sites and recommend it for beginners and experienced users alike.</p>
 
 <h3>Is it better to write short, frequent posts or long, detailed posts?</h3>
 <p>Long, detailed posts — every time. I used to publish three short posts per week and got nowhere. Then I switched to one comprehensive post per week, and my traffic tripled within four months. One 2,500-word post that thoroughly covers a topic will outperform five 500-word posts on subtopics. Focus on quality over quantity.</p>
@@ -239,5 +239,5 @@ const writeBlogPostThatRanksContent = `
 
 <p>Writing blog posts that rank isn't rocket science, but it requires a deliberate process. Start with <a href="/keyword-research-beginners/">keyword research</a>, structure your post for both readers and search engines, hit the on-page SEO basics, and write clearly. The biggest mistake beginners make is overthinking it. Pick a keyword, write the best answer on the internet, follow the checklist, and hit publish. Consistency plus quality is the formula, and after 20 years I can tell you there are no shortcuts that last.</p>
 
-<p>If you're serious about ranking, make sure you've covered the fundamentals: read my <a href="/wordpress-seo-guide/">complete WordPress SEO guide</a> for the big-picture strategy, set up <a href="/install-google-analytics-wordpress/">Google Analytics</a> to track what's working, and install a solid <a href="/best-wordpress-seo-plugins">SEO plugin</a> to guide your optimization. Now go write something worth ranking for.</p>
+<p>If you're serious about ranking, make sure you've covered the fundamentals: read my <a href="/wordpress-seo-guide/">complete WordPress SEO guide</a> for the big-picture strategy, set up <a href="/install-google-analytics-wordpress/">Google Analytics</a> to track what's working, and install a solid <a href="/best-seo-plugins">SEO plugin</a> to guide your optimization. Now go write something worth ranking for.</p>
 `;

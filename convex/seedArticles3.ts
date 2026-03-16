@@ -207,7 +207,7 @@ const pillarContent = `
 <li><strong>Settings</strong> — general site configuration</li>
 </ul>
 
-<p>Don't worry about learning every menu right now. We'll go through the important parts step by step.</p>
+<p>Don't worry about learning every menu right now. We'll go through the important parts step by step. If you want a thorough walkthrough of every dashboard section, see my <a href="/wordpress-dashboard-explained/">WordPress dashboard explained</a> guide. And for a broader overview of learning resources, check out my <a href="/wordpress-tutorials-guide/">WordPress tutorials guide</a>.</p>
 
 <h2>Step 5 — Choose and Install a Theme</h2>
 

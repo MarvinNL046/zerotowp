@@ -105,7 +105,7 @@ const bestMonetizationPluginsContent = `
 <tr>
 <td>ThirstyAffiliates</td>
 <td>Affiliate Links</td>
-<td>Large user base</td>
+<td>50,000+</td>
 <td>Yes</td>
 <td>$99.60/yr</td>
 <td>4.6/5</td>
@@ -113,7 +113,7 @@ const bestMonetizationPluginsContent = `
 <tr>
 <td>Pretty Links</td>
 <td>Affiliate Links</td>
-<td>Large user base</td>
+<td>300,000+</td>
 <td>Yes</td>
 <td>$99.50/yr</td>
 <td>4.8/5</td>
@@ -121,7 +121,7 @@ const bestMonetizationPluginsContent = `
 <tr>
 <td>Advanced Ads</td>
 <td>Ad Management</td>
-<td>Large user base</td>
+<td>200,000+</td>
 <td>Yes</td>
 <td>&euro;89/yr</td>
 <td>4.9/5</td>
@@ -129,7 +129,7 @@ const bestMonetizationPluginsContent = `
 <tr>
 <td>Ad Inserter</td>
 <td>Ad Management</td>
-<td>Large user base</td>
+<td>300,000+</td>
 <td>Yes</td>
 <td>&euro;20/yr</td>
 <td>4.9/5</td>
@@ -137,7 +137,7 @@ const bestMonetizationPluginsContent = `
 <tr>
 <td>Easy Digital Downloads</td>
 <td>Digital Products</td>
-<td>Large user base</td>
+<td>50,000+</td>
 <td>Yes</td>
 <td>&euro;139.65/yr</td>
 <td>4.7/5</td>
@@ -145,7 +145,7 @@ const bestMonetizationPluginsContent = `
 <tr>
 <td>WP Simple Pay</td>
 <td>Payments</td>
-<td>Large user base</td>
+<td>100,000+</td>
 <td>Yes</td>
 <td>$49.50/yr</td>
 <td>4.4/5</td>

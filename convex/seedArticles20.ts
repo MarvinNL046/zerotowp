@@ -1117,6 +1117,10 @@ const howToChooseThemeContent = `
 
 <p>I'll be straightforward: if you're building a site that will generate revenue — whether through ads, affiliate links, product sales, or services — the $47-59/year for a premium theme like <a href="/astra-theme-review/">Astra Pro</a> or GeneratePress Premium is one of the best investments you can make. It's less than the cost of a single lunch per month.</p>
 
+<h3>A Note on ThemeForest</h3>
+
+<p>You'll inevitably come across <strong>ThemeForest</strong> (by Envato) during your theme search. It's the largest third-party WordPress theme marketplace, with 11,000+ themes at one-time prices of typically $29-$69 (including 6 months of developer support). ThemeForest is great for finding niche-specific designs — themes built specifically for restaurants, law firms, fitness studios, or any industry you can think of. However, be cautious: many ThemeForest themes are packed with so many bundled plugins and features that they become bloated and slow. Stick to themes with recent updates, high ratings, and clean code. When in doubt, the themes I recommend in my <a href="/best-wordpress-themes/">best WordPress themes</a> guide are leaner, faster, and better supported long-term.</p>
+
 <h2>7 Things to Check Before Installing ANY Theme</h2>
 
 <p>This is the framework I use when evaluating themes, whether they're free or premium. Run through this checklist and you'll eliminate 90% of bad themes before they waste your time.</p>
