@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 48" fill="none">
+  <!-- Progress bar icon -->
+  <rect x="4" y="14" width="32" height="20" rx="6" stroke="#0f172a" stroke-width="2.5" fill="none"/>
+  <rect x="7" y="17" width="20" height="14" rx="4" fill="#f97316"/>
+  <!-- Lightning bolt inside (charging/power up) -->
+  <path d="M19 17 L15 24 L18 24 L16 31 L22 23 L19 23 L21 17Z" fill="white"/>
+  <!-- Wordmark -->
+  <text x="46" y="36" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="32" font-weight="800" letter-spacing="-1">
+    <tspan fill="#f97316">ZeroTo</tspan><tspan fill="#0f172a">WP</tspan>
+  </text>
+</svg>

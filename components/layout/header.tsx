@@ -8,7 +8,7 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo-rocket.svg" alt="ZeroToWP" className="h-8" />
+          <img src="/logo-rocket.svg" alt="ZeroToWP" className="h-10" />
         </Link>
 
         {/* Desktop nav links — hidden on mobile, visible on md+ */}

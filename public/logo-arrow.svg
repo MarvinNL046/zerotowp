@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 48" fill="none">
+  <!-- Arrow icon: from circle (zero) upward -->
+  <circle cx="16" cy="32" r="8" stroke="#f97316" stroke-width="3" fill="none"/>
+  <path d="M16 28 L16 8 M10 14 L16 8 L22 14" stroke="#f97316" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Wordmark -->
+  <text x="38" y="36" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="32" font-weight="800" letter-spacing="-1">
+    <tspan fill="#f97316">ZeroTo</tspan><tspan fill="#0f172a">WP</tspan>
+  </text>
+</svg>
