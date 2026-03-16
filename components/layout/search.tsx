@@ -5,7 +5,18 @@ import { useQuery } from "convex/react";
 import { api } from "@/convex/_generated/api";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { Search, X } from "lucide-react";
+import { Search, X, TrendingUp, ArrowRight } from "lucide-react";
+
+const TRENDING_SEARCHES = [
+  { label: "Best WordPress Hosting", href: "/how-to-choose-wordpress-hosting" },
+  { label: "Speed Up WordPress", href: "/speed-up-wordpress" },
+  { label: "Best SEO Plugins", href: "/best-seo-plugins" },
+  { label: "WordPress vs Wix", href: "/wordpress-vs-wix" },
+  { label: "Start a Blog", href: "/start-a-blog" },
+  { label: "Best Free Themes", href: "/best-free-wordpress-themes" },
+  { label: "Security Guide", href: "/wordpress-security-complete-guide" },
+  { label: "WooCommerce Store", href: "/create-online-store-wordpress" },
+];
 
 function useDebounce<T>(value: T, delay: number): T {
   const [debounced, setDebounced] = useState(value);
@@ -176,10 +187,39 @@ export default function SearchBar() {
         </form>
       )}
 
-      {/* Dropdown results */}
-      {open && debouncedQuery.length >= 2 && (
+      {/* Dropdown */}
+      {open && (
         <div className="absolute top-full left-0 right-0 md:left-auto md:right-auto md:w-96 mt-2 bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden z-50">
-          {results === undefined ? (
+          {debouncedQuery.length < 2 ? (
+            /* Trending searches — shown when input is empty or < 2 chars */
+            <div>
+              <div className="flex items-center gap-2 px-4 pt-3 pb-2">
+                <TrendingUp size={14} className="text-orange-500" />
+                <span className="text-xs font-semibold text-slate-500 uppercase tracking-wider">
+                  Popular
+                </span>
+              </div>
+              <ul className="divide-y divide-slate-100">
+                {TRENDING_SEARCHES.map(({ label, href }) => (
+                  <li key={href}>
+                    <Link
+                      href={href}
+                      onClick={() => {
+                        setOpen(false);
+                        setMobileExpanded(false);
+                        setQuery("");
+                      }}
+                      className="flex items-center gap-3 px-4 py-2.5 hover:bg-orange-50 transition-colors"
+                    >
+                      <Search size={14} className="text-slate-400 shrink-0" />
+                      <span className="text-sm text-slate-700 flex-1">{label}</span>
+                      <ArrowRight size={14} className="text-slate-300" />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ) : results === undefined ? (
             <div className="px-4 py-6 text-center text-sm text-slate-400">
               Searching...
             </div>
