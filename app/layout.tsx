@@ -15,7 +15,6 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: "ZeroToWP",
-    url: "https://zerotowp.com",
   },
   twitter: {
     card: "summary_large_image",

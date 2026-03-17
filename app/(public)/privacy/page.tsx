@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy — ZeroToWP",
   description:
-    "How ZeroToWP collects, uses, and protects your personal data. Read our full privacy policy.",
+    "How ZeroToWP collects, uses, and protects your personal data. Covers analytics, newsletters, comments, third-party services, GDPR rights, and data retention policies.",
 };
 
 export default function PrivacyPolicyPage() {

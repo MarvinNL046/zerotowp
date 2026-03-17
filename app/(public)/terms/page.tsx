@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms of Service — ZeroToWP",
   description:
-    "Terms and conditions for using ZeroToWP.com. Read our terms of service before using our site.",
+    "Terms and conditions for using ZeroToWP.com. Covers intellectual property, user content, affiliate links, liability limitations, and your rights under Dutch law.",
 };
 
 export default function TermsPage() {
