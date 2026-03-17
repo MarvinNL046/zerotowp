@@ -198,6 +198,8 @@ const bestWordPressSeoServicesContent = `
 
 <h2>2. SmartSites — Best for Small Business WordPress SEO</h2>
 
+<img src="/screenshots/seo-service-smartsites.webp" alt="SmartSites homepage — a top-rated digital marketing agency for small business WordPress SEO" />
+
 <p><a href="https://www.smartsites.com/" target="_blank" rel="noopener noreferrer nofollow">SmartSites</a> has earned over 1,000 five-star reviews and been named to the Inc. 5000 list nine times between 2017 and 2025. They're headquartered in New Jersey and specialize in working with small to mid-sized businesses — the exact profile of most WordPress site owners.</p>
 
 <h3>What They Offer</h3>
@@ -217,6 +219,8 @@ const bestWordPressSeoServicesContent = `
 <p><strong>Best for:</strong> Small business owners running WordPress who want a responsive, hands-on agency that won't talk over their heads. Especially strong for local businesses targeting geographic keywords.</p>
 
 <h2>3. Coalition Technologies — Best for Technical WordPress SEO</h2>
+
+<img src="/screenshots/seo-service-coalition-technologies.webp" alt="Coalition Technologies homepage — a technical SEO agency with 700+ case studies" />
 
 <p><a href="https://coalitiontechnologies.com/" target="_blank" rel="noopener noreferrer nofollow">Coalition Technologies</a> is based in Los Angeles with additional offices in Austin and Seattle. Founded in 2009, they've built up over 700 case studies and more than 1,000 client reviews. Their team of 260+ includes over 100 members focused specifically on AI-enhanced SEO.</p>
 
@@ -240,6 +244,8 @@ const bestWordPressSeoServicesContent = `
 
 <h2>4. Searchbloom — Best for Ongoing SEO Management</h2>
 
+<img src="/screenshots/seo-service-searchbloom.webp" alt="Searchbloom homepage — a custom-strategy SEO agency focused on ROI" />
+
 <p><a href="https://www.searchbloom.com/" target="_blank" rel="noopener noreferrer nofollow">Searchbloom</a> is a Utah-based search marketing agency that focuses exclusively on SEO and PPC. They don't sell packages — instead, they build custom strategies based on your business model, margins, and market. This approach has earned them a 4.9/5 rating on Clutch with 100% reviewer satisfaction for their WordPress SEO services.</p>
 
 <h3>What They Offer</h3>
@@ -260,6 +266,8 @@ const bestWordPressSeoServicesContent = `
 
 <h2>5. VizibleSEO — Best for WordPress SEO Audits</h2>
 
+<img src="/screenshots/seo-service-vizibleseo.webp" alt="VizibleSEO homepage — a WordPress-specific SEO agency" />
+
 <p><a href="https://vizibleseo.com/" target="_blank" rel="noopener noreferrer nofollow">VizibleSEO</a> is the only agency on this list that brands itself specifically as a <strong>WordPress SEO agency</strong>. Founded in 2023, they're a smaller team of about 10 people focused entirely on WordPress, WooCommerce, and Shopify SEO. Sometimes smaller means more specialized.</p>
 
 <h3>What They Offer</h3>
@@ -279,6 +287,8 @@ const bestWordPressSeoServicesContent = `
 <p><strong>Best for:</strong> WordPress site owners who want a one-time SEO audit to identify issues, or who need affordable ongoing WordPress SEO support. If you're running a niche site or small WooCommerce store and need WordPress-specific expertise on a budget, VizibleSEO is the most focused option. Pair their audit with my <a href="/wordpress-seo-checklist/">SEO checklist</a> to maximize the value.</p>
 
 <h2>6. Siege Media — Best for Content-Led WordPress SEO</h2>
+
+<img src="/screenshots/seo-service-siege-media.webp" alt="Siege Media homepage — a content-focused SEO agency" />
 
 <p><a href="https://www.siegemedia.com/" target="_blank" rel="noopener noreferrer nofollow">Siege Media</a> takes a different approach from the others on this list. Rather than focusing primarily on technical SEO, they specialize in content strategy, digital PR, and what they call Generative Engine Optimization (GEO) — preparing your content to perform in both traditional search and AI-driven discovery. Founded in 2012, they're a 100% remote team with hubs in Austin, San Diego, New York, and Chicago.</p>
 
