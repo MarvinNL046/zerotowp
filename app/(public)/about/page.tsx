@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About — ZeroToWP",
   description:
-    "Learn about ZeroToWP, our mission, and the team behind the honest WordPress guides and reviews.",
+    "Meet the team behind ZeroToWP. We build and test WordPress sites hands-on, then share honest guides, reviews, and tutorials to help beginners succeed.",
+  alternates: { canonical: "https://zerotowp.com/about" },
 };
 
 export default function AboutPage() {

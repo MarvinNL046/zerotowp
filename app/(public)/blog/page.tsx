@@ -7,6 +7,7 @@ import PostCard from "@/components/blog/post-card";
 
 export const metadata: Metadata = {
   title: "Blog — ZeroToWP",
+  alternates: { canonical: "https://zerotowp.com/blog" },
 };
 
 export default async function BlogPage({

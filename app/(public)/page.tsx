@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { fetchQuery } from "convex/nextjs";
 import { api } from "@/convex/_generated/api";
@@ -5,6 +6,10 @@ import { Doc } from "@/convex/_generated/dataModel";
 import PostCard from "@/components/blog/post-card";
 import NewsletterForm from "@/components/layout/newsletter-form";
 import { WebSiteSchema } from "@/components/seo/schema-markup";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://zerotowp.com" },
+};
 import {
   Rocket,
   Shield,

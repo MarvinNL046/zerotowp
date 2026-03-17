@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "WordPress Glossary — 50+ Terms Explained Simply",
   description:
     "A beginner-friendly glossary of WordPress terms. Clear, jargon-free definitions for every concept you will encounter while building your site.",
+  alternates: { canonical: "https://zerotowp.com/glossary" },
 };
 
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");

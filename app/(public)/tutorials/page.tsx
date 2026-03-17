@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "WordPress Tutorials — Step-by-Step Guides for Beginners",
   description:
     "Practical WordPress tutorials covering speed optimization, backups, security, WooCommerce, blogging, and email setup. Follow along step by step.",
+  alternates: { canonical: "https://zerotowp.com/tutorials" },
 };
 
 export default async function TutorialsHubPage() {

@@ -7,6 +7,7 @@ import ReviewCard from "@/components/reviews/review-card";
 
 export const metadata: Metadata = {
   title: "Reviews — ZeroToWP",
+  alternates: { canonical: "https://zerotowp.com/reviews" },
 };
 
 const reviewImageMap: Record<string, string> = {

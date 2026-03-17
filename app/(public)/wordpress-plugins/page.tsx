@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Best WordPress Plugins in 2026 — Essential Tools for Every Site",
   description:
     "Discover the best WordPress plugins for security, SEO, performance, and more. Tested and reviewed so you can build a better site.",
+  alternates: { canonical: "https://zerotowp.com/wordpress-plugins" },
 };
 
 export default async function PluginsHubPage() {

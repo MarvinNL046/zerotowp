@@ -72,20 +72,30 @@ export function ReviewSchema({
     "@type": "Review",
     headline: title,
     description,
+    reviewBody: description,
     url: `${BASE_URL}/${slug}`,
     ...(publishedAt && { datePublished: new Date(publishedAt).toISOString() }),
     ...(updatedAt && { dateModified: new Date(updatedAt).toISOString() }),
-    author: { "@type": "Person", name: authorName },
+    author: {
+      "@type": "Person",
+      name: authorName,
+      url: `${BASE_URL}/about`,
+    },
     publisher: {
       "@type": "Organization",
       name: "ZeroToWP",
       url: BASE_URL,
     },
-    itemReviewed: { "@type": "SoftwareApplication", name: productName },
+    itemReviewed: {
+      "@type": "SoftwareApplication",
+      name: productName,
+      applicationCategory: "WebApplication",
+    },
     reviewRating: {
       "@type": "Rating",
       ratingValue: rating,
       bestRating: 5,
+      worstRating: 1,
     },
   };
 

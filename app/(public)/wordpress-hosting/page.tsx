@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Best WordPress Hosting in 2026 — Honest Picks for Beginners",
   description:
     "Compare the best WordPress hosting providers for beginners. We tested them all so you can pick the right host for your site and budget.",
+  alternates: { canonical: "https://zerotowp.com/wordpress-hosting" },
 };
 
 const reviewImageMap: Record<string, string> = {

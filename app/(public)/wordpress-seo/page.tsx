@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "WordPress SEO for Beginners — The Complete Guide",
   description:
     "Learn how to optimize your WordPress site for search engines. Step-by-step SEO guides written for beginners.",
+  alternates: { canonical: "https://zerotowp.com/wordpress-seo" },
 };
 
 export default async function SeoHubPage() {

@@ -6,6 +6,7 @@ import DealCard from "@/components/deals/deal-card";
 
 export const metadata: Metadata = {
   title: "Deals — ZeroToWP",
+  alternates: { canonical: "https://zerotowp.com/deals" },
 };
 
 export default async function DealsPage() {

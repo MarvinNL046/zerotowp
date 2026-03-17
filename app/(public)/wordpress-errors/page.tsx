@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "WordPress Errors — Fix Common Problems Fast",
   description:
     "Step-by-step solutions for the most common WordPress errors. White Screen of Death, database errors, 500 errors, and more — all fixed in plain English.",
+  alternates: { canonical: "https://zerotowp.com/wordpress-errors" },
 };
 
 export default async function ErrorsHubPage() {

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "How to Speed Up WordPress — Complete Performance Guide",
   description:
     "Make your WordPress site faster with these proven optimization techniques. Caching, image optimization, hosting tips, and more.",
+  alternates: { canonical: "https://zerotowp.com/wordpress-speed" },
 };
 
 export default async function SpeedHubPage() {

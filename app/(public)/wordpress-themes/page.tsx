@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Best WordPress Themes in 2026 — Free & Premium Options",
   description:
     "Find the perfect WordPress theme for your site. We review free and premium themes for speed, design, and beginner-friendliness.",
+  alternates: { canonical: "https://zerotowp.com/wordpress-themes" },
 };
 
 export default async function ThemesHubPage() {

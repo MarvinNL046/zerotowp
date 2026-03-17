@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "WordPress Security Guide — Protect Your Site the Smart Way",
   description:
     "Keep your WordPress site safe from hackers and malware. Practical security guides for beginners who want peace of mind.",
+  alternates: { canonical: "https://zerotowp.com/wordpress-security" },
 };
 
 export default async function SecurityHubPage() {
