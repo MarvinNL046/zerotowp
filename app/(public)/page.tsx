@@ -15,6 +15,7 @@ import {
   Server,
   BookOpen,
   BookText,
+  AlertTriangle,
 } from "lucide-react";
 
 const CLUSTERS = [
@@ -75,6 +76,13 @@ const CLUSTERS = [
     color: "bg-indigo-100 text-indigo-700",
   },
   {
+    label: "Errors",
+    href: "/wordpress-errors",
+    icon: AlertTriangle,
+    description: "Fix common WordPress errors fast",
+    color: "bg-amber-100 text-amber-700",
+  },
+  {
     label: "Glossary",
     href: "/glossary",
     icon: BookText,
@@ -107,7 +115,7 @@ export default async function HomePage() {
 
         <div className="relative max-w-6xl mx-auto text-center flex flex-col items-center gap-6">
           <span className="inline-block rounded-full bg-orange-100 px-4 py-1.5 text-sm font-semibold text-orange-700 tracking-wide">
-            Free WordPress Tutorials &middot; 55+ Guides
+            Free WordPress Tutorials &middot; 60+ Guides
           </span>
           <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight max-w-3xl">
             Learn WordPress the <span className="text-[#f97316]">Right Way</span>
@@ -309,11 +317,11 @@ export default async function HomePage() {
               </p>
               <div className="flex gap-8 text-sm">
                 <div>
-                  <span className="text-2xl font-bold text-orange-400">55+</span>
+                  <span className="text-2xl font-bold text-orange-400">60+</span>
                   <p className="text-slate-400 mt-0.5">Free guides</p>
                 </div>
                 <div>
-                  <span className="text-2xl font-bold text-orange-400">8</span>
+                  <span className="text-2xl font-bold text-orange-400">9</span>
                   <p className="text-slate-400 mt-0.5">Topic hubs</p>
                 </div>
                 <div>

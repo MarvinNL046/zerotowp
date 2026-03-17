@@ -52,6 +52,12 @@ const CATEGORIES: {
     pillarLabel: "WordPress Security Guide",
   },
   {
+    key: "errors",
+    label: "Errors",
+    pillarHref: "/wordpress-errors",
+    pillarLabel: "WordPress Errors Guide",
+  },
+  {
     key: "tutorials",
     label: "Tutorials",
     pillarHref: "/tutorials",

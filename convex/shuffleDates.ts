@@ -67,6 +67,14 @@ const POST_DATES: Record<string, string> = {
   "wordpress-database-optimization": "2026-02-18",
   "wordpress-lazy-loading": "2026-02-20",
 
+  // Errors cluster — spread through Mar
+  "common-wordpress-errors": "2026-03-05",
+  "fix-white-screen-of-death": "2026-03-06",
+  "fix-error-establishing-database-connection": "2026-03-07",
+  "fix-500-internal-server-error": "2026-03-08",
+  "fix-wordpress-memory-exhausted-error": "2026-03-09",
+  "fix-too-many-redirects": "2026-03-10",
+
   // Security cluster — spread through Feb-Mar
   "wordpress-security-complete-guide": "2026-02-22",
   "setup-ssl-wordpress": "2026-02-24",

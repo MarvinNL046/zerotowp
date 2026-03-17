@@ -53,6 +53,7 @@ export default function Footer() {
                 { label: "SEO", href: "/wordpress-seo" },
                 { label: "Speed", href: "/wordpress-speed" },
                 { label: "Security", href: "/wordpress-security" },
+                { label: "Errors", href: "/wordpress-errors" },
                 { label: "Tutorials", href: "/tutorials" },
                 { label: "Glossary", href: "/glossary" },
                 { label: "Reviews", href: "/reviews" },
