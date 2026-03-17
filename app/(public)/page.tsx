@@ -114,30 +114,30 @@ export default async function HomePage() {
       <WebSiteSchema />
 
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-orange-50 via-white to-amber-50 py-24 px-4">
-        <div className="pointer-events-none absolute -top-24 -right-24 h-96 w-96 rounded-full bg-orange-100 opacity-40 blur-3xl" />
-        <div className="pointer-events-none absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-amber-100 opacity-40 blur-3xl" />
+      <section className="relative overflow-hidden bg-gradient-to-br from-orange-50 via-white to-amber-50 py-28 md:py-36 px-4">
+        <div className="pointer-events-none absolute -top-24 -right-24 h-96 w-96 rounded-full bg-orange-100 opacity-30 blur-3xl" />
+        <div className="pointer-events-none absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-amber-100 opacity-30 blur-3xl" />
 
-        <div className="relative max-w-6xl mx-auto text-center flex flex-col items-center gap-6">
-          <span className="inline-block rounded-full bg-orange-100 px-4 py-1.5 text-sm font-semibold text-orange-700 tracking-wide">
-            Free WordPress Tutorials &middot; 60+ Guides
+        <div className="relative max-w-6xl mx-auto text-center flex flex-col items-center gap-8">
+          <span className="inline-flex items-center rounded-full bg-orange-100/80 backdrop-blur-sm px-4 py-1.5 text-sm font-medium text-orange-700">
+            Free WordPress Tutorials &middot; 70+ Guides
           </span>
-          <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight max-w-3xl">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 max-w-3xl">
             Learn WordPress the <span className="text-[#f97316]">Right Way</span>
           </h1>
-          <p className="text-base md:text-lg text-slate-600 max-w-xl leading-relaxed">
+          <p className="text-lg md:text-xl text-slate-500 max-w-2xl leading-relaxed">
             Step-by-step guides to help you build, grow, and manage your WordPress website — no tech experience needed.
           </p>
-          <div className="flex flex-col sm:flex-row gap-3">
+          <div className="flex flex-col sm:flex-row gap-4 mt-2">
             <Link
               href="/start-here"
-              className="inline-block rounded-xl bg-[#f97316] px-8 py-3.5 text-base font-semibold text-white hover:bg-orange-500 transition-colors shadow-md hover:shadow-lg"
+              className="inline-flex items-center justify-center rounded-xl bg-[#f97316] px-8 py-4 text-base font-semibold text-white shadow-lg shadow-orange-500/25 hover:bg-orange-500 hover:shadow-xl hover:shadow-orange-500/30 active:scale-[0.98] transition-all duration-200"
             >
               Start Your Journey &rarr;
             </Link>
             <Link
               href="/wordpress-hosting"
-              className="inline-block rounded-xl border-2 border-slate-300 px-8 py-3.5 text-base font-semibold text-slate-700 hover:border-orange-400 hover:text-orange-600 transition-colors"
+              className="inline-flex items-center justify-center rounded-xl border-2 border-slate-200 bg-white px-8 py-4 text-base font-semibold text-slate-700 hover:border-orange-300 hover:text-orange-600 hover:bg-orange-50 active:scale-[0.98] transition-all duration-200"
             >
               Compare Hosting
             </Link>
@@ -161,16 +161,16 @@ export default async function HomePage() {
               <Link
                 key={href}
                 href={href}
-                className="group flex flex-col gap-3 rounded-2xl border border-slate-200 bg-white p-5 hover:border-orange-300 hover:shadow-md transition-all"
+                className="group flex flex-col gap-4 rounded-2xl border border-slate-200 bg-white p-6 hover:border-orange-200 hover:shadow-lg hover:shadow-orange-100/50 hover:-translate-y-0.5 active:scale-[0.98] transition-all duration-300"
               >
-                <div className={`inline-flex items-center justify-center w-10 h-10 rounded-xl ${color}`}>
+                <div className={`inline-flex items-center justify-center w-11 h-11 rounded-xl ${color} transition-transform duration-300 group-hover:scale-110`}>
                   <Icon className="h-5 w-5" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-slate-900 group-hover:text-[#f97316] transition-colors">
+                  <h3 className="font-semibold text-slate-900 tracking-tight group-hover:text-[#f97316] transition-colors duration-200">
                     {label}
                   </h3>
-                  <p className="text-sm text-slate-500 mt-1 leading-snug">
+                  <p className="text-[13px] text-slate-500 mt-1.5 leading-snug">
                     {description}
                   </p>
                 </div>

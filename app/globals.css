@@ -128,5 +128,34 @@
   }
   html {
     @apply font-sans;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Pro typography: tighten headings for visual polish */
+  h1, h2, h3 {
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+  }
+  h1 {
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+
+  /* Smooth scroll for anchor links */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Better focus states — orange ring matching brand */
+  :focus-visible {
+    outline: 2px solid #f97316;
+    outline-offset: 2px;
+  }
+
+  /* Selection color matching brand */
+  ::selection {
+    background-color: #fed7aa;
+    color: #9a3412;
   }
 }
