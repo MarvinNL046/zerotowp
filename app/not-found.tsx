@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Search, ArrowRight } from "lucide-react";
 
 const POPULAR_PAGES = [
   { label: "Start Here", href: "/start-here", description: "New to WordPress? Begin here" },
@@ -11,45 +12,33 @@ const POPULAR_PAGES = [
 
 export default function NotFound() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center px-4 py-16">
-      {/* 404 heading */}
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 py-20">
+      {/* Empty state — clear visual hierarchy */}
       <div className="text-center mb-12">
-        <p className="text-8xl font-bold text-slate-200 select-none mb-2">
+        <p className="text-[120px] font-extrabold text-slate-100 leading-none select-none">
           404
         </p>
-        <h1 className="text-2xl font-bold text-slate-900 mb-2">
-          Oops! This page doesn&apos;t exist.
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight -mt-4">
+          Page not found
         </h1>
-        <p className="text-slate-500 max-w-md mx-auto">
+        <p className="text-slate-500 mt-3 max-w-md mx-auto leading-relaxed">
           The page you&apos;re looking for may have been moved, deleted, or
-          never existed in the first place.
+          never existed.
         </p>
       </div>
 
-      {/* Search link */}
+      {/* Search CTA — signifier for next action */}
       <Link
         href="/search"
-        className="inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-white px-5 py-3 text-sm text-slate-600 shadow-sm hover:bg-slate-50 transition-colors mb-12"
+        className="inline-flex items-center gap-2.5 rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-medium text-slate-600 shadow-sm hover:border-orange-300 hover:text-orange-600 hover:shadow-md active:scale-[0.98] transition-all duration-200 mb-14"
       >
-        <svg
-          className="h-4 w-4 text-slate-400"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-          />
-        </svg>
+        <Search className="h-4 w-4" />
         Search our site
       </Link>
 
-      {/* Popular pages */}
+      {/* Popular pages — clear cards with hover feedback */}
       <div className="w-full max-w-3xl">
-        <h2 className="text-sm font-semibold text-slate-400 uppercase tracking-wider text-center mb-6">
+        <h2 className="text-xs font-semibold text-slate-400 uppercase tracking-widest text-center mb-6">
           Popular Pages
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -57,24 +46,27 @@ export default function NotFound() {
             <Link
               key={href}
               href={href}
-              className="rounded-xl border border-slate-200 p-4 hover:border-orange-300 hover:bg-orange-50/50 transition-colors group"
+              className="group flex items-center justify-between rounded-xl border border-slate-200 p-4 hover:border-orange-200 hover:bg-orange-50/50 hover:shadow-sm active:scale-[0.99] transition-all duration-200"
             >
-              <p className="font-medium text-slate-900 group-hover:text-orange-600 transition-colors text-sm">
-                {label}
-              </p>
-              <p className="text-xs text-slate-500 mt-0.5">{description}</p>
+              <div>
+                <p className="font-medium text-slate-900 group-hover:text-orange-600 transition-colors text-sm tracking-tight">
+                  {label}
+                </p>
+                <p className="text-xs text-slate-400 mt-0.5">{description}</p>
+              </div>
+              <ArrowRight className="h-4 w-4 text-slate-300 group-hover:text-orange-400 group-hover:translate-x-0.5 transition-all duration-200 shrink-0 ml-3" />
             </Link>
           ))}
         </div>
       </div>
 
-      {/* Back to home */}
-      <div className="mt-12">
+      {/* Primary CTA — strong button with proper states */}
+      <div className="mt-14">
         <Link
           href="/"
-          className="rounded-lg bg-orange-500 px-6 py-3 text-white font-medium hover:bg-orange-600 transition-colors"
+          className="inline-flex items-center rounded-xl bg-[#f97316] px-8 py-3.5 text-white font-semibold shadow-lg shadow-orange-500/25 hover:bg-orange-500 hover:shadow-xl active:scale-[0.98] transition-all duration-200"
         >
-          Go back to the homepage
+          Back to homepage &rarr;
         </Link>
       </div>
     </div>

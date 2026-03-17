@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useAction } from "convex/react";
 import { api } from "@/convex/_generated/api";
+import { CheckCircle, Loader2 } from "lucide-react";
 
 interface NewsletterFormProps {
   source: string;
@@ -26,39 +27,49 @@ export default function NewsletterForm({ source }: NewsletterFormProps) {
       await subscribeAndEmail({ email: email.trim(), source });
       setStatus("success");
       setEmail("");
-    } catch (err) {
+    } catch {
       setStatus("error");
       setErrorMessage("Something went wrong. Please try again.");
     }
   }
 
+  // Success micro-interaction
   if (status === "success") {
     return (
-      <p className="text-sm text-green-400 font-medium">
+      <div className="flex items-center gap-2 text-sm text-green-400 font-medium">
+        <CheckCircle className="h-4 w-4" />
         You&apos;re subscribed! Check your inbox.
-      </p>
+      </div>
     );
   }
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-2">
+    <form onSubmit={handleSubmit} className="flex flex-col gap-2.5">
       <input
         type="email"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="your@email.com"
         required
-        className="w-full rounded-lg border border-slate-600 bg-slate-800 px-3 py-2 text-sm text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-[#f97316]"
+        className="w-full rounded-xl border border-slate-700 bg-slate-800/80 px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-orange-500/50 focus:border-orange-500 transition-all duration-200"
       />
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full rounded-lg bg-[#f97316] px-4 py-2 text-sm font-semibold text-white hover:bg-orange-500 transition-colors disabled:opacity-60"
+        className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[#f97316] px-4 py-2.5 text-sm font-semibold text-white shadow-sm shadow-orange-500/20 hover:bg-orange-500 hover:shadow-md active:scale-[0.98] disabled:opacity-50 disabled:active:scale-100 transition-all duration-200"
       >
-        {status === "loading" ? "Subscribing…" : "Subscribe"}
+        {status === "loading" ? (
+          <>
+            <Loader2 className="h-4 w-4 animate-spin" />
+            Subscribing...
+          </>
+        ) : (
+          "Subscribe"
+        )}
       </button>
+      {/* Error state — semantic red color */}
       {status === "error" && (
-        <p className="text-xs text-red-400">{errorMessage}</p>
+        <p className="text-xs text-red-400 font-medium">{errorMessage}</p>
       )}
     </form>
   );

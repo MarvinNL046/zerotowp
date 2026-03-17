@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
-import { X } from "lucide-react";
+import { X, CheckCircle, Loader2 } from "lucide-react";
 
 export default function ExitIntentPopup() {
   const [show, setShow] = useState(false);
@@ -96,29 +96,31 @@ export default function ExitIntentPopup() {
 
           <div className="p-8">
             {status === "success" ? (
-              <div className="text-center py-4">
-                <div className="text-4xl mb-3">🎉</div>
-                <h3 className="text-xl font-bold text-slate-900 mb-2">
+              <div className="text-center py-6">
+                <CheckCircle className="h-12 w-12 text-green-500 mx-auto mb-4" />
+                <h3 className="text-xl font-bold text-slate-900 tracking-tight mb-1">
                   You&apos;re in!
                 </h3>
-                <p className="text-slate-600 text-sm">
+                <p className="text-slate-500 text-sm">
                   Check your inbox for WordPress tips that actually work.
                 </p>
                 <button
                   onClick={dismiss}
-                  className="mt-4 text-sm text-orange-600 hover:text-orange-700 font-medium"
+                  className="mt-5 text-sm text-orange-600 hover:text-orange-700 font-medium transition-colors"
                 >
-                  Continue reading
+                  Continue reading &rarr;
                 </button>
               </div>
             ) : (
               <>
-                <div className="text-center mb-6">
-                  <span className="inline-block text-3xl mb-2">⚡</span>
-                  <h3 className="text-xl font-bold text-slate-900">
+                <div className="text-center mb-8">
+                  <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-orange-100 mb-4">
+                    <span className="text-2xl">⚡</span>
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-900 tracking-tight">
                     Wait — before you go!
                   </h3>
-                  <p className="text-slate-600 text-sm mt-2 leading-relaxed">
+                  <p className="text-slate-500 text-sm mt-2 leading-relaxed max-w-xs mx-auto">
                     Get my free WordPress cheat sheet + weekly tips that have
                     helped 1,000+ beginners build better sites.
                   </p>
@@ -131,20 +133,25 @@ export default function ExitIntentPopup() {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="your@email.com"
                     required
-                    className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-orange-400 focus:border-transparent"
+                    className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-orange-400/30 focus:border-orange-400 focus:bg-white transition-all duration-200"
                   />
                   <button
                     type="submit"
                     disabled={status === "loading"}
-                    className="w-full rounded-xl bg-[#f97316] px-4 py-3 text-sm font-semibold text-white hover:bg-orange-500 transition-colors disabled:opacity-60"
+                    className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-[#f97316] px-4 py-3.5 text-sm font-semibold text-white shadow-lg shadow-orange-500/25 hover:bg-orange-500 hover:shadow-xl active:scale-[0.98] disabled:opacity-50 disabled:active:scale-100 transition-all duration-200"
                   >
-                    {status === "loading"
-                      ? "Subscribing..."
-                      : "Send Me the Cheat Sheet"}
+                    {status === "loading" ? (
+                      <>
+                        <Loader2 className="h-4 w-4 animate-spin" />
+                        Subscribing...
+                      </>
+                    ) : (
+                      "Send Me the Cheat Sheet"
+                    )}
                   </button>
                 </form>
 
-                <p className="text-xs text-slate-400 text-center mt-3">
+                <p className="text-xs text-slate-400 text-center mt-4">
                   No spam, ever. Unsubscribe in one click.
                 </p>
               </>
