@@ -360,6 +360,7 @@ const pillarContent = `
 <li><strong>Make your site faster</strong> — Page speed affects both user experience and rankings. My <a href="/wordpress-speed">WordPress speed guide</a> covers caching, images, and the biggest performance wins.</li>
 <li><strong>Keep it secure</strong> — WordPress powers 43% of the web, which makes it a target. My <a href="/wordpress-security">WordPress security guide</a> covers the essentials without overwhelming you.</li>
 <li><strong>Explore more plugins</strong> — There are plugins for everything. My <a href="/wordpress-plugins">WordPress plugins guide</a> breaks down the best options by category.</li>
+<li><strong>Troubleshoot issues</strong> — If something goes wrong (and eventually something will), my guide to <a href="/common-wordpress-errors/">common WordPress errors</a> will help you diagnose and fix it fast.</li>
 <li><strong>Customize your design</strong> — If you want to go deeper on themes and page builders, my <a href="/wordpress-themes">WordPress themes guide</a> covers what's available and what's worth using.</li>
 </ul>
 

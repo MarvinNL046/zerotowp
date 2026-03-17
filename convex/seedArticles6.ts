@@ -151,7 +151,7 @@ const hostingPillarContent = `
 
 <h3>Support Quality</h3>
 
-<p>I cannot stress this enough: <strong>support quality matters more than most people think.</strong> When everything is working, you'll never talk to support. But when something breaks — and eventually, something always breaks — having good support is the difference between a 10-minute fix and a 3-day nightmare.</p>
+<p>I cannot stress this enough: <strong>support quality matters more than most people think.</strong> When everything is working, you'll never talk to support. But when something breaks — and eventually, something always breaks — having good support is the difference between a 10-minute fix and a 3-day nightmare. (For the most frequent issues you'll encounter, see my guide to <a href="/common-wordpress-errors/">common WordPress errors</a> and how to fix them.)</p>
 
 <p>I have a vivid memory from about five years ago. It was 11pm on a Sunday night. A client's e-commerce site went down — right during a flash sale they'd been promoting for weeks. I was panicking. I opened a support chat with SiteGround and had a real, knowledgeable engineer helping me within 90 seconds. Not a bot. Not someone reading from a script. An actual person who understood the problem, identified a database issue, and had the site back up in under 10 minutes.</p>
 

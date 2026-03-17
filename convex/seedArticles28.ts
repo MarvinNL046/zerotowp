@@ -106,7 +106,7 @@ const speedUpWordPressContent = `
 
 <img src="/screenshots/wp-rocket-settings.webp" alt="WP Rocket homepage showing the Speed Up Your Website Instantly tagline and Get WP Rocket Now call-to-action button" />
 
-<p><strong>Warning:</strong> Don't install two caching plugins at the same time. They'll conflict and can actually make your site slower or break it entirely. Pick one, configure it properly, and stick with it.</p>
+<p><strong>Warning:</strong> Don't install two caching plugins at the same time. They'll conflict and can actually make your site slower or break it entirely. Pick one, configure it properly, and stick with it. If something breaks during optimization, check my guide to <a href="/common-wordpress-errors/">common WordPress errors</a> — it covers the white screen, plugin conflicts, and other issues you might run into.</p>
 
 <h3>#3 — Use a CDN</h3>
 
