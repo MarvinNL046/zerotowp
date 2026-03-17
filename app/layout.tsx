@@ -30,6 +30,13 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+        <head>
+          <script
+            src="https://analytics.ahrefs.com/analytics.js"
+            data-key="8nHJ9xpZVf5eh3wdebkQkQ"
+            async
+          />
+        </head>
         <body className="antialiased">
           <ConvexClientProvider>{children}</ConvexClientProvider>
         </body>
