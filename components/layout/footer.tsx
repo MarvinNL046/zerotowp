@@ -95,6 +95,7 @@ export default function Footer() {
             { label: "Terms", href: "/terms" },
             { label: "Cookie Policy", href: "/cookie-policy" },
             { label: "Editorial Policy", href: "/editorial-policy" },
+            { label: "Sitemap", href: "/sitemap-page" },
           ].map(({ label, href }) => (
             <Link
               key={href}
