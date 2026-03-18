@@ -20,6 +20,14 @@ export type HostingInfo = {
   ourReviewUrl: string | null;
 };
 
+export type PlatformInfo = {
+  name: string;
+  slug: string;
+  url: string;
+  icon: string; // emoji
+  description: string;
+};
+
 export type DetectionResult = {
   url: string;
   isWordPress: boolean;
@@ -27,5 +35,6 @@ export type DetectionResult = {
   theme: ThemeInfo | null;
   plugins: PluginInfo[];
   hosting: HostingInfo | null;
+  platform: PlatformInfo | null;
   error: string | null;
 };

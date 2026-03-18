@@ -40,15 +40,15 @@ export default function DetectorForm() {
     [startTransition],
   );
 
-  // Auto-scan if ?url= is present on load
+  // Auto-scan when ?url= param changes (initial load + client-side navigation)
+  const urlParam = searchParams.get("url");
   useEffect(() => {
-    const initialUrl = searchParams.get("url");
-    if (initialUrl) {
-      setUrl(initialUrl);
-      runScan(initialUrl);
+    if (urlParam) {
+      setUrl(urlParam);
+      runScan(urlParam);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [urlParam]);
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -148,18 +148,54 @@ export default function DetectorForm() {
           </div>
 
           {!result.isWordPress && (
-            <div className="rounded-xl border border-slate-200 bg-white p-6 text-center">
-              <p className="text-slate-600">
-                This does not appear to be a WordPress site. Try a different URL,
-                or check out our guide on{" "}
-                <Link
-                  href="/start-here"
-                  className="text-orange-500 hover:text-orange-600 font-medium"
-                >
-                  getting started with WordPress
-                </Link>
-                .
-              </p>
+            <div className="rounded-xl border border-slate-200 bg-white p-6">
+              {result.platform ? (
+                <div className="flex flex-col items-center gap-4 text-center">
+                  <span className="text-4xl">{result.platform.icon}</span>
+                  <div>
+                    <p className="text-lg font-semibold text-slate-900">
+                      This site uses{" "}
+                      <a
+                        href={result.platform.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-orange-500 hover:text-orange-600"
+                      >
+                        {result.platform.name}
+                      </a>
+                    </p>
+                    <p className="text-sm text-slate-500 mt-1 max-w-md mx-auto">
+                      {result.platform.description}
+                    </p>
+                  </div>
+                  <div className="border-t border-slate-100 pt-4 mt-1 w-full max-w-sm">
+                    <p className="text-sm text-slate-600">
+                      Interested in WordPress instead? It powers over 40% of all websites and gives you full control over your site.
+                    </p>
+                    <Link
+                      href="/start-here"
+                      className="inline-flex items-center gap-1.5 mt-3 text-sm font-semibold text-orange-500 hover:text-orange-600"
+                    >
+                      Learn how to build a WordPress site
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </Link>
+                  </div>
+                </div>
+              ) : (
+                <div className="text-center">
+                  <p className="text-slate-600">
+                    This does not appear to be a WordPress site, and we could not identify the platform.
+                    Try a different URL, or check out our guide on{" "}
+                    <Link
+                      href="/start-here"
+                      className="text-orange-500 hover:text-orange-600 font-medium"
+                    >
+                      getting started with WordPress
+                    </Link>
+                    .
+                  </p>
+                </div>
+              )}
             </div>
           )}
 

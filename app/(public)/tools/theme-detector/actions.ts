@@ -1,7 +1,7 @@
 "use server";
 
 import type { DetectionResult } from "./types";
-import { detectWordPress, detectTheme, detectPlugins, detectHosting } from "./detect";
+import { detectWordPress, detectTheme, detectPlugins, detectHosting, detectPlatform } from "./detect";
 
 /**
  * Server Action: fetch a URL and detect WordPress theme, plugins, and hosting.
@@ -82,6 +82,7 @@ export async function detectSite(rawUrl: string): Promise<DetectionResult> {
   const theme = wp.isWordPress ? detectTheme(html) : null;
   const plugins = wp.isWordPress ? detectPlugins(html) : [];
   const hosting = detectHosting(headers);
+  const platform = wp.isWordPress ? null : detectPlatform(html, headers);
 
   return {
     url: parsed.hostname,
@@ -90,6 +91,7 @@ export async function detectSite(rawUrl: string): Promise<DetectionResult> {
     theme,
     plugins,
     hosting,
+    platform,
     error: null,
   };
 }
@@ -102,6 +104,7 @@ function emptyResult(url: string, error: string): DetectionResult {
     theme: null,
     plugins: [],
     hosting: null,
+    platform: null,
     error,
   };
 }
