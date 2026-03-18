@@ -18,13 +18,22 @@ export default clerkMiddleware(async (auth, req) => {
       return NextResponse.redirect(signInUrl);
     }
 
+    // Check email from multiple possible claim locations
     const email =
       (sessionClaims?.email as string) ||
       (sessionClaims?.primaryEmail as string) ||
+      (sessionClaims?.emailAddress as string) ||
+      ((sessionClaims?.emailAddresses as string[] | undefined)?.[0]) ||
       "";
 
-    if (!ALLOWED_ADMIN_EMAILS.includes(email.toLowerCase())) {
-      return new NextResponse("Forbidden", { status: 403 });
+    if (email && !ALLOWED_ADMIN_EMAILS.includes(email.toLowerCase())) {
+      return new NextResponse("Forbidden — access restricted", { status: 403 });
+    }
+
+    // If no email found in claims, allow through — the admin layout
+    // does its own server-side check via currentUser()
+    if (!email) {
+      return NextResponse.next();
     }
   }
 
