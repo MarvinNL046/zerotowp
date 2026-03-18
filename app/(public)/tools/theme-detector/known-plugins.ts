@@ -7,7 +7,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   elementor: { name: "Elementor Website Builder", wpOrgUrl: "https://wordpress.org/plugins/elementor/", ourArticleUrl: "/elementor-vs-divi" },
   "wordpress-seo": { name: "Yoast SEO", wpOrgUrl: "https://wordpress.org/plugins/wordpress-seo/", ourArticleUrl: "/yoast-vs-rank-math" },
   "contact-form-7": { name: "Contact Form 7", wpOrgUrl: "https://wordpress.org/plugins/contact-form-7/", ourArticleUrl: "/best-contact-form-plugins" },
-  "classic-editor": { name: "Classic Editor", wpOrgUrl: "https://wordpress.org/plugins/classic-editor/", ourArticleUrl: null },
+  "classic-editor": { name: "Classic Editor", wpOrgUrl: "https://wordpress.org/plugins/classic-editor/", ourArticleUrl: "/classic-editor-review" },
   "litespeed-cache": { name: "LiteSpeed Cache", wpOrgUrl: "https://wordpress.org/plugins/litespeed-cache/", ourArticleUrl: "/best-caching-plugins" },
   woocommerce: { name: "WooCommerce", wpOrgUrl: "https://wordpress.org/plugins/woocommerce/", ourArticleUrl: "/create-online-store-wordpress" },
   akismet: { name: "Akismet Anti-spam: Spam Protection", wpOrgUrl: "https://wordpress.org/plugins/akismet/", ourArticleUrl: "/essential-wordpress-plugins-beginners" },
