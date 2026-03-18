@@ -33,7 +33,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "advanced-custom-fields": { name: "Advanced Custom Fields", wpOrgUrl: "https://wordpress.org/plugins/advanced-custom-fields/", ourArticleUrl: "/acf-review" },
   "wps-hide-login": { name: "WPS Hide Login", wpOrgUrl: "https://wordpress.org/plugins/wps-hide-login/", ourArticleUrl: "/wordpress-login-security" },
   "essential-addons-for-elementor-lite": { name: "Essential Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/essential-addons-for-elementor-lite/", ourArticleUrl: "/essential-addons-elementor-review" },
-  "tinymce-advanced": { name: "Advanced Editor Tools", wpOrgUrl: "https://wordpress.org/plugins/tinymce-advanced/", ourArticleUrl: null },
+  "tinymce-advanced": { name: "Advanced Editor Tools", wpOrgUrl: "https://wordpress.org/plugins/tinymce-advanced/", ourArticleUrl: "/advanced-editor-tools-review" },
   "limit-login-attempts-reloaded": { name: "Limit Login Attempts Reloaded", wpOrgUrl: "https://wordpress.org/plugins/limit-login-attempts-reloaded/", ourArticleUrl: "/wordpress-login-security" },
   "astra-sites": { name: "Starter Templates", wpOrgUrl: "https://wordpress.org/plugins/astra-sites/", ourArticleUrl: "/astra-theme-review" },
   "elementskit-lite": { name: "ElementsKit Elementor Addons", wpOrgUrl: "https://wordpress.org/plugins/elementskit-lite/", ourArticleUrl: null },
