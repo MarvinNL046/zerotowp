@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ConvexClientProvider } from "@/components/convex-provider";
+import { ClerkProviderLazy } from "@/components/clerk-provider-lazy";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -36,7 +37,9 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
-        <ConvexClientProvider>{children}</ConvexClientProvider>
+        <ClerkProviderLazy>
+          <ConvexClientProvider>{children}</ConvexClientProvider>
+        </ClerkProviderLazy>
       </body>
     </html>
   );
