@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { ClerkProvider } from "@clerk/nextjs";
 import { ConvexClientProvider } from "@/components/convex-provider";
 import "./globals.css";
 
@@ -27,19 +26,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ClerkProvider>
-      <html lang="en">
-        <head>
-          <script
-            src="https://analytics.ahrefs.com/analytics.js"
-            data-key="8nHJ9xpZVf5eh3wdebkQkQ"
-            async
-          />
-        </head>
-        <body className="antialiased">
-          <ConvexClientProvider>{children}</ConvexClientProvider>
-        </body>
-      </html>
-    </ClerkProvider>
+    <html lang="en">
+      <head>
+        <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="8nHJ9xpZVf5eh3wdebkQkQ"
+          async
+          defer
+        />
+      </head>
+      <body className="antialiased">
+        <ConvexClientProvider>{children}</ConvexClientProvider>
+      </body>
+    </html>
   );
 }

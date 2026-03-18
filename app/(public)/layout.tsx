@@ -1,6 +1,6 @@
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
-import ExitIntentPopup from "@/components/layout/exit-intent-popup";
+import LazyExitPopup from "@/components/layout/lazy-exit-popup";
 
 export default function PublicLayout({
   children,
@@ -12,7 +12,7 @@ export default function PublicLayout({
       <Header />
       <main className="min-h-screen">{children}</main>
       <Footer />
-      <ExitIntentPopup />
+      <LazyExitPopup />
     </>
   );
 }
