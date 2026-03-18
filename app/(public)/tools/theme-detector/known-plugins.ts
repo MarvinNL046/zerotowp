@@ -29,7 +29,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   redirection: { name: "Redirection", wpOrgUrl: "https://wordpress.org/plugins/redirection/", ourArticleUrl: "/redirection-plugin-review" },
   "google-analytics-for-wordpress": { name: "MonsterInsights", wpOrgUrl: "https://wordpress.org/plugins/google-analytics-for-wordpress/", ourArticleUrl: "/install-google-analytics-wordpress" },
   "classic-widgets": { name: "Classic Widgets", wpOrgUrl: "https://wordpress.org/plugins/classic-widgets/", ourArticleUrl: "/classic-widgets-review" },
-  "header-footer-elementor": { name: "Ultimate Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/header-footer-elementor/", ourArticleUrl: null },
+  "header-footer-elementor": { name: "Ultimate Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/header-footer-elementor/", ourArticleUrl: "/ultimate-addons-elementor-review" },
   "advanced-custom-fields": { name: "Advanced Custom Fields", wpOrgUrl: "https://wordpress.org/plugins/advanced-custom-fields/", ourArticleUrl: null },
   "wps-hide-login": { name: "WPS Hide Login", wpOrgUrl: "https://wordpress.org/plugins/wps-hide-login/", ourArticleUrl: "/wordpress-login-security" },
   "essential-addons-for-elementor-lite": { name: "Essential Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/essential-addons-for-elementor-lite/", ourArticleUrl: null },
