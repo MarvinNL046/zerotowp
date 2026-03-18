@@ -13,7 +13,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   akismet: { name: "Akismet Anti-spam: Spam Protection", wpOrgUrl: "https://wordpress.org/plugins/akismet/", ourArticleUrl: "/essential-wordpress-plugins-beginners" },
   "wpforms-lite": { name: "WPForms", wpOrgUrl: "https://wordpress.org/plugins/wpforms-lite/", ourArticleUrl: "/best-contact-form-plugins" },
   "google-site-kit": { name: "Site Kit by Google", wpOrgUrl: "https://wordpress.org/plugins/google-site-kit/", ourArticleUrl: "/install-google-analytics-wordpress" },
-  "all-in-one-wp-migration": { name: "All-in-One WP Migration and Backup", wpOrgUrl: "https://wordpress.org/plugins/all-in-one-wp-migration/", ourArticleUrl: null },
+  "all-in-one-wp-migration": { name: "All-in-One WP Migration and Backup", wpOrgUrl: "https://wordpress.org/plugins/all-in-one-wp-migration/", ourArticleUrl: "/all-in-one-wp-migration-review" },
   wordfence: { name: "Wordfence Security", wpOrgUrl: "https://wordpress.org/plugins/wordfence/", ourArticleUrl: "/best-security-plugins" },
   "wp-mail-smtp": { name: "WP Mail SMTP by WPForms", wpOrgUrl: "https://wordpress.org/plugins/wp-mail-smtp/", ourArticleUrl: "/wordpress-email-setup" },
   "duplicate-post": { name: "Yoast Duplicate Post", wpOrgUrl: "https://wordpress.org/plugins/duplicate-post/", ourArticleUrl: null },
