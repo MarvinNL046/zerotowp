@@ -24,7 +24,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   jetpack: { name: "Jetpack", wpOrgUrl: "https://wordpress.org/plugins/jetpack/", ourArticleUrl: "/best-wordpress-plugins" },
   "all-in-one-seo-pack": { name: "All in One SEO", wpOrgUrl: "https://wordpress.org/plugins/all-in-one-seo-pack/", ourArticleUrl: "/best-wordpress-seo-plugins" },
   hostinger: { name: "Hostinger Tools", wpOrgUrl: "https://wordpress.org/plugins/hostinger/", ourArticleUrl: "/hostinger-review" },
-  "insert-headers-and-footers": { name: "WPCode", wpOrgUrl: "https://wordpress.org/plugins/insert-headers-and-footers/", ourArticleUrl: null },
+  "insert-headers-and-footers": { name: "WPCode", wpOrgUrl: "https://wordpress.org/plugins/insert-headers-and-footers/", ourArticleUrl: "/wpcode-review" },
   "wordpress-importer": { name: "WordPress Importer", wpOrgUrl: "https://wordpress.org/plugins/wordpress-importer/", ourArticleUrl: null },
   redirection: { name: "Redirection", wpOrgUrl: "https://wordpress.org/plugins/redirection/", ourArticleUrl: null },
   "google-analytics-for-wordpress": { name: "MonsterInsights", wpOrgUrl: "https://wordpress.org/plugins/google-analytics-for-wordpress/", ourArticleUrl: "/install-google-analytics-wordpress" },
