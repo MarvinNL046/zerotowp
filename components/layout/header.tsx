@@ -22,8 +22,8 @@ export default function Header() {
           <img src="/logo-rocket.svg" alt="ZeroToWP" className="h-10" />
         </Link>
 
-        {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-1">
+        {/* Desktop nav — lg breakpoint because 8 items don't fit at md (768px) */}
+        <nav className="hidden lg:flex items-center gap-1">
           <Link
             href="/start-here"
             className="text-sm font-semibold bg-[#f97316] text-white px-4 py-2 rounded-lg hover:bg-orange-500 active:scale-[0.97] shadow-sm shadow-orange-500/20 transition-all duration-200 mr-2"

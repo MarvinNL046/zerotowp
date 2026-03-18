@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X, Rocket, Server, Plug, Palette, Search, BookOpen, BookText, Star, AlertTriangle } from "lucide-react";
@@ -19,7 +20,13 @@ const NAV_LINKS = [
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+
+  // Portal needs to wait for mount
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Close menu on route change
   useEffect(() => {
@@ -38,22 +45,14 @@ export default function MobileNav() {
     };
   }, [open]);
 
-  return (
+  // The overlay and panel are rendered via portal to escape the header's
+  // backdrop-filter which creates a new containing block for fixed elements
+  const overlay = (
     <>
-      {/* Hamburger button — visible only on mobile */}
-      <button
-        type="button"
-        aria-label="Open navigation menu"
-        onClick={() => setOpen(true)}
-        className="md:hidden flex items-center justify-center rounded-lg p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-50 active:bg-slate-100 transition-all"
-      >
-        <Menu size={22} />
-      </button>
-
       {/* Overlay backdrop */}
       {open && (
         <div
-          className="fixed inset-0 z-[60] bg-black/40 backdrop-blur-sm md:hidden"
+          className="fixed inset-0 z-[60] bg-black/40 backdrop-blur-sm lg:hidden"
           onClick={() => setOpen(false)}
           aria-hidden="true"
         />
@@ -61,7 +60,7 @@ export default function MobileNav() {
 
       {/* Slide-in panel */}
       <div
-        className={`fixed top-0 right-0 z-[70] h-full w-[280px] bg-white shadow-2xl flex flex-col transition-transform duration-300 ease-out md:hidden ${
+        className={`fixed top-0 right-0 z-[70] h-dvh w-[280px] bg-white shadow-2xl flex flex-col transition-transform duration-300 ease-out lg:hidden ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
         role="dialog"
@@ -119,6 +118,23 @@ export default function MobileNav() {
           </p>
         </div>
       </div>
+    </>
+  );
+
+  return (
+    <>
+      {/* Hamburger button — visible only on mobile */}
+      <button
+        type="button"
+        aria-label="Open navigation menu"
+        onClick={() => setOpen(true)}
+        className="lg:hidden flex items-center justify-center rounded-lg p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-50 active:bg-slate-100 transition-all"
+      >
+        <Menu size={22} />
+      </button>
+
+      {/* Portal to body — escapes header's backdrop-filter containing block */}
+      {mounted && createPortal(overlay, document.body)}
     </>
   );
 }

@@ -48,7 +48,7 @@ export default function SearchBar() {
       if ((e.metaKey || e.ctrlKey) && e.key === "k") {
         e.preventDefault();
         // On mobile, expand; on desktop, focus
-        if (window.innerWidth < 768) {
+        if (window.innerWidth < 1024) {
           setMobileExpanded(true);
           setTimeout(() => mobileInputRef.current?.focus(), 100);
         } else {
@@ -109,7 +109,7 @@ export default function SearchBar() {
   return (
     <div ref={containerRef} className="relative">
       {/* Desktop search */}
-      <form onSubmit={handleSubmit} className="hidden md:flex items-center">
+      <form onSubmit={handleSubmit} className="hidden lg:flex items-center">
         <div className="relative">
           <Search
             size={16}
@@ -142,7 +142,7 @@ export default function SearchBar() {
             setMobileExpanded(true);
             setTimeout(() => mobileInputRef.current?.focus(), 100);
           }}
-          className="md:hidden flex items-center justify-center rounded-lg p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors"
+          className="lg:hidden flex items-center justify-center rounded-lg p-2 text-slate-600 hover:text-slate-900 hover:bg-slate-100 transition-colors"
         >
           <Search size={20} />
         </button>
@@ -152,7 +152,7 @@ export default function SearchBar() {
       {mobileExpanded && (
         <form
           onSubmit={handleSubmit}
-          className="md:hidden flex items-center gap-2"
+          className="lg:hidden flex items-center gap-2"
         >
           <div className="relative flex-1">
             <Search
@@ -189,7 +189,7 @@ export default function SearchBar() {
 
       {/* Dropdown */}
       {open && (
-        <div className="fixed left-4 right-4 top-16 md:absolute md:top-full md:left-auto md:right-0 md:w-96 mt-2 bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden z-50 max-h-[70vh] overflow-y-auto">
+        <div className="fixed left-4 right-4 top-16 lg:absolute lg:top-full lg:left-auto lg:right-0 lg:w-96 mt-2 bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden z-[80] max-h-[70vh] overflow-y-auto">
           {debouncedQuery.length < 2 ? (
             /* Trending searches — shown when input is empty or < 2 chars */
             <div>
