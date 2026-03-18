@@ -30,11 +30,13 @@ const BREADCRUMB_ITEMS = [
 
 const EXAMPLE_SITES = [
   "techcrunch.com",
+  "wpastra.com",        // Astra theme — links to our review
+  "developer.mozilla.org",
+  "generatepress.com",  // GeneratePress theme — links to our review
   "whitehouse.gov",
-  "bbcamerica.com",
+  "gymshark.com",       // Shopify — shows platform detection
+  "www.kadencewp.com",  // Kadence theme — links to our review
   "jquery.com",
-  "blog.mozilla.org",
-  "vogue.com",
 ];
 
 const STEPS = [
