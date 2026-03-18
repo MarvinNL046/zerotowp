@@ -58,5 +58,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 0.5,
   }));
 
-  return [...staticPages, ...postPages, ...reviewPages, ...glossaryPages];
+  const allPages = [...staticPages, ...postPages, ...reviewPages, ...glossaryPages];
+
+  // Deduplicate by URL — keep the first occurrence (highest priority / most recently updated)
+  const seen = new Set<string>();
+  return allPages.filter((page) => {
+    if (seen.has(page.url)) return false;
+    seen.add(page.url);
+    return true;
+  });
 }

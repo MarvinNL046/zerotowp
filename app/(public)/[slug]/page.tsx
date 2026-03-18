@@ -17,7 +17,38 @@ import {
   ArticleSchema,
   ReviewSchema,
   BreadcrumbSchema,
+  FAQSchema,
 } from "@/components/seo/schema-markup";
+
+// ─── FAQ Extraction ────────────────────────────────────────────────────────────
+
+function extractFAQs(
+  content: string
+): Array<{ question: string; answer: string }> {
+  // Find FAQ section (h2 containing FAQ or Frequently)
+  const faqSectionMatch = content.match(
+    /<h2[^>]*>[^<]*(?:FAQ|Frequently)[^<]*<\/h2>([\s\S]*?)(?=<h2|$)/i
+  );
+  if (!faqSectionMatch) return [];
+
+  const faqSection = faqSectionMatch[1];
+  const faqs: Array<{ question: string; answer: string }> = [];
+
+  // Match each h3 question followed by its p answer
+  const questionPattern = /<h3[^>]*>([\s\S]*?)<\/h3>\s*<p[^>]*>([\s\S]*?)<\/p>/gi;
+  let match;
+
+  while ((match = questionPattern.exec(faqSection)) !== null) {
+    const question = match[1].replace(/<[^>]+>/g, "").trim();
+    // Strip HTML tags from answer for clean schema text
+    const answer = match[2].replace(/<[^>]+>/g, "").trim();
+    if (question && answer) {
+      faqs.push({ question, answer });
+    }
+  }
+
+  return faqs;
+}
 
 const categoryHubMap: Record<string, string> = {
   hosting: "/wordpress-hosting",
@@ -264,6 +295,7 @@ export default async function ContentPage({
   // Post rendering (including start-here guides)
   const post = content.data;
   const isStartHere = post.category === "start-here";
+  const faqItems = extractFAQs(post.content);
 
   const categoryLabel = isStartHere ? "Start Here" : formatCategoryLabel(post.category);
   const categoryHref = getCategoryHref(post.category);
@@ -291,6 +323,7 @@ export default async function ContentPage({
           { name: post.title },
         ]}
       />
+      {faqItems.length > 0 && <FAQSchema questions={faqItems} />}
       <div className="flex gap-8">
         <article className="flex-1 min-w-0">
           <Breadcrumbs items={breadcrumbItems} />
