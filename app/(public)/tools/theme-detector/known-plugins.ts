@@ -16,7 +16,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "all-in-one-wp-migration": { name: "All-in-One WP Migration and Backup", wpOrgUrl: "https://wordpress.org/plugins/all-in-one-wp-migration/", ourArticleUrl: "/all-in-one-wp-migration-review" },
   wordfence: { name: "Wordfence Security", wpOrgUrl: "https://wordpress.org/plugins/wordfence/", ourArticleUrl: "/best-security-plugins" },
   "wp-mail-smtp": { name: "WP Mail SMTP by WPForms", wpOrgUrl: "https://wordpress.org/plugins/wp-mail-smtp/", ourArticleUrl: "/wordpress-email-setup" },
-  "duplicate-post": { name: "Yoast Duplicate Post", wpOrgUrl: "https://wordpress.org/plugins/duplicate-post/", ourArticleUrl: null },
+  "duplicate-post": { name: "Yoast Duplicate Post", wpOrgUrl: "https://wordpress.org/plugins/duplicate-post/", ourArticleUrl: "/duplicate-post-review" },
   "really-simple-ssl": { name: "Really Simple Security", wpOrgUrl: "https://wordpress.org/plugins/really-simple-ssl/", ourArticleUrl: "/setup-ssl-wordpress" },
   "seo-by-rank-math": { name: "Rank Math SEO", wpOrgUrl: "https://wordpress.org/plugins/seo-by-rank-math/", ourArticleUrl: "/yoast-vs-rank-math" },
   "duplicate-page": { name: "Duplicate Page", wpOrgUrl: "https://wordpress.org/plugins/duplicate-page/", ourArticleUrl: null },
