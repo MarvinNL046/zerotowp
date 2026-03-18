@@ -25,7 +25,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "all-in-one-seo-pack": { name: "All in One SEO", wpOrgUrl: "https://wordpress.org/plugins/all-in-one-seo-pack/", ourArticleUrl: "/best-wordpress-seo-plugins" },
   hostinger: { name: "Hostinger Tools", wpOrgUrl: "https://wordpress.org/plugins/hostinger/", ourArticleUrl: "/hostinger-review" },
   "insert-headers-and-footers": { name: "WPCode", wpOrgUrl: "https://wordpress.org/plugins/insert-headers-and-footers/", ourArticleUrl: "/wpcode-review" },
-  "wordpress-importer": { name: "WordPress Importer", wpOrgUrl: "https://wordpress.org/plugins/wordpress-importer/", ourArticleUrl: null },
+  "wordpress-importer": { name: "WordPress Importer", wpOrgUrl: "https://wordpress.org/plugins/wordpress-importer/", ourArticleUrl: "/wordpress-importer-review" },
   redirection: { name: "Redirection", wpOrgUrl: "https://wordpress.org/plugins/redirection/", ourArticleUrl: null },
   "google-analytics-for-wordpress": { name: "MonsterInsights", wpOrgUrl: "https://wordpress.org/plugins/google-analytics-for-wordpress/", ourArticleUrl: "/install-google-analytics-wordpress" },
   "classic-widgets": { name: "Classic Widgets", wpOrgUrl: "https://wordpress.org/plugins/classic-widgets/", ourArticleUrl: null },
