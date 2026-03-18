@@ -19,7 +19,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "duplicate-post": { name: "Yoast Duplicate Post", wpOrgUrl: "https://wordpress.org/plugins/duplicate-post/", ourArticleUrl: "/duplicate-post-review" },
   "really-simple-ssl": { name: "Really Simple Security", wpOrgUrl: "https://wordpress.org/plugins/really-simple-ssl/", ourArticleUrl: "/setup-ssl-wordpress" },
   "seo-by-rank-math": { name: "Rank Math SEO", wpOrgUrl: "https://wordpress.org/plugins/seo-by-rank-math/", ourArticleUrl: "/yoast-vs-rank-math" },
-  "duplicate-page": { name: "Duplicate Page", wpOrgUrl: "https://wordpress.org/plugins/duplicate-page/", ourArticleUrl: null },
+  "duplicate-page": { name: "Duplicate Page", wpOrgUrl: "https://wordpress.org/plugins/duplicate-page/", ourArticleUrl: "/duplicate-page-review" },
   updraftplus: { name: "UpdraftPlus: WP Backup & Migration Plugin", wpOrgUrl: "https://wordpress.org/plugins/updraftplus/", ourArticleUrl: "/wordpress-backup-guide" },
   jetpack: { name: "Jetpack", wpOrgUrl: "https://wordpress.org/plugins/jetpack/", ourArticleUrl: "/best-wordpress-plugins" },
   "all-in-one-seo-pack": { name: "All in One SEO", wpOrgUrl: "https://wordpress.org/plugins/all-in-one-seo-pack/", ourArticleUrl: "/best-wordpress-seo-plugins" },
