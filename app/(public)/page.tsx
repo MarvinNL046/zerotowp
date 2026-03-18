@@ -114,7 +114,7 @@ export default async function HomePage() {
       <WebSiteSchema />
 
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-orange-50 via-white to-amber-50 py-28 md:py-36 px-4">
+      <section className="relative overflow-hidden bg-gradient-to-br from-orange-50 via-white to-amber-50 py-16 sm:py-24 md:py-36 px-4">
         <div className="pointer-events-none absolute -top-24 -right-24 h-96 w-96 rounded-full bg-orange-100 opacity-30 blur-3xl" />
         <div className="pointer-events-none absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-amber-100 opacity-30 blur-3xl" />
 
@@ -122,7 +122,7 @@ export default async function HomePage() {
           <span className="inline-flex items-center rounded-full bg-orange-100/80 backdrop-blur-sm px-4 py-1.5 text-sm font-medium text-orange-700">
             Free WordPress Tutorials &middot; 70+ Guides
           </span>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 max-w-3xl">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 max-w-3xl">
             Learn WordPress the <span className="text-[#f97316]">Right Way</span>
           </h1>
           <p className="text-lg md:text-xl text-slate-500 max-w-2xl leading-relaxed">
@@ -156,7 +156,7 @@ export default async function HomePage() {
               Choose a topic and dive into our free guides.
             </p>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             {CLUSTERS.map(({ label, href, icon: Icon, description, color }) => (
               <Link
                 key={href}

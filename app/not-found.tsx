@@ -15,7 +15,7 @@ export default function NotFound() {
     <div className="min-h-screen flex flex-col items-center justify-center px-4 py-20">
       {/* Empty state — clear visual hierarchy */}
       <div className="text-center mb-12">
-        <p className="text-[120px] font-extrabold text-slate-100 leading-none select-none">
+        <p className="text-[80px] sm:text-[120px] font-extrabold text-slate-100 leading-none select-none">
           404
         </p>
         <h1 className="text-2xl md:text-3xl font-bold text-slate-900 tracking-tight -mt-4">

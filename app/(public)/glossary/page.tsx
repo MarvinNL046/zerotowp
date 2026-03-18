@@ -49,7 +49,7 @@ export default async function GlossaryPage() {
 
         {/* Header */}
         <div className="mb-10 text-center">
-          <h1 className="text-4xl font-bold text-slate-900 mb-4">
+          <h1 className="text-3xl sm:text-4xl font-bold text-slate-900 mb-4">
             WordPress Glossary
           </h1>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
@@ -60,21 +60,21 @@ export default async function GlossaryPage() {
 
         {/* Sticky A-Z navigation */}
         <nav className="sticky top-16 z-30 bg-white/95 backdrop-blur-sm border-b border-slate-200 -mx-4 px-4 py-3 mb-10">
-          <div className="flex flex-wrap justify-center gap-1.5">
+          <div className="flex flex-wrap justify-center gap-1">
             {ALPHABET.map((letter) => {
               const isActive = activeLetters.has(letter);
               return isActive ? (
                 <a
                   key={letter}
                   href={`#letter-${letter}`}
-                  className="inline-flex items-center justify-center w-9 h-9 rounded-lg text-sm font-semibold text-slate-700 hover:bg-orange-100 hover:text-orange-700 transition-colors"
+                  className="inline-flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-lg text-xs sm:text-sm font-semibold text-slate-700 hover:bg-orange-100 hover:text-orange-700 transition-colors"
                 >
                   {letter}
                 </a>
               ) : (
                 <span
                   key={letter}
-                  className="inline-flex items-center justify-center w-9 h-9 rounded-lg text-sm font-semibold text-slate-300"
+                  className="inline-flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-lg text-xs sm:text-sm font-semibold text-slate-300"
                 >
                   {letter}
                 </span>

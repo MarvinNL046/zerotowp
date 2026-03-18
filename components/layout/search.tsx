@@ -189,7 +189,7 @@ export default function SearchBar() {
 
       {/* Dropdown */}
       {open && (
-        <div className="absolute top-full left-0 right-0 md:left-auto md:right-auto md:w-96 mt-2 bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden z-50">
+        <div className="fixed left-4 right-4 top-16 md:absolute md:top-full md:left-auto md:right-0 md:w-96 mt-2 bg-white rounded-xl shadow-lg border border-slate-200 overflow-hidden z-50 max-h-[70vh] overflow-y-auto">
           {debouncedQuery.length < 2 ? (
             /* Trending searches — shown when input is empty or < 2 chars */
             <div>

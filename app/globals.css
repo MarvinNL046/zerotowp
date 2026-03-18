@@ -158,4 +158,35 @@
     background-color: #fed7aa;
     color: #9a3412;
   }
+
+  /* Prevent horizontal overflow on mobile */
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Ensure images and embeds never overflow their container */
+  img, video, iframe, embed, object {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Prevent long URLs/code from breaking layout on mobile */
+  .prose {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  /* Better touch targets on mobile */
+  @media (max-width: 640px) {
+    .prose {
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+    .prose h2 {
+      font-size: 1.375rem;
+    }
+    .prose h3 {
+      font-size: 1.125rem;
+    }
+  }
 }

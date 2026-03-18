@@ -169,7 +169,7 @@ export default async function ContentPage({
                 </span>
               </div>
               <p className="text-lg font-semibold text-slate-500 mb-1">{review.productName}</p>
-              <h1 className="text-4xl font-bold text-slate-900 leading-tight mb-4">{review.title}</h1>
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 leading-tight mb-4">{review.title}</h1>
               <div className="flex items-center gap-3">
                 <RatingDisplay rating={review.rating} />
                 <span className="text-slate-500 text-sm">{review.rating} / 5</span>
@@ -296,7 +296,7 @@ export default async function ContentPage({
           <Breadcrumbs items={breadcrumbItems} />
 
           <header className="mb-8">
-            <div className="flex items-center gap-3 mb-4 text-sm text-slate-500">
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mb-4 text-sm text-slate-500">
               <span className="inline-block rounded-full border border-orange-400 px-3 py-0.5 text-xs font-medium text-orange-500 capitalize">
                 {isStartHere ? "Start Here" : post.category}
               </span>
@@ -311,7 +311,7 @@ export default async function ContentPage({
               )}
               <span>by {post.authorName}</span>
             </div>
-            <h1 className="text-4xl font-bold text-slate-900 leading-tight">{post.title}</h1>
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 leading-tight">{post.title}</h1>
           </header>
 
           <SocialShare
