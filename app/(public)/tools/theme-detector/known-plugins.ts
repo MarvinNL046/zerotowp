@@ -55,7 +55,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "one-click-demo-import": { name: "One Click Demo Import", wpOrgUrl: "https://wordpress.org/plugins/one-click-demo-import/", ourArticleUrl: "/one-click-demo-import-review" },
   optinmonster: { name: "Popup Builder & Popup Maker for WordPress", wpOrgUrl: "https://wordpress.org/plugins/optinmonster/", ourArticleUrl: "/optinmonster-review" },
   "wp-optimize": { name: "WP-Optimize", wpOrgUrl: "https://wordpress.org/plugins/wp-optimize/", ourArticleUrl: "/wordpress-database-optimization" },
-  "google-sitemap-generator": { name: "XML Sitemap Generator for Google", wpOrgUrl: "https://wordpress.org/plugins/google-sitemap-generator/", ourArticleUrl: null },
+  "google-sitemap-generator": { name: "XML Sitemap Generator for Google", wpOrgUrl: "https://wordpress.org/plugins/google-sitemap-generator/", ourArticleUrl: "/xml-sitemap-generator-review" },
   worker: { name: "ManageWP Worker", wpOrgUrl: "https://wordpress.org/plugins/worker/", ourArticleUrl: null },
   "ultimate-addons-for-gutenberg": { name: "Spectra Gutenberg Blocks", wpOrgUrl: "https://wordpress.org/plugins/ultimate-addons-for-gutenberg/", ourArticleUrl: null },
   maintenance: { name: "Maintenance", wpOrgUrl: "https://wordpress.org/plugins/maintenance/", ourArticleUrl: null },
