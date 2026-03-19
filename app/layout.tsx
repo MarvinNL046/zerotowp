@@ -35,6 +35,12 @@ export default function RootLayout({
           async
           defer
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9667530069853985"
+          crossOrigin="anonymous"
+        />
+        <meta name="google-adsense-account" content="ca-pub-9667530069853985" />
       </head>
       <body className="antialiased">
         <ClerkProviderLazy>
