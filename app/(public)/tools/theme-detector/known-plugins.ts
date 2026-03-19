@@ -83,7 +83,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "breadcrumb-navxt": { name: "Breadcrumb NavXT", wpOrgUrl: "https://wordpress.org/plugins/breadcrumb-navxt/", ourArticleUrl: "/breadcrumb-navxt-review" },
   polylang: { name: "Polylang", wpOrgUrl: "https://wordpress.org/plugins/polylang/", ourArticleUrl: "/polylang-review" },
   "woocommerce-paypal-payments": { name: "WooCommerce PayPal Payments", wpOrgUrl: "https://wordpress.org/plugins/woocommerce-paypal-payments/", ourArticleUrl: "/woocommerce-paypal-payments-review" },
-  flamingo: { name: "Flamingo", wpOrgUrl: "https://wordpress.org/plugins/flamingo/", ourArticleUrl: null },
+  flamingo: { name: "Flamingo", wpOrgUrl: "https://wordpress.org/plugins/flamingo/", ourArticleUrl: "/flamingo-review" },
   "better-wp-security": { name: "Solid Security", wpOrgUrl: "https://wordpress.org/plugins/better-wp-security/", ourArticleUrl: "/best-security-plugins" },
   "duracelltomi-google-tag-manager": { name: "GTM4WP", wpOrgUrl: "https://wordpress.org/plugins/duracelltomi-google-tag-manager/", ourArticleUrl: null },
   "antispam-bee": { name: "Antispam Bee", wpOrgUrl: "https://wordpress.org/plugins/antispam-bee/", ourArticleUrl: null },
