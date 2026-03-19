@@ -93,7 +93,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "creame-whatsapp-me": { name: "Joinchat", wpOrgUrl: "https://wordpress.org/plugins/creame-whatsapp-me/", ourArticleUrl: "/joinchat-review" },
   "mainwp-child": { name: "MainWP Child", wpOrgUrl: "https://wordpress.org/plugins/mainwp-child/", ourArticleUrl: "/mainwp-child-review" },
   "user-role-editor": { name: "User Role Editor", wpOrgUrl: "https://wordpress.org/plugins/user-role-editor/", ourArticleUrl: "/user-role-editor-review" },
-  "popup-maker": { name: "Popup Maker", wpOrgUrl: "https://wordpress.org/plugins/popup-maker/", ourArticleUrl: null },
+  "popup-maker": { name: "Popup Maker", wpOrgUrl: "https://wordpress.org/plugins/popup-maker/", ourArticleUrl: "/popup-maker-review" },
   "the-events-calendar": { name: "The Events Calendar", wpOrgUrl: "https://wordpress.org/plugins/the-events-calendar/", ourArticleUrl: null },
   "click-to-chat-for-whatsapp": { name: "Click to Chat", wpOrgUrl: "https://wordpress.org/plugins/click-to-chat-for-whatsapp/", ourArticleUrl: null },
   tablepress: { name: "TablePress", wpOrgUrl: "https://wordpress.org/plugins/tablepress/", ourArticleUrl: null },
