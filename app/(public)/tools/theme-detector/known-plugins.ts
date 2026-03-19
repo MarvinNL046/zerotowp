@@ -95,7 +95,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "user-role-editor": { name: "User Role Editor", wpOrgUrl: "https://wordpress.org/plugins/user-role-editor/", ourArticleUrl: "/user-role-editor-review" },
   "popup-maker": { name: "Popup Maker", wpOrgUrl: "https://wordpress.org/plugins/popup-maker/", ourArticleUrl: "/popup-maker-review" },
   "the-events-calendar": { name: "The Events Calendar", wpOrgUrl: "https://wordpress.org/plugins/the-events-calendar/", ourArticleUrl: "/the-events-calendar-review" },
-  "click-to-chat-for-whatsapp": { name: "Click to Chat", wpOrgUrl: "https://wordpress.org/plugins/click-to-chat-for-whatsapp/", ourArticleUrl: null },
+  "click-to-chat-for-whatsapp": { name: "Click to Chat", wpOrgUrl: "https://wordpress.org/plugins/click-to-chat-for-whatsapp/", ourArticleUrl: "/click-to-chat-review" },
   tablepress: { name: "TablePress", wpOrgUrl: "https://wordpress.org/plugins/tablepress/", ourArticleUrl: null },
   "custom-css-js": { name: "Simple Custom CSS and JS", wpOrgUrl: "https://wordpress.org/plugins/custom-css-js/", ourArticleUrl: null },
   backuply: { name: "Backuply", wpOrgUrl: "https://wordpress.org/plugins/backuply/", ourArticleUrl: null },
