@@ -74,7 +74,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "cookie-notice": { name: "Cookie Notice & Compliance for GDPR / CCPA", wpOrgUrl: "https://wordpress.org/plugins/cookie-notice/", ourArticleUrl: "/cookie-notice-review" },
   "w3-total-cache": { name: "W3 Total Cache", wpOrgUrl: "https://wordpress.org/plugins/w3-total-cache/", ourArticleUrl: "/best-caching-plugins" },
   autoptimize: { name: "Autoptimize", wpOrgUrl: "https://wordpress.org/plugins/autoptimize/", ourArticleUrl: "/autoptimize-review" },
-  "google-listings-and-ads": { name: "Google for WooCommerce", wpOrgUrl: "https://wordpress.org/plugins/google-listings-and-ads/", ourArticleUrl: null },
+  "google-listings-and-ads": { name: "Google for WooCommerce", wpOrgUrl: "https://wordpress.org/plugins/google-listings-and-ads/", ourArticleUrl: "/google-for-woocommerce-review" },
   "woocommerce-payments": { name: "WooPayments: Integrated WooCommerce Payments", wpOrgUrl: "https://wordpress.org/plugins/woocommerce-payments/", ourArticleUrl: "/woopayments-review" },
   gtranslate: { name: "Translate WordPress with GTranslate", wpOrgUrl: "https://wordpress.org/plugins/gtranslate/", ourArticleUrl: "/gtranslate-review" },
   "wpvivid-backuprestore": { name: "WPvivid", wpOrgUrl: "https://wordpress.org/plugins/wpvivid-backuprestore/", ourArticleUrl: null },
