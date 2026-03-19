@@ -78,7 +78,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "woocommerce-payments": { name: "WooPayments: Integrated WooCommerce Payments", wpOrgUrl: "https://wordpress.org/plugins/woocommerce-payments/", ourArticleUrl: "/woopayments-review" },
   gtranslate: { name: "Translate WordPress with GTranslate", wpOrgUrl: "https://wordpress.org/plugins/gtranslate/", ourArticleUrl: "/gtranslate-review" },
   "wpvivid-backuprestore": { name: "WPvivid", wpOrgUrl: "https://wordpress.org/plugins/wpvivid-backuprestore/", ourArticleUrl: "/wpvivid-review" },
-  "wp-reviews-plugin-for-google": { name: "Widgets for Google Reviews", wpOrgUrl: "https://wordpress.org/plugins/wp-reviews-plugin-for-google/", ourArticleUrl: null },
+  "wp-reviews-plugin-for-google": { name: "Widgets for Google Reviews", wpOrgUrl: "https://wordpress.org/plugins/wp-reviews-plugin-for-google/", ourArticleUrl: "/widgets-for-google-reviews-review" },
   "smart-slider-3": { name: "Smart Slider 3", wpOrgUrl: "https://wordpress.org/plugins/smart-slider-3/", ourArticleUrl: null },
   "breadcrumb-navxt": { name: "Breadcrumb NavXT", wpOrgUrl: "https://wordpress.org/plugins/breadcrumb-navxt/", ourArticleUrl: null },
   polylang: { name: "Polylang", wpOrgUrl: "https://wordpress.org/plugins/polylang/", ourArticleUrl: "/polylang-review" },
