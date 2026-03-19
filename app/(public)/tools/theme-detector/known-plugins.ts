@@ -87,7 +87,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "better-wp-security": { name: "Solid Security", wpOrgUrl: "https://wordpress.org/plugins/better-wp-security/", ourArticleUrl: "/best-security-plugins" },
   "duracelltomi-google-tag-manager": { name: "GTM4WP", wpOrgUrl: "https://wordpress.org/plugins/duracelltomi-google-tag-manager/", ourArticleUrl: "/gtm4wp-review" },
   "antispam-bee": { name: "Antispam Bee", wpOrgUrl: "https://wordpress.org/plugins/antispam-bee/", ourArticleUrl: "/antispam-bee-review" },
-  "woocommerce-gateway-stripe": { name: "WooCommerce Stripe Payment Gateway", wpOrgUrl: "https://wordpress.org/plugins/woocommerce-gateway-stripe/", ourArticleUrl: null },
+  "woocommerce-gateway-stripe": { name: "WooCommerce Stripe Payment Gateway", wpOrgUrl: "https://wordpress.org/plugins/woocommerce-gateway-stripe/", ourArticleUrl: "/woocommerce-stripe-review" },
   "coming-soon": { name: "Website Builder by SeedProd", wpOrgUrl: "https://wordpress.org/plugins/coming-soon/", ourArticleUrl: null },
   "premium-addons-for-elementor": { name: "Premium Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/premium-addons-for-elementor/", ourArticleUrl: null },
   "creame-whatsapp-me": { name: "Joinchat", wpOrgUrl: "https://wordpress.org/plugins/creame-whatsapp-me/", ourArticleUrl: null },
