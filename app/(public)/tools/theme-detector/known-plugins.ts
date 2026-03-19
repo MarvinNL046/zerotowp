@@ -61,7 +61,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   maintenance: { name: "Maintenance", wpOrgUrl: "https://wordpress.org/plugins/maintenance/", ourArticleUrl: "/maintenance-plugin-review" },
   "image-optimization": { name: "Image Optimizer", wpOrgUrl: "https://wordpress.org/plugins/image-optimization/", ourArticleUrl: "/image-optimizer-elementor-review" },
   "safe-svg": { name: "Safe SVG", wpOrgUrl: "https://wordpress.org/plugins/safe-svg/", ourArticleUrl: "/safe-svg-review" },
-  "instagram-feed": { name: "Smash Balloon Social Photo Feed", wpOrgUrl: "https://wordpress.org/plugins/instagram-feed/", ourArticleUrl: null },
+  "instagram-feed": { name: "Smash Balloon Social Photo Feed", wpOrgUrl: "https://wordpress.org/plugins/instagram-feed/", ourArticleUrl: "/smash-balloon-instagram-review" },
   "wp-smushit": { name: "Smush Image Optimization", wpOrgUrl: "https://wordpress.org/plugins/wp-smushit/", ourArticleUrl: "/best-image-optimization-plugins" },
   "regenerate-thumbnails": { name: "Regenerate Thumbnails", wpOrgUrl: "https://wordpress.org/plugins/regenerate-thumbnails/", ourArticleUrl: null },
   "ewww-image-optimizer": { name: "EWWW Image Optimizer", wpOrgUrl: "https://wordpress.org/plugins/ewww-image-optimizer/", ourArticleUrl: "/best-image-optimization-plugins" },
