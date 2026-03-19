@@ -52,7 +52,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "svg-support": { name: "SVG Support", wpOrgUrl: "https://wordpress.org/plugins/svg-support/", ourArticleUrl: "/svg-support-review" },
   "sg-cachepress": { name: "Speed Optimizer", wpOrgUrl: "https://wordpress.org/plugins/sg-cachepress/", ourArticleUrl: "/speed-optimizer-review" },
   "custom-post-type-ui": { name: "Custom Post Type UI", wpOrgUrl: "https://wordpress.org/plugins/custom-post-type-ui/", ourArticleUrl: "/cptui-review" },
-  "one-click-demo-import": { name: "One Click Demo Import", wpOrgUrl: "https://wordpress.org/plugins/one-click-demo-import/", ourArticleUrl: null },
+  "one-click-demo-import": { name: "One Click Demo Import", wpOrgUrl: "https://wordpress.org/plugins/one-click-demo-import/", ourArticleUrl: "/one-click-demo-import-review" },
   optinmonster: { name: "Popup Builder & Popup Maker for WordPress", wpOrgUrl: "https://wordpress.org/plugins/optinmonster/", ourArticleUrl: null },
   "wp-optimize": { name: "WP-Optimize", wpOrgUrl: "https://wordpress.org/plugins/wp-optimize/", ourArticleUrl: "/wordpress-database-optimization" },
   "google-sitemap-generator": { name: "XML Sitemap Generator for Google", wpOrgUrl: "https://wordpress.org/plugins/google-sitemap-generator/", ourArticleUrl: null },
