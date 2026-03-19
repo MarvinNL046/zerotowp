@@ -42,7 +42,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "disable-comments": { name: "Disable Comments", wpOrgUrl: "https://wordpress.org/plugins/disable-comments/", ourArticleUrl: "/disable-comments-review" },
   "wp-super-cache": { name: "WP Super Cache", wpOrgUrl: "https://wordpress.org/plugins/wp-super-cache/", ourArticleUrl: "/best-caching-plugins" },
   duplicator: { name: "Duplicator", wpOrgUrl: "https://wordpress.org/plugins/duplicator/", ourArticleUrl: "/migrate-wordpress-to-new-host" },
-  "cookie-law-info": { name: "CookieYes", wpOrgUrl: "https://wordpress.org/plugins/cookie-law-info/", ourArticleUrl: null },
+  "cookie-law-info": { name: "CookieYes", wpOrgUrl: "https://wordpress.org/plugins/cookie-law-info/", ourArticleUrl: "/cookieyes-review" },
   loginizer: { name: "Loginizer", wpOrgUrl: "https://wordpress.org/plugins/loginizer/", ourArticleUrl: "/wordpress-login-security" },
   "better-search-replace": { name: "Better Search Replace", wpOrgUrl: "https://wordpress.org/plugins/better-search-replace/", ourArticleUrl: null },
   "wp-file-manager": { name: "File Manager", wpOrgUrl: "https://wordpress.org/plugins/wp-file-manager/", ourArticleUrl: null },
