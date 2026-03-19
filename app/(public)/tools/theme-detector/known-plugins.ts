@@ -60,7 +60,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "ultimate-addons-for-gutenberg": { name: "Spectra Gutenberg Blocks", wpOrgUrl: "https://wordpress.org/plugins/ultimate-addons-for-gutenberg/", ourArticleUrl: "/spectra-review" },
   maintenance: { name: "Maintenance", wpOrgUrl: "https://wordpress.org/plugins/maintenance/", ourArticleUrl: "/maintenance-plugin-review" },
   "image-optimization": { name: "Image Optimizer", wpOrgUrl: "https://wordpress.org/plugins/image-optimization/", ourArticleUrl: "/image-optimizer-elementor-review" },
-  "safe-svg": { name: "Safe SVG", wpOrgUrl: "https://wordpress.org/plugins/safe-svg/", ourArticleUrl: null },
+  "safe-svg": { name: "Safe SVG", wpOrgUrl: "https://wordpress.org/plugins/safe-svg/", ourArticleUrl: "/safe-svg-review" },
   "instagram-feed": { name: "Smash Balloon Social Photo Feed", wpOrgUrl: "https://wordpress.org/plugins/instagram-feed/", ourArticleUrl: null },
   "wp-smushit": { name: "Smush Image Optimization", wpOrgUrl: "https://wordpress.org/plugins/wp-smushit/", ourArticleUrl: "/best-image-optimization-plugins" },
   "regenerate-thumbnails": { name: "Regenerate Thumbnails", wpOrgUrl: "https://wordpress.org/plugins/regenerate-thumbnails/", ourArticleUrl: null },
