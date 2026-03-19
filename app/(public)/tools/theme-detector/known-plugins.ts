@@ -81,7 +81,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "wp-reviews-plugin-for-google": { name: "Widgets for Google Reviews", wpOrgUrl: "https://wordpress.org/plugins/wp-reviews-plugin-for-google/", ourArticleUrl: null },
   "smart-slider-3": { name: "Smart Slider 3", wpOrgUrl: "https://wordpress.org/plugins/smart-slider-3/", ourArticleUrl: null },
   "breadcrumb-navxt": { name: "Breadcrumb NavXT", wpOrgUrl: "https://wordpress.org/plugins/breadcrumb-navxt/", ourArticleUrl: null },
-  polylang: { name: "Polylang", wpOrgUrl: "https://wordpress.org/plugins/polylang/", ourArticleUrl: null },
+  polylang: { name: "Polylang", wpOrgUrl: "https://wordpress.org/plugins/polylang/", ourArticleUrl: "/polylang-review" },
   "woocommerce-paypal-payments": { name: "WooCommerce PayPal Payments", wpOrgUrl: "https://wordpress.org/plugins/woocommerce-paypal-payments/", ourArticleUrl: null },
   flamingo: { name: "Flamingo", wpOrgUrl: "https://wordpress.org/plugins/flamingo/", ourArticleUrl: null },
   "better-wp-security": { name: "Solid Security", wpOrgUrl: "https://wordpress.org/plugins/better-wp-security/", ourArticleUrl: "/best-security-plugins" },
