@@ -68,7 +68,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "all-in-one-wp-security-and-firewall": { name: "All-In-One Security", wpOrgUrl: "https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/", ourArticleUrl: "/best-security-plugins" },
   "sg-security": { name: "Security Optimizer", wpOrgUrl: "https://wordpress.org/plugins/sg-security/", ourArticleUrl: "/security-optimizer-review" },
   "wp-multibyte-patch": { name: "WP Multibyte Patch", wpOrgUrl: "https://wordpress.org/plugins/wp-multibyte-patch/", ourArticleUrl: "/wp-multibyte-patch-review" },
-  "redux-framework": { name: "Redux Framework", wpOrgUrl: "https://wordpress.org/plugins/redux-framework/", ourArticleUrl: null },
+  "redux-framework": { name: "Redux Framework", wpOrgUrl: "https://wordpress.org/plugins/redux-framework/", ourArticleUrl: "/redux-framework-review" },
   imagify: { name: "Imagify Image Optimization", wpOrgUrl: "https://wordpress.org/plugins/imagify/", ourArticleUrl: "/best-image-optimization-plugins" },
   "hostinger-reach": { name: "Hostinger Reach", wpOrgUrl: "https://wordpress.org/plugins/hostinger-reach/", ourArticleUrl: null },
   "cookie-notice": { name: "Cookie Notice & Compliance for GDPR / CCPA", wpOrgUrl: "https://wordpress.org/plugins/cookie-notice/", ourArticleUrl: null },
