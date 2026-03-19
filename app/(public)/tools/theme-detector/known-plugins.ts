@@ -50,7 +50,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "wp-fastest-cache": { name: "WP Fastest Cache", wpOrgUrl: "https://wordpress.org/plugins/wp-fastest-cache/", ourArticleUrl: "/best-caching-plugins" },
   "complianz-gdpr": { name: "Complianz", wpOrgUrl: "https://wordpress.org/plugins/complianz-gdpr/", ourArticleUrl: "/complianz-review" },
   "svg-support": { name: "SVG Support", wpOrgUrl: "https://wordpress.org/plugins/svg-support/", ourArticleUrl: "/svg-support-review" },
-  "sg-cachepress": { name: "Speed Optimizer", wpOrgUrl: "https://wordpress.org/plugins/sg-cachepress/", ourArticleUrl: null },
+  "sg-cachepress": { name: "Speed Optimizer", wpOrgUrl: "https://wordpress.org/plugins/sg-cachepress/", ourArticleUrl: "/speed-optimizer-review" },
   "custom-post-type-ui": { name: "Custom Post Type UI", wpOrgUrl: "https://wordpress.org/plugins/custom-post-type-ui/", ourArticleUrl: null },
   "one-click-demo-import": { name: "One Click Demo Import", wpOrgUrl: "https://wordpress.org/plugins/one-click-demo-import/", ourArticleUrl: null },
   optinmonster: { name: "Popup Builder & Popup Maker for WordPress", wpOrgUrl: "https://wordpress.org/plugins/optinmonster/", ourArticleUrl: null },
