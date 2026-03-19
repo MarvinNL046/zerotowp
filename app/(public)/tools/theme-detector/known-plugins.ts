@@ -66,7 +66,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "regenerate-thumbnails": { name: "Regenerate Thumbnails", wpOrgUrl: "https://wordpress.org/plugins/regenerate-thumbnails/", ourArticleUrl: "/regenerate-thumbnails-review" },
   "ewww-image-optimizer": { name: "EWWW Image Optimizer", wpOrgUrl: "https://wordpress.org/plugins/ewww-image-optimizer/", ourArticleUrl: "/best-image-optimization-plugins" },
   "all-in-one-wp-security-and-firewall": { name: "All-In-One Security", wpOrgUrl: "https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/", ourArticleUrl: "/best-security-plugins" },
-  "sg-security": { name: "Security Optimizer", wpOrgUrl: "https://wordpress.org/plugins/sg-security/", ourArticleUrl: null },
+  "sg-security": { name: "Security Optimizer", wpOrgUrl: "https://wordpress.org/plugins/sg-security/", ourArticleUrl: "/security-optimizer-review" },
   "wp-multibyte-patch": { name: "WP Multibyte Patch", wpOrgUrl: "https://wordpress.org/plugins/wp-multibyte-patch/", ourArticleUrl: null },
   "redux-framework": { name: "Redux Framework", wpOrgUrl: "https://wordpress.org/plugins/redux-framework/", ourArticleUrl: null },
   imagify: { name: "Imagify Image Optimization", wpOrgUrl: "https://wordpress.org/plugins/imagify/", ourArticleUrl: "/best-image-optimization-plugins" },
