@@ -48,7 +48,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "wp-file-manager": { name: "File Manager", wpOrgUrl: "https://wordpress.org/plugins/wp-file-manager/", ourArticleUrl: "/file-manager-review" },
   "code-snippets": { name: "Code Snippets", wpOrgUrl: "https://wordpress.org/plugins/code-snippets/", ourArticleUrl: "/best-code-snippet-plugins" },
   "wp-fastest-cache": { name: "WP Fastest Cache", wpOrgUrl: "https://wordpress.org/plugins/wp-fastest-cache/", ourArticleUrl: "/best-caching-plugins" },
-  "complianz-gdpr": { name: "Complianz", wpOrgUrl: "https://wordpress.org/plugins/complianz-gdpr/", ourArticleUrl: null },
+  "complianz-gdpr": { name: "Complianz", wpOrgUrl: "https://wordpress.org/plugins/complianz-gdpr/", ourArticleUrl: "/complianz-review" },
   "svg-support": { name: "SVG Support", wpOrgUrl: "https://wordpress.org/plugins/svg-support/", ourArticleUrl: null },
   "sg-cachepress": { name: "Speed Optimizer", wpOrgUrl: "https://wordpress.org/plugins/sg-cachepress/", ourArticleUrl: null },
   "custom-post-type-ui": { name: "Custom Post Type UI", wpOrgUrl: "https://wordpress.org/plugins/custom-post-type-ui/", ourArticleUrl: null },
