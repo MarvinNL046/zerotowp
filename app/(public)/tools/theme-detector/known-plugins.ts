@@ -91,7 +91,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "coming-soon": { name: "Website Builder by SeedProd", wpOrgUrl: "https://wordpress.org/plugins/coming-soon/", ourArticleUrl: "/seedprod-review" },
   "premium-addons-for-elementor": { name: "Premium Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/premium-addons-for-elementor/", ourArticleUrl: "/premium-addons-elementor-review" },
   "creame-whatsapp-me": { name: "Joinchat", wpOrgUrl: "https://wordpress.org/plugins/creame-whatsapp-me/", ourArticleUrl: "/joinchat-review" },
-  "mainwp-child": { name: "MainWP Child", wpOrgUrl: "https://wordpress.org/plugins/mainwp-child/", ourArticleUrl: null },
+  "mainwp-child": { name: "MainWP Child", wpOrgUrl: "https://wordpress.org/plugins/mainwp-child/", ourArticleUrl: "/mainwp-child-review" },
   "user-role-editor": { name: "User Role Editor", wpOrgUrl: "https://wordpress.org/plugins/user-role-editor/", ourArticleUrl: null },
   "popup-maker": { name: "Popup Maker", wpOrgUrl: "https://wordpress.org/plugins/popup-maker/", ourArticleUrl: null },
   "the-events-calendar": { name: "The Events Calendar", wpOrgUrl: "https://wordpress.org/plugins/the-events-calendar/", ourArticleUrl: null },
