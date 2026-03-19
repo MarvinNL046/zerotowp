@@ -71,7 +71,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "redux-framework": { name: "Redux Framework", wpOrgUrl: "https://wordpress.org/plugins/redux-framework/", ourArticleUrl: "/redux-framework-review" },
   imagify: { name: "Imagify Image Optimization", wpOrgUrl: "https://wordpress.org/plugins/imagify/", ourArticleUrl: "/best-image-optimization-plugins" },
   "hostinger-reach": { name: "Hostinger Reach", wpOrgUrl: "https://wordpress.org/plugins/hostinger-reach/", ourArticleUrl: null },
-  "cookie-notice": { name: "Cookie Notice & Compliance for GDPR / CCPA", wpOrgUrl: "https://wordpress.org/plugins/cookie-notice/", ourArticleUrl: null },
+  "cookie-notice": { name: "Cookie Notice & Compliance for GDPR / CCPA", wpOrgUrl: "https://wordpress.org/plugins/cookie-notice/", ourArticleUrl: "/cookie-notice-review" },
   "w3-total-cache": { name: "W3 Total Cache", wpOrgUrl: "https://wordpress.org/plugins/w3-total-cache/", ourArticleUrl: "/best-caching-plugins" },
   autoptimize: { name: "Autoptimize", wpOrgUrl: "https://wordpress.org/plugins/autoptimize/", ourArticleUrl: "/autoptimize-review" },
   "google-listings-and-ads": { name: "Google for WooCommerce", wpOrgUrl: "https://wordpress.org/plugins/google-listings-and-ads/", ourArticleUrl: null },
