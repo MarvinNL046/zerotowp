@@ -77,7 +77,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "google-listings-and-ads": { name: "Google for WooCommerce", wpOrgUrl: "https://wordpress.org/plugins/google-listings-and-ads/", ourArticleUrl: "/google-for-woocommerce-review" },
   "woocommerce-payments": { name: "WooPayments: Integrated WooCommerce Payments", wpOrgUrl: "https://wordpress.org/plugins/woocommerce-payments/", ourArticleUrl: "/woopayments-review" },
   gtranslate: { name: "Translate WordPress with GTranslate", wpOrgUrl: "https://wordpress.org/plugins/gtranslate/", ourArticleUrl: "/gtranslate-review" },
-  "wpvivid-backuprestore": { name: "WPvivid", wpOrgUrl: "https://wordpress.org/plugins/wpvivid-backuprestore/", ourArticleUrl: null },
+  "wpvivid-backuprestore": { name: "WPvivid", wpOrgUrl: "https://wordpress.org/plugins/wpvivid-backuprestore/", ourArticleUrl: "/wpvivid-review" },
   "wp-reviews-plugin-for-google": { name: "Widgets for Google Reviews", wpOrgUrl: "https://wordpress.org/plugins/wp-reviews-plugin-for-google/", ourArticleUrl: null },
   "smart-slider-3": { name: "Smart Slider 3", wpOrgUrl: "https://wordpress.org/plugins/smart-slider-3/", ourArticleUrl: null },
   "breadcrumb-navxt": { name: "Breadcrumb NavXT", wpOrgUrl: "https://wordpress.org/plugins/breadcrumb-navxt/", ourArticleUrl: null },
