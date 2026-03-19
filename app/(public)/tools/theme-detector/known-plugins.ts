@@ -36,7 +36,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "tinymce-advanced": { name: "Advanced Editor Tools", wpOrgUrl: "https://wordpress.org/plugins/tinymce-advanced/", ourArticleUrl: "/advanced-editor-tools-review" },
   "limit-login-attempts-reloaded": { name: "Limit Login Attempts Reloaded", wpOrgUrl: "https://wordpress.org/plugins/limit-login-attempts-reloaded/", ourArticleUrl: "/wordpress-login-security" },
   "astra-sites": { name: "Starter Templates", wpOrgUrl: "https://wordpress.org/plugins/astra-sites/", ourArticleUrl: "/astra-theme-review" },
-  "elementskit-lite": { name: "ElementsKit Elementor Addons", wpOrgUrl: "https://wordpress.org/plugins/elementskit-lite/", ourArticleUrl: null },
+  "elementskit-lite": { name: "ElementsKit Elementor Addons", wpOrgUrl: "https://wordpress.org/plugins/elementskit-lite/", ourArticleUrl: "/elementskit-review" },
   "mailchimp-for-wp": { name: "MC4WP: Mailchimp for WordPress", wpOrgUrl: "https://wordpress.org/plugins/mailchimp-for-wp/", ourArticleUrl: "/best-email-marketing-plugins" },
   "loco-translate": { name: "Loco Translate", wpOrgUrl: "https://wordpress.org/plugins/loco-translate/", ourArticleUrl: null },
   "disable-comments": { name: "Disable Comments", wpOrgUrl: "https://wordpress.org/plugins/disable-comments/", ourArticleUrl: null },
