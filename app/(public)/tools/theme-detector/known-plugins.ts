@@ -58,7 +58,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "google-sitemap-generator": { name: "XML Sitemap Generator for Google", wpOrgUrl: "https://wordpress.org/plugins/google-sitemap-generator/", ourArticleUrl: "/xml-sitemap-generator-review" },
   worker: { name: "ManageWP Worker", wpOrgUrl: "https://wordpress.org/plugins/worker/", ourArticleUrl: "/managewp-review" },
   "ultimate-addons-for-gutenberg": { name: "Spectra Gutenberg Blocks", wpOrgUrl: "https://wordpress.org/plugins/ultimate-addons-for-gutenberg/", ourArticleUrl: "/spectra-review" },
-  maintenance: { name: "Maintenance", wpOrgUrl: "https://wordpress.org/plugins/maintenance/", ourArticleUrl: null },
+  maintenance: { name: "Maintenance", wpOrgUrl: "https://wordpress.org/plugins/maintenance/", ourArticleUrl: "/maintenance-plugin-review" },
   "image-optimization": { name: "Image Optimizer", wpOrgUrl: "https://wordpress.org/plugins/image-optimization/", ourArticleUrl: null },
   "safe-svg": { name: "Safe SVG", wpOrgUrl: "https://wordpress.org/plugins/safe-svg/", ourArticleUrl: null },
   "instagram-feed": { name: "Smash Balloon Social Photo Feed", wpOrgUrl: "https://wordpress.org/plugins/instagram-feed/", ourArticleUrl: null },
