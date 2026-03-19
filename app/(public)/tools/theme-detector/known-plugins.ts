@@ -38,7 +38,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "astra-sites": { name: "Starter Templates", wpOrgUrl: "https://wordpress.org/plugins/astra-sites/", ourArticleUrl: "/astra-theme-review" },
   "elementskit-lite": { name: "ElementsKit Elementor Addons", wpOrgUrl: "https://wordpress.org/plugins/elementskit-lite/", ourArticleUrl: "/elementskit-review" },
   "mailchimp-for-wp": { name: "MC4WP: Mailchimp for WordPress", wpOrgUrl: "https://wordpress.org/plugins/mailchimp-for-wp/", ourArticleUrl: "/best-email-marketing-plugins" },
-  "loco-translate": { name: "Loco Translate", wpOrgUrl: "https://wordpress.org/plugins/loco-translate/", ourArticleUrl: null },
+  "loco-translate": { name: "Loco Translate", wpOrgUrl: "https://wordpress.org/plugins/loco-translate/", ourArticleUrl: "/loco-translate-review" },
   "disable-comments": { name: "Disable Comments", wpOrgUrl: "https://wordpress.org/plugins/disable-comments/", ourArticleUrl: null },
   "wp-super-cache": { name: "WP Super Cache", wpOrgUrl: "https://wordpress.org/plugins/wp-super-cache/", ourArticleUrl: "/best-caching-plugins" },
   duplicator: { name: "Duplicator", wpOrgUrl: "https://wordpress.org/plugins/duplicator/", ourArticleUrl: "/migrate-wordpress-to-new-host" },
