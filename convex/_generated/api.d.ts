@@ -60,6 +60,7 @@ import type * as seedArticles44 from "../seedArticles44.js";
 import type * as seedArticles45 from "../seedArticles45.js";
 import type * as seedArticles46 from "../seedArticles46.js";
 import type * as seedArticles47 from "../seedArticles47.js";
+import type * as seedArticles48 from "../seedArticles48.js";
 import type * as seedArticles5 from "../seedArticles5.js";
 import type * as seedArticles6 from "../seedArticles6.js";
 import type * as seedArticles7 from "../seedArticles7.js";
@@ -137,6 +138,7 @@ declare const fullApi: ApiFromModules<{
   seedArticles45: typeof seedArticles45;
   seedArticles46: typeof seedArticles46;
   seedArticles47: typeof seedArticles47;
+  seedArticles48: typeof seedArticles48;
   seedArticles5: typeof seedArticles5;
   seedArticles6: typeof seedArticles6;
   seedArticles7: typeof seedArticles7;
