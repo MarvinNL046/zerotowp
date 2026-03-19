@@ -45,7 +45,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "cookie-law-info": { name: "CookieYes", wpOrgUrl: "https://wordpress.org/plugins/cookie-law-info/", ourArticleUrl: "/cookieyes-review" },
   loginizer: { name: "Loginizer", wpOrgUrl: "https://wordpress.org/plugins/loginizer/", ourArticleUrl: "/wordpress-login-security" },
   "better-search-replace": { name: "Better Search Replace", wpOrgUrl: "https://wordpress.org/plugins/better-search-replace/", ourArticleUrl: "/better-search-replace-review" },
-  "wp-file-manager": { name: "File Manager", wpOrgUrl: "https://wordpress.org/plugins/wp-file-manager/", ourArticleUrl: null },
+  "wp-file-manager": { name: "File Manager", wpOrgUrl: "https://wordpress.org/plugins/wp-file-manager/", ourArticleUrl: "/file-manager-review" },
   "code-snippets": { name: "Code Snippets", wpOrgUrl: "https://wordpress.org/plugins/code-snippets/", ourArticleUrl: "/best-code-snippet-plugins" },
   "wp-fastest-cache": { name: "WP Fastest Cache", wpOrgUrl: "https://wordpress.org/plugins/wp-fastest-cache/", ourArticleUrl: "/best-caching-plugins" },
   "complianz-gdpr": { name: "Complianz", wpOrgUrl: "https://wordpress.org/plugins/complianz-gdpr/", ourArticleUrl: null },
