@@ -89,7 +89,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "antispam-bee": { name: "Antispam Bee", wpOrgUrl: "https://wordpress.org/plugins/antispam-bee/", ourArticleUrl: "/antispam-bee-review" },
   "woocommerce-gateway-stripe": { name: "WooCommerce Stripe Payment Gateway", wpOrgUrl: "https://wordpress.org/plugins/woocommerce-gateway-stripe/", ourArticleUrl: "/woocommerce-stripe-review" },
   "coming-soon": { name: "Website Builder by SeedProd", wpOrgUrl: "https://wordpress.org/plugins/coming-soon/", ourArticleUrl: "/seedprod-review" },
-  "premium-addons-for-elementor": { name: "Premium Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/premium-addons-for-elementor/", ourArticleUrl: null },
+  "premium-addons-for-elementor": { name: "Premium Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/premium-addons-for-elementor/", ourArticleUrl: "/premium-addons-elementor-review" },
   "creame-whatsapp-me": { name: "Joinchat", wpOrgUrl: "https://wordpress.org/plugins/creame-whatsapp-me/", ourArticleUrl: null },
   "mainwp-child": { name: "MainWP Child", wpOrgUrl: "https://wordpress.org/plugins/mainwp-child/", ourArticleUrl: null },
   "user-role-editor": { name: "User Role Editor", wpOrgUrl: "https://wordpress.org/plugins/user-role-editor/", ourArticleUrl: null },
