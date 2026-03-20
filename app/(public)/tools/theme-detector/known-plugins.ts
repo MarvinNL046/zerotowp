@@ -102,7 +102,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   fluentform: { name: "Fluent Forms", wpOrgUrl: "https://wordpress.org/plugins/fluentform/", ourArticleUrl: "/fluent-forms-review" },
   "royal-elementor-addons": { name: "Royal Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/royal-elementor-addons/", ourArticleUrl: "/royal-elementor-addons-review" },
   "sucuri-scanner": { name: "Sucuri Security", wpOrgUrl: "https://wordpress.org/plugins/sucuri-scanner/", ourArticleUrl: "/best-wordpress-firewall-plugins" },
-  "hello-dolly": { name: "Hello Dolly", wpOrgUrl: "https://wordpress.org/plugins/hello-dolly/", ourArticleUrl: null },
+  "hello-dolly": { name: "Hello Dolly", wpOrgUrl: "https://wordpress.org/plugins/hello-dolly/", ourArticleUrl: "/hello-dolly-review" },
   "under-construction-page": { name: "Under Construction", wpOrgUrl: "https://wordpress.org/plugins/under-construction-page/", ourArticleUrl: "/under-construction-review" },
   gravityforms: { name: "Gravity Forms", wpOrgUrl: null, ourArticleUrl: "/best-contact-form-plugins" },
   "js_composer": { name: "WPBakery Page Builder", wpOrgUrl: null, ourArticleUrl: null },
