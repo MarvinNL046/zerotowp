@@ -100,7 +100,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "custom-css-js": { name: "Simple Custom CSS and JS", wpOrgUrl: "https://wordpress.org/plugins/custom-css-js/", ourArticleUrl: "/simple-custom-css-js-review" },
   backuply: { name: "Backuply", wpOrgUrl: "https://wordpress.org/plugins/backuply/", ourArticleUrl: "/backuply-review" },
   fluentform: { name: "Fluent Forms", wpOrgUrl: "https://wordpress.org/plugins/fluentform/", ourArticleUrl: "/fluent-forms-review" },
-  "royal-elementor-addons": { name: "Royal Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/royal-elementor-addons/", ourArticleUrl: null },
+  "royal-elementor-addons": { name: "Royal Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/royal-elementor-addons/", ourArticleUrl: "/royal-elementor-addons-review" },
   "sucuri-scanner": { name: "Sucuri Security", wpOrgUrl: "https://wordpress.org/plugins/sucuri-scanner/", ourArticleUrl: "/best-wordpress-firewall-plugins" },
   "hello-dolly": { name: "Hello Dolly", wpOrgUrl: "https://wordpress.org/plugins/hello-dolly/", ourArticleUrl: null },
   "under-construction-page": { name: "Under Construction", wpOrgUrl: "https://wordpress.org/plugins/under-construction-page/", ourArticleUrl: null },
