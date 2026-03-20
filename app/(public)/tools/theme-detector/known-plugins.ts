@@ -105,7 +105,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "hello-dolly": { name: "Hello Dolly", wpOrgUrl: "https://wordpress.org/plugins/hello-dolly/", ourArticleUrl: "/hello-dolly-review" },
   "under-construction-page": { name: "Under Construction", wpOrgUrl: "https://wordpress.org/plugins/under-construction-page/", ourArticleUrl: "/under-construction-review" },
   gravityforms: { name: "Gravity Forms", wpOrgUrl: null, ourArticleUrl: "/best-contact-form-plugins" },
-  "js_composer": { name: "WPBakery Page Builder", wpOrgUrl: null, ourArticleUrl: null },
+  "js_composer": { name: "WPBakery Page Builder", wpOrgUrl: null, ourArticleUrl: "/wpbakery-review" },
   revslider: { name: "Slider Revolution", wpOrgUrl: null, ourArticleUrl: null },
 };
 
