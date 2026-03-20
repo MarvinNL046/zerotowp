@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { ConvexClientProvider } from "@/components/convex-provider";
 import { ClerkProviderLazy } from "@/components/clerk-provider-lazy";
 import "./globals.css";
+import Script from "next/script";
+import { CookieConsent } from "@/components/cookie-consent";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://zerotowp.com"),
@@ -29,16 +31,38 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script
+        <Script id="google-consent-defaults" strategy="beforeInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', {
+              analytics_storage: 'denied',
+              ad_storage: 'denied',
+              ad_personalization: 'denied',
+              ad_user_data: 'denied',
+              wait_for_update: 500
+            });
+            var cc = localStorage.getItem('cookie-consent');
+            if (cc === 'accepted') {
+              gtag('consent', 'update', {
+                analytics_storage: 'granted',
+                ad_storage: 'granted',
+                ad_personalization: 'granted',
+                ad_user_data: 'granted'
+              });
+            }
+          `}
+        </Script>
+        <Script
           src="https://analytics.ahrefs.com/analytics.js"
           data-key="8nHJ9xpZVf5eh3wdebkQkQ"
-          async
-          defer
+          strategy="afterInteractive"
         />
-        <script
+        <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9667530069853985"
           crossOrigin="anonymous"
+          strategy="lazyOnload"
         />
         <meta name="google-adsense-account" content="ca-pub-9667530069853985" />
       </head>
@@ -46,6 +70,7 @@ export default function RootLayout({
         <ClerkProviderLazy>
           <ConvexClientProvider>{children}</ConvexClientProvider>
         </ClerkProviderLazy>
+        <CookieConsent />
       </body>
     </html>
   );
