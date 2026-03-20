@@ -106,7 +106,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "under-construction-page": { name: "Under Construction", wpOrgUrl: "https://wordpress.org/plugins/under-construction-page/", ourArticleUrl: "/under-construction-review" },
   gravityforms: { name: "Gravity Forms", wpOrgUrl: null, ourArticleUrl: "/best-contact-form-plugins" },
   "js_composer": { name: "WPBakery Page Builder", wpOrgUrl: null, ourArticleUrl: "/wpbakery-review" },
-  revslider: { name: "Slider Revolution", wpOrgUrl: null, ourArticleUrl: null },
+  revslider: { name: "Slider Revolution", wpOrgUrl: null, ourArticleUrl: "/slider-revolution-review" },
 };
 
 /** HTML patterns that indicate a specific plugin is active. */
