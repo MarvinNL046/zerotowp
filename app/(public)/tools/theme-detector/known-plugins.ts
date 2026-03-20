@@ -97,7 +97,7 @@ export const KNOWN_PLUGINS: Record<string, KnownPlugin> = {
   "the-events-calendar": { name: "The Events Calendar", wpOrgUrl: "https://wordpress.org/plugins/the-events-calendar/", ourArticleUrl: "/the-events-calendar-review" },
   "click-to-chat-for-whatsapp": { name: "Click to Chat", wpOrgUrl: "https://wordpress.org/plugins/click-to-chat-for-whatsapp/", ourArticleUrl: "/click-to-chat-review" },
   tablepress: { name: "TablePress", wpOrgUrl: "https://wordpress.org/plugins/tablepress/", ourArticleUrl: "/tablepress-review" },
-  "custom-css-js": { name: "Simple Custom CSS and JS", wpOrgUrl: "https://wordpress.org/plugins/custom-css-js/", ourArticleUrl: null },
+  "custom-css-js": { name: "Simple Custom CSS and JS", wpOrgUrl: "https://wordpress.org/plugins/custom-css-js/", ourArticleUrl: "/simple-custom-css-js-review" },
   backuply: { name: "Backuply", wpOrgUrl: "https://wordpress.org/plugins/backuply/", ourArticleUrl: null },
   fluentform: { name: "Fluent Forms", wpOrgUrl: "https://wordpress.org/plugins/fluentform/", ourArticleUrl: null },
   "royal-elementor-addons": { name: "Royal Addons for Elementor", wpOrgUrl: "https://wordpress.org/plugins/royal-elementor-addons/", ourArticleUrl: null },
