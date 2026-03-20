@@ -4,36 +4,114 @@ import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, X, Rocket, Server, Plug, Palette, Search, BookOpen, BookText, Star, AlertTriangle } from "lucide-react";
+import {
+  Menu,
+  X,
+  Rocket,
+  Newspaper,
+  BookOpen,
+  Server,
+  Plug,
+  Palette,
+  Search,
+  Zap,
+  Shield,
+  BookText,
+  Star,
+  Wrench,
+  GraduationCap,
+  ChevronDown,
+} from "lucide-react";
 
-const NAV_LINKS = [
-  { label: "Start Here", href: "/start-here", icon: Rocket, highlight: true },
+const TOP_LINKS = [
+  { label: "News", href: "/news", icon: Newspaper },
+  { label: "Blog", href: "/blog", icon: BookOpen },
+];
+
+const WORDPRESS_LINKS = [
   { label: "Hosting", href: "/wordpress-hosting", icon: Server },
   { label: "Plugins", href: "/wordpress-plugins", icon: Plug },
   { label: "Themes", href: "/wordpress-themes", icon: Palette },
   { label: "SEO", href: "/wordpress-seo", icon: Search },
-  { label: "Tutorials", href: "/tutorials", icon: BookOpen },
-  { label: "Glossary", href: "/glossary", icon: BookText },
-  { label: "Errors", href: "/wordpress-errors", icon: AlertTriangle },
-  { label: "Reviews", href: "/reviews", icon: Star },
+  { label: "Speed", href: "/wordpress-speed", icon: Zap },
+  { label: "Security", href: "/wordpress-security", icon: Shield },
 ];
+
+const RESOURCES_LINKS = [
+  { label: "Tutorials", href: "/tutorials", icon: GraduationCap },
+  { label: "Glossary", href: "/glossary", icon: BookText },
+  { label: "Reviews", href: "/reviews", icon: Star },
+  { label: "Tools", href: "/tools", icon: Wrench },
+];
+
+function MobileNavSection({
+  title,
+  links,
+  pathname,
+  defaultOpen = false,
+}: {
+  title: string;
+  links: { label: string; href: string; icon: React.ComponentType<{ size?: number; className?: string }> }[];
+  pathname: string;
+  defaultOpen?: boolean;
+}) {
+  const [open, setOpen] = useState(defaultOpen);
+
+  return (
+    <div>
+      <button
+        type="button"
+        onClick={() => setOpen((o) => !o)}
+        className="flex items-center justify-between w-full px-4 py-2.5 text-xs font-semibold uppercase tracking-wider text-slate-400"
+      >
+        {title}
+        <ChevronDown
+          size={14}
+          className={`transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+        />
+      </button>
+      {open && (
+        <div className="flex flex-col gap-0.5 px-1">
+          {links.map(({ label, href, icon: Icon }) => {
+            const isActive =
+              pathname === href || pathname.startsWith(href + "/");
+            return (
+              <Link
+                key={href}
+                href={href}
+                className={`flex items-center gap-3 rounded-xl px-4 py-2.5 text-[15px] font-medium transition-all active:scale-[0.98] ${
+                  isActive
+                    ? "bg-orange-50 text-orange-600"
+                    : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
+                }`}
+              >
+                <Icon
+                  size={18}
+                  className={isActive ? "text-orange-500" : "text-slate-400"}
+                />
+                {label}
+              </Link>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function MobileNav() {
   const [open, setOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
 
-  // Portal needs to wait for mount
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  // Close menu on route change
   useEffect(() => {
     setOpen(false);
   }, [pathname]);
 
-  // Prevent body scroll when menu is open
   useEffect(() => {
     if (open) {
       document.body.style.overflow = "hidden";
@@ -45,11 +123,8 @@ export default function MobileNav() {
     };
   }, [open]);
 
-  // The overlay and panel are rendered via portal to escape the header's
-  // backdrop-filter which creates a new containing block for fixed elements
   const overlay = (
     <>
-      {/* Overlay backdrop */}
       {open && (
         <div
           className="fixed inset-0 z-[60] bg-black/40 backdrop-blur-sm lg:hidden"
@@ -58,7 +133,6 @@ export default function MobileNav() {
         />
       )}
 
-      {/* Slide-in panel */}
       <div
         className={`fixed top-0 right-0 z-[70] h-dvh w-[280px] bg-white shadow-2xl flex flex-col transition-transform duration-300 ease-out lg:hidden ${
           open ? "translate-x-0" : "translate-x-full"
@@ -82,33 +156,57 @@ export default function MobileNav() {
         </div>
 
         {/* Nav links */}
-        <nav className="flex flex-col gap-1 px-3 py-4 flex-1 overflow-y-auto">
-          {NAV_LINKS.map(({ label, href, icon: Icon, highlight }) => {
-            const isActive = pathname === href || pathname.startsWith(href + "/");
-            return highlight ? (
-              <Link
-                key={href}
-                href={href}
-                className="flex items-center gap-3 rounded-xl bg-[#f97316] px-4 py-3 text-[15px] font-semibold text-white hover:bg-orange-500 active:scale-[0.98] transition-all mb-1"
-              >
-                <Icon size={18} />
-                {label}
-              </Link>
-            ) : (
-              <Link
-                key={href}
-                href={href}
-                className={`flex items-center gap-3 rounded-xl px-4 py-3 text-[15px] font-medium transition-all active:scale-[0.98] ${
-                  isActive
-                    ? "bg-orange-50 text-orange-600"
-                    : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
-                }`}
-              >
-                <Icon size={18} className={isActive ? "text-orange-500" : "text-slate-400"} />
-                {label}
-              </Link>
-            );
-          })}
+        <nav className="flex flex-col gap-2 px-2 py-4 flex-1 overflow-y-auto">
+          {/* Start Here CTA */}
+          <Link
+            href="/start-here"
+            className="flex items-center gap-3 rounded-xl bg-[#f97316] mx-1 px-4 py-3 text-[15px] font-semibold text-white hover:bg-orange-500 active:scale-[0.98] transition-all mb-1"
+          >
+            <Rocket size={18} />
+            Start Here
+          </Link>
+
+          {/* Top links */}
+          <div className="flex flex-col gap-0.5 px-1">
+            {TOP_LINKS.map(({ label, href, icon: Icon }) => {
+              const isActive =
+                pathname === href || pathname.startsWith(href + "/");
+              return (
+                <Link
+                  key={href}
+                  href={href}
+                  className={`flex items-center gap-3 rounded-xl px-4 py-2.5 text-[15px] font-medium transition-all active:scale-[0.98] ${
+                    isActive
+                      ? "bg-orange-50 text-orange-600"
+                      : "text-slate-600 hover:bg-slate-50 hover:text-slate-900"
+                  }`}
+                >
+                  <Icon
+                    size={18}
+                    className={
+                      isActive ? "text-orange-500" : "text-slate-400"
+                    }
+                  />
+                  {label}
+                </Link>
+              );
+            })}
+          </div>
+
+          {/* WordPress section */}
+          <MobileNavSection
+            title="WordPress"
+            links={WORDPRESS_LINKS}
+            pathname={pathname}
+            defaultOpen
+          />
+
+          {/* Resources section */}
+          <MobileNavSection
+            title="Resources"
+            links={RESOURCES_LINKS}
+            pathname={pathname}
+          />
         </nav>
 
         {/* Footer */}
@@ -123,7 +221,6 @@ export default function MobileNav() {
 
   return (
     <>
-      {/* Hamburger button — visible only on mobile */}
       <button
         type="button"
         aria-label="Open navigation menu"
@@ -133,7 +230,6 @@ export default function MobileNav() {
         <Menu size={22} />
       </button>
 
-      {/* Portal to body — escapes header's backdrop-filter containing block */}
       {mounted && createPortal(overlay, document.body)}
     </>
   );
