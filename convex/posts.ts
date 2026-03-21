@@ -123,8 +123,9 @@ export const update = mutation({
     clusterRole: v.optional(v.string()),
     learningPathOrder: v.optional(v.number()),
     relatedPosts: v.optional(v.array(v.id("posts"))),
+    publishedAt: v.optional(v.number()),
   },
-  handler: async (ctx, { id, ...fields }) => {
+  handler: async (ctx, { id, publishedAt: explicitPublishedAt, ...fields }) => {
     if (fields.slug !== undefined) {
       validateSlug(fields.slug);
     }
@@ -135,9 +136,9 @@ export const update = mutation({
 
     const now = Date.now();
 
-    // Set publishedAt on first publish
-    let publishedAt: number | undefined = undefined;
-    if (fields.status === "published" && existing.publishedAt === undefined) {
+    // Use explicit publishedAt if provided, otherwise set on first publish
+    let publishedAt: number | undefined = explicitPublishedAt;
+    if (publishedAt === undefined && fields.status === "published" && existing.publishedAt === undefined) {
       publishedAt = now;
     }
 
