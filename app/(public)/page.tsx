@@ -6,6 +6,7 @@ import { Doc } from "@/convex/_generated/dataModel";
 import PostCard from "@/components/blog/post-card";
 import NewsletterForm from "@/components/layout/newsletter-form";
 import { WebSiteSchema } from "@/components/seo/schema-markup";
+import InlineAd from "@/components/ads/inline-ad";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://zerotowp.com" },
@@ -212,6 +213,11 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Ad between sections */}
+      <div className="max-w-6xl mx-auto px-4">
+        <InlineAd />
+      </div>
 
       {/* Latest Posts */}
       <section className="py-20 px-4 bg-white">

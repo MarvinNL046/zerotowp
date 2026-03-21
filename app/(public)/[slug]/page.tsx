@@ -19,6 +19,8 @@ import {
   BreadcrumbSchema,
   FAQSchema,
 } from "@/components/seo/schema-markup";
+import InlineAd from "@/components/ads/inline-ad";
+import SidebarAd from "@/components/ads/sidebar-ad";
 
 // ─── FAQ Extraction ────────────────────────────────────────────────────────────
 
@@ -245,6 +247,8 @@ export default async function ContentPage({
             <TableOfContents content={review.content} />
             <PostContent content={review.content} />
 
+            <InlineAd />
+
             <AuthorBio authorName={review.authorName ?? "ZeroToWP Team"} />
 
             {/* Affiliate CTA */}
@@ -286,6 +290,7 @@ export default async function ContentPage({
 
           <aside className="hidden lg:block w-80 shrink-0">
             <Sidebar />
+            <SidebarAd />
           </aside>
         </div>
       </div>
@@ -359,6 +364,8 @@ export default async function ContentPage({
           <TableOfContents content={post.content} />
           <PostContent content={post.content} />
 
+          <InlineAd />
+
           {isStartHere && post.clusterId && (
             <LearningPath clusterId={post.clusterId} currentSlug={post.slug} />
           )}
@@ -384,6 +391,7 @@ export default async function ContentPage({
 
         <aside className="hidden lg:block w-80 shrink-0">
           <Sidebar />
+          <SidebarAd />
         </aside>
       </div>
     </div>
