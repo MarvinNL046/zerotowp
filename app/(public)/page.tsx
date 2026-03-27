@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { fetchQuery } from "convex/nextjs";
 import { api } from "@/convex/_generated/api";
@@ -132,36 +133,77 @@ export default async function HomePage() {
       <WebSiteSchema />
 
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-orange-50 via-white to-amber-50 py-16 sm:py-24 md:py-36 px-4">
-        <div className="pointer-events-none absolute -top-24 -right-24 h-96 w-96 rounded-full bg-orange-100 opacity-30 blur-3xl" />
-        <div className="pointer-events-none absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-amber-100 opacity-30 blur-3xl" />
+      <section className="relative min-h-[80vh] overflow-hidden">
+        <Image
+          src="/hero-wordpress.svg"
+          alt="Illustrated WordPress workspace scene with a creator silhouette and editor screen."
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(41,21,15,0.78)_0%,rgba(41,21,15,0.68)_36%,rgba(41,21,15,0.34)_60%,rgba(41,21,15,0.12)_100%),linear-gradient(180deg,rgba(54,28,20,0.14),rgba(54,28,20,0.58))]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,243,224,0.22),transparent_30%),radial-gradient(circle_at_right,rgba(255,190,120,0.16),transparent_28%)]" />
 
-        <div className="relative max-w-6xl mx-auto text-center flex flex-col items-center gap-8">
-          <span className="inline-flex items-center rounded-full bg-orange-100/80 backdrop-blur-sm px-4 py-1.5 text-sm font-medium text-orange-700">
-            Free WordPress Tutorials &middot; 70+ Guides
-          </span>
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 max-w-3xl">
-            Learn WordPress the <span className="text-[#f97316]">Right Way</span>
-          </h1>
-          <p className="text-lg md:text-xl text-slate-500 max-w-2xl leading-relaxed">
-            Step-by-step guides to help you build, grow, and manage your WordPress website — no tech experience needed.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 mt-2">
-            <Link
-              href="/start-here"
-              className="inline-flex items-center justify-center rounded-xl bg-[#f97316] px-8 py-4 text-base font-semibold text-white shadow-lg shadow-orange-500/25 hover:bg-orange-500 hover:shadow-xl hover:shadow-orange-500/30 active:scale-[0.98] transition-all duration-200"
-            >
-              Start Your Journey &rarr;
-            </Link>
-            <Link
-              href="/wordpress-hosting"
-              className="inline-flex items-center justify-center rounded-xl border-2 border-slate-200 bg-white px-8 py-4 text-base font-semibold text-slate-700 hover:border-orange-300 hover:text-orange-600 hover:bg-orange-50 active:scale-[0.98] transition-all duration-200"
-            >
-              Compare Hosting
-            </Link>
+        <div className="relative mx-auto flex min-h-[80vh] max-w-6xl items-center px-4 py-16 sm:py-20 lg:py-24">
+          <div className="max-w-3xl">
+            <div className="flex flex-col items-start gap-6 lg:gap-8">
+              <span className="inline-flex items-center gap-2 rounded-full border border-orange-200/80 bg-white/80 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.3em] text-orange-700 shadow-sm backdrop-blur">
+                WordPress Launch Desk
+              </span>
+
+              <div className="space-y-4">
+                <h1 className="max-w-2xl text-4xl font-black leading-tight text-white sm:text-5xl lg:text-6xl">
+                  Launch WordPress Sites Fast
+                </h1>
+                <p className="max-w-xl text-lg font-medium text-white/90 sm:text-xl">
+                  Practical workflows for WordPress creators who need reliable launches, not guesswork.
+                </p>
+                <p className="max-w-2xl text-base leading-7 text-white/78 sm:text-lg">
+                  Sheets, dashboards, and ops all in one place. Follow the guides that pair sleek design with performance and SEO.
+                </p>
+              </div>
+
+              <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
+                <Link
+                  href="/start-here"
+                  aria-label="Start a WordPress project with the beginner guide"
+                  className="inline-flex items-center justify-center rounded-full bg-[#f97316] px-6 py-3.5 text-base font-semibold text-white shadow-[0_18px_40px_rgba(249,115,22,0.35)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f97316]"
+                >
+                  Start a WordPress Project
+                </Link>
+                <Link
+                  href="/wordpress-hosting"
+                  aria-label="Compare WordPress hosting and tools"
+                  className="inline-flex items-center justify-center rounded-full border border-slate-200 bg-white/90 px-6 py-3.5 text-base font-semibold text-slate-700 shadow-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-orange-300 hover:text-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-400"
+                >
+                  Compare Hosting &amp; Tools
+                </Link>
+              </div>
+
+              <div className="flex flex-wrap items-center gap-3 text-sm font-medium text-slate-600">
+                <span className="rounded-full border border-white/55 bg-white/80 px-3 py-1 shadow-sm backdrop-blur-sm">
+                  70+ WordPress tutorials
+                </span>
+                <span className="rounded-full border border-white/55 bg-white/80 px-3 py-1 shadow-sm backdrop-blur-sm">
+                  Reviews, checklists, and launch guides
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
+      {isDegraded && (
+        <section className="border-y border-amber-200 bg-amber-50 px-4 py-4">
+          <div className="mx-auto max-w-6xl">
+            <p className="text-sm font-medium text-amber-900">
+              Fresh content is tijdelijk niet beschikbaar. De site blijft online, maar recente
+              artikelen en reviews laden pas weer zodra de contentdienst hersteld is.
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* Topic Grid */}
       <section className="py-20 px-4 bg-white">
