@@ -16,7 +16,7 @@ export async function generateMetadata({
     .join(" ");
 
   return {
-    title: `${categoryName} — ZeroToWP`,
+    title: categoryName,
     robots: { index: false, follow: true },
   };
 }

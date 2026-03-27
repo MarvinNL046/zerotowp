@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "WordPress Toolkit — Tools I Actually Use and Recommend | ZeroToWP",
+  title: "WordPress Toolkit — Tools I Actually Use and Recommend",
   description:
     "My curated collection of WordPress tools, plugins, and services. Every tool on this list I've personally tested on real sites.",
 };

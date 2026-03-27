@@ -7,7 +7,7 @@ import PostCard from "@/components/blog/post-card";
 import InlineAd from "@/components/ads/inline-ad";
 
 export const metadata: Metadata = {
-  title: "Blog — ZeroToWP",
+  title: "Blog",
   alternates: { canonical: "https://zerotowp.com/blog" },
 };
 

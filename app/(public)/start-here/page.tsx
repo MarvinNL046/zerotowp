@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Start Here — Your WordPress Journey Begins | ZeroToWP",
+  title: "Start Here — Your WordPress Journey Begins",
   description:
     "New to WordPress? Follow our step-by-step learning path from complete beginner to confident WordPress user. Free guides, real screenshots, no fluff.",
   alternates: { canonical: "https://zerotowp.com/start-here" },

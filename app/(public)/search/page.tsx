@@ -5,7 +5,7 @@ import Link from "next/link";
 import SearchInput from "./search-input";
 
 export const metadata: Metadata = {
-  title: "Search — ZeroToWP",
+  title: "Search",
   description: "Search WordPress tutorials, reviews, and guides on ZeroToWP.",
   robots: { index: false, follow: true },
 };

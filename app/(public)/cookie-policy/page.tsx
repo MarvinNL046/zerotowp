@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cookie Policy — ZeroToWP",
+  title: "Cookie Policy",
   description:
     "Learn about the cookies ZeroToWP uses — analytics, authentication, and preference cookies. See exactly what we track, why, and how to manage your cookie settings in any browser.",
 };

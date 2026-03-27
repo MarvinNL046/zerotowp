@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How We Test — ZeroToWP",
+  title: "How We Test",
   description:
     "Our testing methodology explained. Learn how we evaluate WordPress hosting, plugins, themes, and tools before recommending them.",
   alternates: { canonical: "https://zerotowp.com/how-we-test" },

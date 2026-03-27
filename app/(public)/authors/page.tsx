@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Authors — ZeroToWP",
+  title: "Authors",
   description:
     "Meet the team behind ZeroToWP. Learn about our WordPress experience, testing methodology, and commitment to honest reviews.",
 };

@@ -5,7 +5,7 @@ import { Doc } from "@/convex/_generated/dataModel";
 import DealCard from "@/components/deals/deal-card";
 
 export const metadata: Metadata = {
-  title: "Deals — ZeroToWP",
+  title: "Deals",
   alternates: { canonical: "https://zerotowp.com/deals" },
 };
 

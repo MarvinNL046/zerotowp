@@ -21,7 +21,7 @@ export const seedHostingPillar = internalMutation({
     }
 
     const fields = {
-      title: "Best WordPress Hosting in 2026 — Tested and Compared",
+      title: "How to Choose the Right WordPress Hosting in 2026",
       excerpt:
         "I've tested every major WordPress host over the past decade. Here are my honest picks for 2026, with real performance data, pricing breakdowns, and recommendations for every budget.",
       content: hostingPillarContent,
@@ -38,7 +38,7 @@ export const seedHostingPillar = internalMutation({
         "web hosting",
       ],
       seoTitle:
-        "Best WordPress Hosting 2026 — Honest Comparison After 10+ Years of Testing",
+        "How to Choose WordPress Hosting in 2026 — Tested & Compared",
       seoDescription:
         "I've used every major WordPress host since 2012. Here's my honest comparison of SiteGround, Bluehost, Hostinger, and more — with real benchmarks and pricing.",
       author: "marvin",

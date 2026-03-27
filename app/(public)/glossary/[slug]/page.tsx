@@ -15,12 +15,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const term = await fetchQuery(api.glossary.getBySlug, { slug });
 
   if (!term) {
-    return { title: "Term Not Found — ZeroToWP Glossary" };
+    return { title: "Term Not Found" };
+  }
+
+  // Truncate description to 155 chars max on word boundary
+  let description = term.shortDefinition;
+  if (description.length > 155) {
+    description = description.slice(0, 155).replace(/\s+\S*$/, "") + "…";
   }
 
   return {
     title: `What Is ${term.term}? — WordPress Glossary`,
-    description: term.shortDefinition,
+    description,
+    alternates: {
+      canonical: `https://zerotowp.com/glossary/${slug}`,
+    },
   };
 }
 

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Editorial Policy — ZeroToWP",
+  title: "Editorial Policy",
   description:
     "Learn about ZeroToWP's editorial standards, how we test products, and our commitment to honest, independent recommendations.",
 };

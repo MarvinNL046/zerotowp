@@ -143,7 +143,11 @@ export async function generateMetadata({
     };
   }
 
-  const title = content.data.seoTitle || content.data.title;
+  const rawTitle = content.data.seoTitle || content.data.title;
+  // Strip brand suffix — the root layout template already appends "| ZeroToWP"
+  const title = rawTitle
+    .replace(/\s*\|\s*ZeroToWP\s*$/i, "")
+    .replace(/\s*—\s*ZeroToWP\s*$/i, "");
   const description = content.data.seoDescription || content.data.excerpt;
 
   return {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Affiliate Disclosure — ZeroToWP",
+  title: "Affiliate Disclosure",
   description:
     "Full affiliate disclosure for ZeroToWP. How we earn money and how it affects (and does not affect) our content.",
   alternates: { canonical: "https://zerotowp.com/affiliate-disclosure" },

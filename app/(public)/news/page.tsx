@@ -6,7 +6,7 @@ import PostCard from "@/components/blog/post-card";
 import { Newspaper } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "WordPress News — Latest Updates & Releases | ZeroToWP",
+  title: "WordPress News — Latest Updates & Releases",
   description:
     "Stay up to date with the latest WordPress news, plugin updates, security patches, and industry trends. Your daily dose of WordPress.",
   alternates: { canonical: "/news" },

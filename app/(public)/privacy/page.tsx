@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — ZeroToWP",
+  title: "Privacy Policy",
   description:
     "How ZeroToWP collects, uses, and protects your personal data. Covers analytics, newsletters, comments, third-party services, GDPR rights, and data retention policies.",
 };

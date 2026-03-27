@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Trademark Disclaimer — ZeroToWP",
+  title: "Trademark Disclaimer",
   description:
     "ZeroToWP trademark disclaimer. We are an independent WordPress education site and are not affiliated with or endorsed by the WordPress Foundation.",
   alternates: { canonical: "https://zerotowp.com/disclaimer" },

@@ -4,7 +4,7 @@ import { fetchQuery } from "convex/nextjs";
 import { api } from "@/convex/_generated/api";
 
 export const metadata: Metadata = {
-  title: "Sitemap — ZeroToWP",
+  title: "Sitemap",
   description:
     "Browse all pages on ZeroToWP organized by topic. Find WordPress guides, reviews, tutorials, and more.",
 };
