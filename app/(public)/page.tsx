@@ -106,9 +106,26 @@ const POPULAR_GUIDES = [
   { label: "Start a Blog", href: "/start-a-blog" },
 ];
 
+async function getHomepageContent(): Promise<{
+  posts: Doc<"posts">[];
+  reviews: Doc<"reviews">[];
+  isDegraded: boolean;
+}> {
+  try {
+    const [posts, reviews] = await Promise.all([
+      fetchQuery(api.posts.listPublished, { limit: 6 }),
+      fetchQuery(api.reviews.listPublished, { limit: 3 }),
+    ]);
+
+    return { posts, reviews, isDegraded: false };
+  } catch (error) {
+    console.error("Failed to load homepage content", error);
+    return { posts: [], reviews: [], isDegraded: true };
+  }
+}
+
 export default async function HomePage() {
-  const posts = await fetchQuery(api.posts.listPublished, { limit: 6 });
-  const reviews = await fetchQuery(api.reviews.listPublished, { limit: 3 });
+  const { posts, reviews, isDegraded } = await getHomepageContent();
 
   return (
     <>

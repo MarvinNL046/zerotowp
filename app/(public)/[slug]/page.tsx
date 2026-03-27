@@ -72,13 +72,55 @@ function formatCategoryLabel(category: string): string {
 }
 
 async function getContent(slug: string) {
-  const post = await fetchQuery(api.posts.getBySlug, { slug });
-  if (post) return { type: "post" as const, data: post };
+  if (slug.includes(".")) {
+    return null;
+  }
 
-  const review = await fetchQuery(api.reviews.getBySlug, { slug });
-  if (review) return { type: "review" as const, data: review };
+  try {
+    const post = await fetchQuery(api.posts.getBySlug, { slug });
+    if (post) return { status: "ok", type: "post" as const, data: post };
 
-  return null;
+    const review = await fetchQuery(api.reviews.getBySlug, { slug });
+    if (review) return { status: "ok", type: "review" as const, data: review };
+
+    return null;
+  } catch (error) {
+    console.error(`Failed to load content for slug "${slug}"`, error);
+    return { status: "unavailable" as const };
+  }
+}
+
+function ContentUnavailable({ slug }: { slug: string }) {
+  return (
+    <div className="mx-auto max-w-3xl px-4 py-24">
+      <div className="rounded-3xl border border-amber-200 bg-amber-50 p-8 shadow-sm">
+        <p className="text-sm font-semibold uppercase tracking-[0.28em] text-amber-700">
+          Content tijdelijk onbereikbaar
+        </p>
+        <h1 className="mt-4 text-3xl font-bold text-slate-900">
+          Dit artikel kan nu niet worden geladen
+        </h1>
+        <p className="mt-4 text-base leading-7 text-slate-700">
+          De contentbackend reageert op dit moment niet. Probeer deze pagina straks opnieuw of ga
+          terug naar de homepage.
+        </p>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <a
+            href="/"
+            className="inline-flex items-center rounded-full bg-[#f97316] px-5 py-3 text-sm font-semibold text-white"
+          >
+            Naar homepage
+          </a>
+          <a
+            href={`https://zerotowp.com/${slug}`}
+            className="inline-flex items-center rounded-full border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-700"
+          >
+            Later opnieuw proberen
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export async function generateMetadata({
@@ -90,6 +132,16 @@ export async function generateMetadata({
   const content = await getContent(slug);
 
   if (!content) return { title: "Not Found" };
+  if (content.status !== "ok") {
+    return {
+      title: "Content Temporarily Unavailable",
+      description: "This article is temporarily unavailable while the content service recovers.",
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
 
   const title = content.data.seoTitle || content.data.title;
   const description = content.data.seoDescription || content.data.excerpt;
@@ -130,6 +182,9 @@ export default async function ContentPage({
   const content = await getContent(slug);
 
   if (!content) notFound();
+  if (content.status !== "ok") {
+    return <ContentUnavailable slug={slug} />;
+  }
 
   // Fetch related content separately — don't let it break the page
   let relatedPosts: Array<{ _id: string; slug: string; title: string; excerpt: string; clusterId?: string; category: string; tags: string[] }> = [];
