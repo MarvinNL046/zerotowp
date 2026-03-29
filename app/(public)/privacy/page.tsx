@@ -113,6 +113,29 @@ export default function PrivacyPolicyPage() {
             .
           </li>
           <li>
+            <strong>Google AdSense</strong> — displays advertisements on our site. Google AdSense
+            uses cookies (including DoubleClick cookies) to serve ads based on your previous visits
+            to our site and other websites. You can opt out of personalized advertising by visiting{" "}
+            <a
+              href="https://www.google.com/settings/ads"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              Google Ads Settings
+            </a>
+            . See{" "}
+            <a
+              href="https://policies.google.com/technologies/ads"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-orange-500 hover:text-orange-600 underline"
+            >
+              How Google uses data when you use our partners&apos; sites
+            </a>
+            .
+          </li>
+          <li>
             <strong>Clerk</strong> — handles user authentication and account management. If you
             create an account, Clerk processes your name and email address. See{" "}
             <a
@@ -252,10 +275,10 @@ export default function PrivacyPolicyPage() {
         <p className="text-slate-600 mb-4">
           To exercise any of these rights, please contact us at{" "}
           <a
-            href="mailto:info@staycoolairco.nl"
+            href="mailto:hello@zerotowp.com"
             className="text-orange-500 hover:text-orange-600 underline"
           >
-            info@staycoolairco.nl
+            hello@zerotowp.com
           </a>
           . We will respond to your request within 30 days.
         </p>
@@ -268,10 +291,10 @@ export default function PrivacyPolicyPage() {
           personal data from children under 16. If you are a parent or guardian and believe your
           child has provided us with personal data, please contact us at{" "}
           <a
-            href="mailto:info@staycoolairco.nl"
+            href="mailto:hello@zerotowp.com"
             className="text-orange-500 hover:text-orange-600 underline"
           >
-            info@staycoolairco.nl
+            hello@zerotowp.com
           </a>{" "}
           and we will promptly delete the data.
         </p>
@@ -291,10 +314,10 @@ export default function PrivacyPolicyPage() {
           If you have any questions or concerns about this Privacy Policy or how we handle your
           data, you can reach us at:{" "}
           <a
-            href="mailto:info@staycoolairco.nl"
+            href="mailto:hello@zerotowp.com"
             className="text-orange-500 hover:text-orange-600 underline"
           >
-            info@staycoolairco.nl
+            hello@zerotowp.com
           </a>
         </p>
         <p className="text-slate-600 mt-4">

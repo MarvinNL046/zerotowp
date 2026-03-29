@@ -144,10 +144,10 @@ export default function EditorialPolicyPage() {
         <p className="text-slate-600 mb-4">
           If you spot an error in any of our content, please let us know at{" "}
           <a
-            href="mailto:info@staycoolairco.nl"
+            href="mailto:hello@zerotowp.com"
             className="text-orange-500 hover:text-orange-600 underline"
           >
-            info@staycoolairco.nl
+            hello@zerotowp.com
           </a>
           . We take every report seriously and will investigate promptly.
         </p>
@@ -201,10 +201,10 @@ export default function EditorialPolicyPage() {
           We welcome feedback, corrections, suggestions, and questions about our editorial
           process. You can reach us at:{" "}
           <a
-            href="mailto:info@staycoolairco.nl"
+            href="mailto:hello@zerotowp.com"
             className="text-orange-500 hover:text-orange-600 underline"
           >
-            info@staycoolairco.nl
+            hello@zerotowp.com
           </a>
         </p>
         <p className="text-slate-600">

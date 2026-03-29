@@ -155,10 +155,10 @@ export default function TermsPage() {
         <p className="text-slate-600">
           If you have any questions about these Terms, please contact us at:{" "}
           <a
-            href="mailto:info@staycoolairco.nl"
+            href="mailto:hello@zerotowp.com"
             className="text-orange-500 hover:text-orange-600 underline"
           >
-            info@staycoolairco.nl
+            hello@zerotowp.com
           </a>
         </p>
         <p className="text-slate-600 mt-4">

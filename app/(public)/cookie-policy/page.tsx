@@ -104,6 +104,24 @@ export default function CookiePolicyPage() {
                 <td className="px-4 py-3">Persistent</td>
                 <td className="px-4 py-3">Functional</td>
               </tr>
+              <tr className="border-b border-slate-100 bg-slate-50/50">
+                <td className="px-4 py-3 font-mono text-xs">__gads, __gpi, __gpi_optout</td>
+                <td className="px-4 py-3">Google AdSense</td>
+                <td className="px-4 py-3">
+                  Used by Google AdSense to serve personalized advertisements and measure ad performance. These cookies track your browsing activity across websites to show relevant ads.
+                </td>
+                <td className="px-4 py-3">Persistent (up to 13 months)</td>
+                <td className="px-4 py-3">Advertising</td>
+              </tr>
+              <tr className="border-b border-slate-100">
+                <td className="px-4 py-3 font-mono text-xs">IDE, DSID, NID</td>
+                <td className="px-4 py-3">Google DoubleClick</td>
+                <td className="px-4 py-3">
+                  Used by Google DoubleClick (part of AdSense) to register and report on user actions after viewing or clicking ads, to measure ad effectiveness and present targeted ads.
+                </td>
+                <td className="px-4 py-3">Persistent (up to 13 months)</td>
+                <td className="px-4 py-3">Advertising</td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -220,10 +238,10 @@ export default function CookiePolicyPage() {
         <p className="text-slate-600">
           If you have questions about our use of cookies, please contact us at:{" "}
           <a
-            href="mailto:info@staycoolairco.nl"
+            href="mailto:hello@zerotowp.com"
             className="text-orange-500 hover:text-orange-600 underline"
           >
-            info@staycoolairco.nl
+            hello@zerotowp.com
           </a>
         </p>
       </div>

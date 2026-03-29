@@ -45,5 +45,8 @@ next-env.d.ts
 # playwright mcp logs
 .playwright-mcp/
 
+# superpowers worktrees
+.worktrees/
+
 # temporary screenshot PNGs (we keep .webp only)
 public/screenshots/*.png

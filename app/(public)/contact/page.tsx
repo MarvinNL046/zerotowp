@@ -24,10 +24,10 @@ export default function ContactPage() {
             Email
           </h2>
           <a
-            href="mailto:info@staycoolairco.nl"
+            href="mailto:hello@zerotowp.com"
             className="text-lg text-orange-500 hover:text-orange-600 font-medium no-underline"
           >
-            info@staycoolairco.nl
+            hello@zerotowp.com
           </a>
           <p className="text-sm text-slate-500 mt-2 mb-0">
             I typically respond within 1-2 business days.
