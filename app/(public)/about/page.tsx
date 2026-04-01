@@ -41,6 +41,32 @@ export default function AboutPage() {
           delivers real value.
         </p>
 
+        <div className="mt-10">
+          <h2 className="text-2xl font-semibold text-slate-900 mb-4">Meet the Founder</h2>
+          <div className="flex flex-col md:flex-row gap-6 items-start not-prose">
+            <img
+              src="/images/team/marvin.webp"
+              alt="Marvin — Founder & Developer"
+              width={160}
+              height={160}
+              className="rounded-2xl object-cover"
+            />
+            <div>
+              <h3 className="text-xl font-semibold text-slate-900 mb-1">Marvin</h3>
+              <p className="text-sm text-orange-500 font-medium mb-3">Founder &amp; Developer</p>
+              <p className="text-slate-600 mb-3">
+                Marvin is a Dutch web developer and digital entrepreneur who builds tools and resources to help
+                people get started online. From travel guides to hosting reviews, VPN comparisons to WordPress
+                tutorials — he creates practical, honest content based on hands-on testing and real experience.
+              </p>
+              <p className="text-slate-600">
+                When he&apos;s not coding, you&apos;ll find him exploring Southeast Asia or testing the latest
+                web technologies for his growing network of niche websites.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <h2 className="text-2xl font-semibold text-slate-900 mt-10 mb-4">How We Make Money</h2>
         <p className="text-slate-600">
           Some links on this site are affiliate links, which means we may earn a small
