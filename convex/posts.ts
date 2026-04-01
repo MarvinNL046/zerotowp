@@ -108,6 +108,17 @@ export const create = mutation({
   },
   handler: async (ctx, args) => {
     validateSlug(args.slug);
+
+    // Prevent duplicate slugs — skip if already exists
+    const existing = await ctx.db
+      .query("posts")
+      .withIndex("by_slug", (q) => q.eq("slug", args.slug))
+      .first();
+    if (existing) {
+      console.log(`Post with slug "${args.slug}" already exists, skipping`);
+      return existing._id;
+    }
+
     const now = Date.now();
     const publishedAt = args.status === "published" ? now : undefined;
 
