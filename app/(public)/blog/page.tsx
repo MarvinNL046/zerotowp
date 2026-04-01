@@ -31,7 +31,7 @@ export default async function BlogPage({
       ) : (
         <>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {posts.map((post: Doc<"posts">) => (
+            {posts.map((post: Doc<"posts"> & { featuredImageUrl?: string | null }) => (
               <PostCard
                 key={post._id}
                 post={{
@@ -40,7 +40,7 @@ export default async function BlogPage({
                   excerpt: post.excerpt,
                   category: post.category,
                   publishedAt: post.publishedAt,
-                  featuredImageUrl: `/images/blog/${post.slug}.webp`,
+                  featuredImageUrl: post.featuredImageUrl || `/images/blog/${post.slug}.webp`,
                 }}
               />
             ))}

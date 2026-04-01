@@ -24,7 +24,15 @@ export const listPublished = query({
       posts = posts.slice(0, limit);
     }
 
-    return posts;
+    // Resolve featured image storage IDs to URLs
+    return await Promise.all(
+      posts.map(async (post) => ({
+        ...post,
+        featuredImageUrl: post.featuredImage
+          ? await ctx.storage.getUrl(post.featuredImage)
+          : null,
+      }))
+    );
   },
 });
 
@@ -33,10 +41,17 @@ export const getBySlug = query({
     slug: v.string(),
   },
   handler: async (ctx, { slug }) => {
-    return await ctx.db
+    const post = await ctx.db
       .query("posts")
       .withIndex("by_slug", (q) => q.eq("slug", slug))
       .first();
+    if (!post) return null;
+    return {
+      ...post,
+      featuredImageUrl: post.featuredImage
+        ? await ctx.storage.getUrl(post.featuredImage)
+        : null,
+    };
   },
 });
 
