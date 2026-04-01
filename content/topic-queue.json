@@ -1,0 +1,214 @@
+{
+  "topics": [
+    {
+      "topic": "How to Install WordPress: Complete Beginner Guide (2026)",
+      "category": "tutorials",
+      "targetKeyword": "how to install wordpress",
+      "searchVolume": 40500,
+      "priority": 1
+    },
+    {
+      "topic": "Best WordPress Hosting Providers Compared (2026)",
+      "category": "hosting",
+      "targetKeyword": "best wordpress hosting",
+      "searchVolume": 33100,
+      "priority": 1
+    },
+    {
+      "topic": "WordPress vs Squarespace vs Wix: Which Website Builder Is Best?",
+      "category": "beginners-guide",
+      "targetKeyword": "wordpress vs squarespace vs wix",
+      "searchVolume": 22200,
+      "priority": 2
+    },
+    {
+      "topic": "15 Must-Have WordPress Plugins for Every Website",
+      "category": "plugins",
+      "targetKeyword": "must have wordpress plugins",
+      "searchVolume": 18100,
+      "priority": 2
+    },
+    {
+      "topic": "How to Speed Up WordPress: 20 Proven Tips",
+      "category": "tutorials",
+      "targetKeyword": "speed up wordpress",
+      "searchVolume": 14800,
+      "priority": 2
+    },
+    {
+      "topic": "WordPress Security Guide: Protect Your Site from Hackers",
+      "category": "tutorials",
+      "targetKeyword": "wordpress security guide",
+      "searchVolume": 12100,
+      "priority": 3
+    },
+    {
+      "topic": "Best Free WordPress Themes in 2026 (Expert Picks)",
+      "category": "themes",
+      "targetKeyword": "best free wordpress themes",
+      "searchVolume": 27100,
+      "priority": 2
+    },
+    {
+      "topic": "How to Start a WordPress Blog and Make Money",
+      "category": "tutorials",
+      "targetKeyword": "start wordpress blog make money",
+      "searchVolume": 22000,
+      "priority": 1
+    },
+    {
+      "topic": "WooCommerce Setup Guide: Build Your Online Store Step by Step",
+      "category": "tutorials",
+      "targetKeyword": "woocommerce setup guide",
+      "searchVolume": 14400,
+      "priority": 3
+    },
+    {
+      "topic": "WordPress SEO: The Complete Guide to Ranking Higher",
+      "category": "tutorials",
+      "targetKeyword": "wordpress seo guide",
+      "searchVolume": 18000,
+      "priority": 2
+    },
+    {
+      "topic": "How to Choose the Right WordPress Theme for Your Niche",
+      "category": "themes",
+      "targetKeyword": "choose wordpress theme",
+      "searchVolume": 9900,
+      "priority": 3
+    },
+    {
+      "topic": "WordPress.com vs WordPress.org: What's the Real Difference?",
+      "category": "beginners-guide",
+      "targetKeyword": "wordpress.com vs wordpress.org",
+      "searchVolume": 27100,
+      "priority": 2
+    },
+    {
+      "topic": "How to Create a Landing Page in WordPress (No Code)",
+      "category": "tutorials",
+      "targetKeyword": "create landing page wordpress",
+      "searchVolume": 8100,
+      "priority": 3
+    },
+    {
+      "topic": "Best WordPress Page Builders Compared: Elementor vs Divi vs Gutenberg",
+      "category": "plugins",
+      "targetKeyword": "best wordpress page builder",
+      "searchVolume": 22200,
+      "priority": 2
+    },
+    {
+      "topic": "How to Migrate Your Website to WordPress (Step by Step)",
+      "category": "tutorials",
+      "targetKeyword": "migrate website to wordpress",
+      "searchVolume": 6600,
+      "priority": 3
+    },
+    {
+      "topic": "WordPress Backup Guide: Never Lose Your Site Again",
+      "category": "tutorials",
+      "targetKeyword": "wordpress backup guide",
+      "searchVolume": 8800,
+      "priority": 3
+    },
+    {
+      "topic": "Managed WordPress Hosting vs Shared Hosting: Which Is Worth It?",
+      "category": "hosting",
+      "targetKeyword": "managed vs shared wordpress hosting",
+      "searchVolume": 5400,
+      "priority": 3
+    },
+    {
+      "topic": "How to Fix the Most Common WordPress Errors",
+      "category": "tutorials",
+      "targetKeyword": "common wordpress errors fix",
+      "searchVolume": 12100,
+      "priority": 3
+    },
+    {
+      "topic": "Best WordPress Caching Plugins for Faster Load Times",
+      "category": "plugins",
+      "targetKeyword": "best wordpress caching plugin",
+      "searchVolume": 9900,
+      "priority": 3
+    },
+    {
+      "topic": "How to Add Google Analytics to WordPress (2026)",
+      "category": "tutorials",
+      "targetKeyword": "add google analytics wordpress",
+      "searchVolume": 14800,
+      "priority": 3
+    },
+    {
+      "topic": "Yoast vs Rank Math vs AIOSEO: Best WordPress SEO Plugin",
+      "category": "plugins",
+      "targetKeyword": "yoast vs rank math",
+      "searchVolume": 18000,
+      "priority": 2
+    },
+    {
+      "topic": "How to Make Your WordPress Site GDPR Compliant",
+      "category": "tutorials",
+      "targetKeyword": "wordpress gdpr compliance",
+      "searchVolume": 5400,
+      "priority": 4
+    },
+    {
+      "topic": "WordPress Multisite: When and How to Use It",
+      "category": "tutorials",
+      "targetKeyword": "wordpress multisite guide",
+      "searchVolume": 4400,
+      "priority": 4
+    },
+    {
+      "topic": "How to Create a Membership Site with WordPress",
+      "category": "tutorials",
+      "targetKeyword": "wordpress membership site",
+      "searchVolume": 6600,
+      "priority": 4
+    },
+    {
+      "topic": "Cloudways vs SiteGround vs Hostinger: WordPress Hosting Showdown",
+      "category": "hosting",
+      "targetKeyword": "cloudways vs siteground vs hostinger",
+      "searchVolume": 8100,
+      "priority": 2
+    },
+    {
+      "topic": "The Complete Guide to WordPress Gutenberg Block Editor",
+      "category": "tutorials",
+      "targetKeyword": "wordpress gutenberg guide",
+      "searchVolume": 9900,
+      "priority": 3
+    },
+    {
+      "topic": "How to Set Up WordPress Email (SMTP) the Right Way",
+      "category": "tutorials",
+      "targetKeyword": "wordpress smtp email setup",
+      "searchVolume": 5400,
+      "priority": 4
+    },
+    {
+      "topic": "Best WordPress Contact Form Plugins (Free & Paid)",
+      "category": "plugins",
+      "targetKeyword": "best wordpress contact form plugin",
+      "searchVolume": 12100,
+      "priority": 3
+    },
+    {
+      "topic": "How to Optimize Images in WordPress for Faster Loading",
+      "category": "tutorials",
+      "targetKeyword": "optimize images wordpress",
+      "searchVolume": 8100,
+      "priority": 3
+    },
+    {
+      "topic": "WordPress Child Themes Explained: Why and How to Create One",
+      "category": "tutorials",
+      "targetKeyword": "wordpress child theme",
+      "searchVolume": 9900,
+      "priority": 4
+    }
+  ]
+}
