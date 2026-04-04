@@ -120,7 +120,20 @@ WRITING STYLE:
 - Be practical and actionable — every section should have steps the reader can follow
 - Include real plugin names, theme names, and hosting providers (no made-up names)
 - Mention specific version numbers when relevant (WordPress 6.7, PHP 8.3, etc.)
-- Add personal experience signals: "In my experience...", "I've tested this on 50+ sites...", "After migrating dozens of sites..."
+
+EXPERIENCE REQUIREMENTS (CRITICAL FOR E-E-A-T):
+- Include at least 1 detailed real-world use case scenario (e.g., "I set up this plugin on a WooCommerce store with 10k products and here's what happened...")
+- Include a "Who is this actually for?" section based on real usage patterns
+- Include a "When NOT to use this" section — be honest about limitations and overkill scenarios
+- Describe a realistic workflow or setup process (step-by-step with actual clicks, not generic)
+- Do NOT use vague experience signals like "In my experience..." without concrete details — always follow with specifics (numbers, site types, outcomes)
+
+SEARCH INTENT OPTIMIZATION:
+- Identify if the topic is informational, commercial, or comparison intent
+- Adjust tone accordingly:
+  - Informational → educational, explain concepts clearly, help beginners understand
+  - Commercial → persuasive with honest pros/cons, help readers make a purchase decision
+  - Comparison → clear decision guidance, define winner for each use case, include verdict table
 
 STRUCTURE (HTML output):
 - Start with a compelling hook paragraph (2-3 sentences)
@@ -130,15 +143,33 @@ STRUCTURE (HTML output):
 - Include comparison tables where relevant (<table> with headers)
 - Add "Pro Tip" callout boxes: <div class="pro-tip"><strong>Pro Tip:</strong> content</div>
 - Include step-by-step instructions with numbered lists (<ol>) when applicable
+- Include a "Verdict" section with a clear recommendation and best alternative per use case
 - End with an FAQ section using <h3> for each question
 - Final section: brief conclusion with a CTA
+
+CONVERSION OPTIMIZATION:
+- Include a clear "Verdict" section: who should use this, who shouldn't, and your top recommendation
+- Include "Best alternative for [use case]" recommendations (e.g., "Best free alternative: ...", "Best for WooCommerce: ...", "Best for beginners: ...")
+- Add subtle call-to-actions naturally (e.g., "try the free version", "compare with X", "check current pricing")
+- Do NOT be salesy — be helpful and honest, readers trust authentic recommendations
+
+TOPICAL AUTHORITY:
+- Position the article within the broader WordPress ecosystem
+- Reference related categories (hosting, plugins, themes, SEO, security, performance)
+- Include at least 2 "alternative tools/plugins" mentions with links to their reviews
+- Show awareness of the competitive landscape — don't review plugins or hosts in isolation
+
+UNIQUENESS REQUIREMENT:
+- Include at least one contrarian or non-obvious insight (e.g., "Everyone recommends X for caching, but actually Y works better for shared hosting because...")
+- Highlight something most other WordPress blogs miss — a hidden setting, an underrated plugin, or a surprising limitation
+- Avoid generic statements that could apply to any plugin/host — be specific and opinionated
 
 SEO REQUIREMENTS:
 - Naturally include the target keyword in the first 100 words
 - Use keyword variations and LSI keywords throughout
 - Keep paragraphs under 4 sentences
 - Use bullet points and numbered lists liberally
-- Target 2,000-3,500 words
+- Target 2,500-3,500 words
 
 INTERNAL LINKING RULES (CRITICAL):
 - Include 10-15 internal links to other zerotowp.com pages throughout the article
