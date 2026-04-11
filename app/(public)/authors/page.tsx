@@ -22,9 +22,13 @@ export default function AuthorsPage() {
         <div className="bg-gradient-to-r from-orange-500 to-orange-600 h-24" />
         <div className="px-8 pb-8 -mt-12">
           <div className="flex items-end gap-6 mb-6">
-            <div className="w-24 h-24 rounded-2xl bg-white border-4 border-white shadow-md flex items-center justify-center text-4xl font-bold text-orange-500 shrink-0">
-              M
-            </div>
+            <img
+              src="/images/team/marvin.webp"
+              alt="Marvin — Founder & Lead Writer"
+              width={96}
+              height={96}
+              className="w-24 h-24 rounded-2xl border-4 border-white shadow-md object-cover shrink-0"
+            />
             <div className="pb-1">
               <h2 className="text-2xl font-bold text-slate-900 mb-0">
                 Marvin

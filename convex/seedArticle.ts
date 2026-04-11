@@ -192,7 +192,7 @@ const articleContent = `
 
 <ol>
 <li><strong>Choose a hosting provider</strong> — I compare the best options in my <a href="/wordpress-hosting">WordPress hosting guide</a></li>
-<li><strong>Install WordPress</strong> — Most hosts offer one-click installation (I walk through this in my <a href="/install-wordpress">installation guide</a>)</li>
+<li><strong>Install WordPress</strong> — Most hosts offer one-click installation (I walk through this in my <a href="/how-to-install-wordpress">installation guide</a>)</li>
 <li><strong>Pick a theme</strong> — Browse the free theme directory and choose one that fits your style</li>
 <li><strong>Add essential plugins</strong> — SEO, security, and performance basics</li>
 <li><strong>Start creating content</strong> — Write your first post or page</li>

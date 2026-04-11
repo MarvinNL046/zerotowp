@@ -27,6 +27,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${baseUrl}/wordpress-errors`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/tutorials`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/tools`, lastModified: new Date(), priority: 0.8 },
+    { url: `${baseUrl}/tools/theme-detector`, lastModified: new Date(), priority: 0.7 },
     { url: `${baseUrl}/glossary`, lastModified: new Date(), priority: 0.7 },
     { url: `${baseUrl}/about`, lastModified: new Date(), priority: 0.5 },
     { url: `${baseUrl}/contact`, lastModified: new Date(), priority: 0.5 },
@@ -41,19 +42,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${baseUrl}/editorial-policy`, lastModified: new Date(), priority: 0.3 },
   ];
 
-  const postPages = posts.map((post: any) => ({
+  const postPages = posts.map((post) => ({
     url: `${baseUrl}/${post.slug}`,
     lastModified: new Date(post.updatedAt),
     priority: post.clusterRole === "pillar" ? 0.9 : 0.7,
   }));
 
-  const reviewPages = reviews.map((review: any) => ({
+  const reviewPages = reviews.map((review) => ({
     url: `${baseUrl}/${review.slug}`,
     lastModified: new Date(review.updatedAt),
     priority: 0.7,
   }));
 
-  const glossaryPages = glossaryTerms.map((term: any) => ({
+  const glossaryPages = glossaryTerms.map((term) => ({
     url: `${baseUrl}/glossary/${term.slug}`,
     lastModified: new Date(),
     priority: 0.5,

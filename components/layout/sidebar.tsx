@@ -6,7 +6,7 @@ import NewsletterForm from "@/components/layout/newsletter-form";
 const popularGuides = [
   { label: "How to Start a Blog", href: "/start-a-blog" },
   { label: "Choose WordPress Hosting", href: "/wordpress-hosting" },
-  { label: "Install WordPress", href: "/install-wordpress" },
+  { label: "Install WordPress", href: "/how-to-install-wordpress" },
   { label: "Best WordPress Plugins", href: "/wordpress-plugins" },
   { label: "WordPress SEO Guide", href: "/wordpress-seo" },
 ];

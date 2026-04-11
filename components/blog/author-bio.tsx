@@ -1,26 +1,21 @@
+import Image from "next/image";
 import Link from "next/link";
 
 interface AuthorBioProps {
   authorName: string;
 }
 
-function getInitials(name: string): string {
-  return name
-    .split(" ")
-    .map((part) => part.charAt(0).toUpperCase())
-    .slice(0, 2)
-    .join("");
-}
-
 export default function AuthorBio({ authorName }: AuthorBioProps) {
-  const initials = getInitials(authorName);
-
   return (
     <div className="bg-slate-50 rounded-xl p-6 flex items-start gap-4 mt-10">
       {/* Avatar */}
-      <div className="flex-shrink-0 w-14 h-14 rounded-full bg-orange-100 flex items-center justify-center">
-        <span className="text-orange-600 font-bold text-lg">{initials}</span>
-      </div>
+      <Image
+        src="/images/team/marvin.webp"
+        alt={authorName}
+        width={56}
+        height={56}
+        className="flex-shrink-0 w-14 h-14 rounded-full object-cover"
+      />
 
       {/* Bio text */}
       <div>

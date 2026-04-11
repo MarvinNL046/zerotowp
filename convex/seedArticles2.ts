@@ -103,7 +103,7 @@ const comVsOrgContent = `
 <ul>
 <li><strong>Web hosting</strong> — roughly $3-10/month depending on the provider (see my <a href="/wordpress-hosting">WordPress hosting guide</a>)</li>
 <li><strong>A domain name</strong> — about $10-15/year</li>
-<li><strong>15 minutes to install</strong> — most hosts offer one-click installation (see my <a href="/install-wordpress">step-by-step install guide</a>)</li>
+<li><strong>15 minutes to install</strong> — most hosts offer one-click installation (see my <a href="/how-to-install-wordpress">step-by-step install guide</a>)</li>
 </ul>
 
 <p>That's it. There's no ongoing technical maintenance burden — you just keep WordPress and your plugins updated (which takes a few clicks every couple of weeks).</p>
@@ -279,7 +279,7 @@ const comVsOrgContent = `
 <ol>
 <li><strong>Choose a hosting provider</strong> — I've done the research in my <a href="/wordpress-hosting">WordPress hosting comparison</a>. For most beginners, a managed WordPress host or a solid shared host works perfectly.</li>
 <li><strong>Register a domain name</strong> — Usually done through your hosting provider during signup.</li>
-<li><strong>Install WordPress</strong> — Almost every host offers one-click WordPress installation. I walk through the entire process in my <a href="/install-wordpress">WordPress installation guide</a>.</li>
+<li><strong>Install WordPress</strong> — Almost every host offers one-click WordPress installation. I walk through the entire process in my <a href="/how-to-install-wordpress">WordPress installation guide</a>.</li>
 <li><strong>Choose a theme and install essential plugins</strong> — Your site will be ready within an hour.</li>
 </ol>
 

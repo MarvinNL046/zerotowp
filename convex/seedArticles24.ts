@@ -141,7 +141,7 @@ const yoastVsRankMathContent = `
 
 <h2>Ease of Use — Yoast Is Simpler for Beginners</h2>
 
-<p>Here's where Yoast earns its keep. If you've never touched an SEO plugin before — maybe you just <a href="/install-wordpress/">installed WordPress</a> last week — Yoast's interface is genuinely easier to wrap your head around.</p>
+<p>Here's where Yoast earns its keep. If you've never touched an SEO plugin before — maybe you just <a href="/how-to-install-wordpress">installed WordPress</a> last week — Yoast's interface is genuinely easier to wrap your head around.</p>
 
 <p>Yoast uses a <strong>traffic light system</strong> (red, orange, green dots) that makes optimization feel approachable. You write your post, enter your focus keyword, and Yoast tells you exactly what to improve to turn those dots green. The setup wizard is clean and asks only essential questions. There's no overwhelm.</p>
 

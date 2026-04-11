@@ -180,7 +180,7 @@ const pillarContent = `
 <li><strong>Admin email</strong> — use a real address, WordPress sends password resets and notifications here</li>
 </ul>
 
-<p>For a detailed walkthrough including screenshots for different hosting providers, see my <a href="/install-wordpress">step-by-step WordPress installation guide</a>.</p>
+<p>For a detailed walkthrough including screenshots for different hosting providers, see my <a href="/how-to-install-wordpress">step-by-step WordPress installation guide</a>.</p>
 
 <h2>Step 4 — Log In to Your WordPress Dashboard</h2>
 

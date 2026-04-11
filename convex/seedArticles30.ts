@@ -26,13 +26,14 @@ export const seedWordPressSecurityGuide = internalMutation({
       .first();
 
     const fields = {
-      title: "WordPress Security Guide: 12 Steps to Protect Your Site",
+      title: "WordPress Security Checklist: 12 Steps to Protect Your Site",
       excerpt:
-        "WordPress doesn't get hacked because it's insecure — it gets hacked because people skip basic precautions. Here are the 12 security steps I follow on every site I build, ranked by importance.",
+        "WordPress doesn't get hacked because it's insecure — it gets hacked because people skip basic precautions. Here is the 12-step WordPress security checklist I follow on every site I build.",
       content: wordPressSecurityGuideContent,
       category: "tutorials",
       tags: [
         "wordpress security",
+        "wordpress security checklist",
         "website security",
         "wordpress hardening",
         "two-factor authentication",
@@ -42,9 +43,9 @@ export const seedWordPressSecurityGuide = internalMutation({
         "brute force protection",
         "wordpress backup",
       ],
-      seoTitle: "WordPress Security Guide: 12 Steps to Lock Down Your Site (2026)",
+      seoTitle: "WordPress Security Checklist 2026 — 12 Steps to Protect Your Site",
       seoDescription:
-        "Protect your WordPress site with this practical 12-step security checklist. From strong passwords to malware scanning — actionable steps you can implement today.",
+        "Protect your site with this practical WordPress security checklist. These 12 steps cover passwords, updates, malware scanning, backups, SSL, and login hardening.",
       author: "marvin",
       authorName: "Marvin",
       clusterId: cluster._id,
@@ -84,7 +85,7 @@ const wordPressSecurityGuideContent = `
 
 <p>Before diving into the steps, let me clear up a common misconception. WordPress doesn't get hacked because it's bad software. It gets hacked because it's <em>popular</em> software, and attackers know that millions of site owners skip basic security practices. The three most common attack vectors I see are: <strong>weak or reused passwords</strong> (especially using "admin" as a username), <strong>outdated WordPress core, themes, or plugins</strong> with known vulnerabilities, and <strong>poorly coded or abandoned plugins</strong> that introduce security holes. Fix those three things and you've eliminated about 90% of your risk.</p>
 
-<h2>12 Essential WordPress Security Steps</h2>
+<h2>The 12-Step WordPress Security Checklist</h2>
 
 <h3>#1 Use Strong Passwords and a Unique Admin Username</h3>
 

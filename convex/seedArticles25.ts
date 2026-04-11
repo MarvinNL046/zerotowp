@@ -324,7 +324,7 @@ add_action('wp_head', 'add_google_analytics');</code></pre>
 <ul>
 <li><strong><a href="/wordpress-seo">WordPress SEO Guide</a></strong> — Learn how to optimize your site for Google so you actually have traffic worth tracking</li>
 <li><strong><a href="/best-seo-plugins">Best SEO Plugins</a></strong> — Compare Rank Math, Yoast, and AIOSEO to find the right SEO plugin for your site</li>
-<li><strong><a href="/install-wordpress">Install WordPress</a></strong> — Just getting started? Here's my step-by-step guide to setting up WordPress from scratch</li>
+<li><strong><a href="/how-to-install-wordpress">Install WordPress</a></strong> — Just getting started? Here's my step-by-step guide to setting up WordPress from scratch</li>
 </ul>
 
 <p>The biggest mistake I see beginners make with Analytics isn't the setup — it's ignoring the data after installation. Set a weekly reminder to spend 10 minutes looking at your reports. Over time, the patterns will start telling a story, and that story will guide every smart decision you make about your site.</p>

@@ -727,14 +727,16 @@ export const seedAstraThemeReview = internalMutation({
 
     const fields = {
       title:
-        "Astra Theme Review 2026 — Is It Really the Best WordPress Theme?",
+        "Astra WordPress Theme Review 2026 — Is It Still the Best Theme?",
       excerpt:
-        "An in-depth, hands-on review of the Astra WordPress theme in 2026. Covering performance benchmarks, Customizer options, Starter Templates, page builder compatibility, free vs Pro features, pricing, and an honest verdict on whether Astra deserves its reputation as the most popular WordPress theme.",
+        "An in-depth, hands-on Astra WordPress theme review covering performance benchmarks, Starter Templates, page builder compatibility, free vs Pro features, pricing, pros, cons, and the best Astra alternatives.",
       content: astraThemeReviewContent,
       category: "themes",
       tags: [
         "astra theme",
         "astra review",
+        "astra theme review",
+        "astra wordpress theme review",
         "wordpress themes",
         "astra free vs pro",
         "astra performance",
@@ -742,9 +744,9 @@ export const seedAstraThemeReview = internalMutation({
         "best wordpress themes",
       ],
       seoTitle:
-        "Astra Theme Review 2026: Features, Performance & Honest Verdict",
+        "Astra WordPress Theme Review 2026 — Features, Speed & Verdict",
       seoDescription:
-        "I've used Astra on 20+ sites over 5 years. Here's my honest review of the Astra WordPress theme in 2026 — performance benchmarks, free vs Pro features, pricing, pros, cons, and whether it's actually worth the hype.",
+        "My Astra WordPress theme review after using it on 20+ sites: performance benchmarks, free vs Pro features, pricing, pros, cons, and the best Astra alternatives in 2026.",
       author: "marvin",
       authorName: "Marvin",
       clusterId: cluster._id,
@@ -828,6 +830,30 @@ const astraThemeReviewContent = `
 </tr>
 </tbody>
 </table>
+
+<h2>Astra Theme Review: Pros, Cons, and Best Alternatives</h2>
+
+<p>If you want the fast version before we get into the benchmarks, here's the honest snapshot. Astra is one of the safest WordPress theme recommendations I can make, but it is not automatically the best theme for every site.</p>
+
+<h3>What I Like About Astra</h3>
+
+<ul>
+<li>Fast out of the box, with a genuinely lightweight codebase</li>
+<li>Excellent compatibility with Elementor, Gutenberg, Beaver Builder, and WooCommerce</li>
+<li>Starter Templates save beginners a huge amount of setup time</li>
+<li>Pro pricing is aggressive for unlimited-site usage</li>
+<li>Large user base means better docs, tutorials, and easier troubleshooting</li>
+</ul>
+
+<h3>What I Don't Like</h3>
+
+<ul>
+<li>The free version feels more restricted now that Kadence Free includes stronger header-building features</li>
+<li>The Customizer-based workflow is stable, but it can feel dated compared to more visual builders</li>
+<li>Some of the most useful quality-of-life features still sit behind Astra Pro</li>
+</ul>
+
+<p><strong>Best alternatives:</strong> Choose <a href="/generatepress-vs-astra/">GeneratePress</a> if raw performance and cleaner code matter most. Choose Kadence if you want more design freedom on the free plan. Choose Divi only if you specifically want a built-in visual builder and accept the extra performance overhead.</p>
 
 <h2>Performance: Where Astra Really Shines</h2>
 

@@ -247,7 +247,7 @@ const wordPressBackupGuideContent = `
 
 <p><strong>Warning:</strong> If your WordPress dashboard is completely inaccessible (white screen of death, database connection error, etc.), you can still restore by manually uploading the UpdraftPlus plugin and backup files via FTP or cPanel File Manager. Install a fresh WordPress, activate UpdraftPlus, upload your backup files to <code>/wp-content/updraft/</code>, and then use the UpdraftPlus dashboard to detect and restore them. I've done this procedure more times than I'd like to admit, and it works every time.</p>
 
-<p><strong>Pro tip:</strong> Test your backup restoration at least once. Don't wait until disaster strikes to find out if your backups actually work. Set up a <a href="/install-wordpress/">staging site</a> or local WordPress installation, restore a backup to it, and verify everything functions correctly. I do this quarterly for all my important sites. A backup you've never tested is a backup you can't trust. For more hands-on guides like this one, explore our <a href="/tutorials">WordPress tutorials</a> section.</p>
+<p><strong>Pro tip:</strong> Test your backup restoration at least once. Don't wait until disaster strikes to find out if your backups actually work. Set up a <a href="/how-to-install-wordpress">staging site</a> or local WordPress installation, restore a backup to it, and verify everything functions correctly. I do this quarterly for all my important sites. A backup you've never tested is a backup you can't trust. For more hands-on guides like this one, explore our <a href="/tutorials">WordPress tutorials</a> section.</p>
 
 <h2>Common Backup Mistakes to Avoid</h2>
 
