@@ -60,6 +60,8 @@ const articleContent = `
 
 <p>WordPress now has an official <strong>Claude connector</strong> built on the <a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener">Model Context Protocol (MCP)</a> — and I think most people are seriously underestimating how big this is. This is the beginning of a completely different way to work with your website.</p>
 
+<p>If you want a broader view of where Claude fits in the AI coding-agent landscape, ZeroToAIAgents has a strong <a href="https://zerotoaiagents.com/reviews/claude-code" target="_blank" rel="noopener">Claude Code review</a> plus an <a href="https://zerotoaiagents.com/guides/ai-coding-agent-statistics" target="_blank" rel="noopener">AI coding agent statistics guide</a> that puts the current adoption and workflow trends into context.</p>
+
 <img src="/screenshots/wordpress-mcp-docs-2026.webp" alt="WordPress.com MCP documentation page showing how to connect WordPress to Claude AI" />
 
 <h2>What Is the WordPress MCP Connector?</h2>
@@ -145,6 +147,8 @@ const articleContent = `
 <p><em>"Create a contact form with name, email, and message fields."</em></p>
 
 <p>Claude doesn't just write the copy — it wires the form into your site's existing systems. And if you manage multiple WordPress sites, you can coordinate promotions across all of them from a single conversation.</p>
+
+<p>This is also where the distinction between a simple AI assistant and a real coding agent starts to matter. If you're comparing those approaches in more depth, the <a href="https://zerotoaiagents.com/reviews/claude-code" target="_blank" rel="noopener">Claude Code review on ZeroToAIAgents</a> is worth reading after this tutorial.</p>
 
 <h3>5. Generate Client Reports</h3>
 
