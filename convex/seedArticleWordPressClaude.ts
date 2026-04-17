@@ -98,7 +98,7 @@ const articleContent = `
 
 <p>That's the switch that allows WordPress to talk to Claude.</p>
 
-<p><strong>Note:</strong> This currently works with WordPress.com hosted sites. If you're running self-hosted WordPress, you'll need a plugin that supports MCP — check the <a href="https://developer.wordpress.com/docs/mcp/" target="_blank" rel="noopener">WordPress MCP documentation</a> for updates.</p>
+<p><strong>Note:</strong> This currently works with WordPress.com hosted sites. If you're running self-hosted WordPress, you'll need a plugin that supports MCP — check the <a href="https://developer.wordpress.com/docs/mcp/" target="_blank" rel="noopener">WordPress MCP documentation</a> for updates. For a full technical walkthrough of connecting Claude Desktop (or any MCP client) to WordPress through the official adapter, see my <a href="/connect-ai-agents-to-wordpress-mcp-setup/">complete MCP setup guide for AI agents and WordPress</a>.</p>
 
 <h3>Step 3: Connect in Claude</h3>
 

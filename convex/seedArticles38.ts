@@ -139,7 +139,7 @@ const tutorialsPillarContent = `
 
 <p>Beyond the tutorials here on ZeroToWP, WordPress has an excellent official learning platform at <a href="https://learn.wordpress.org/" target="_blank" rel="noopener noreferrer">learn.wordpress.org</a>. It offers free courses, lessons, and online workshops covering everything from the basics to theme development. The <a href="https://developer.wordpress.org/documentation/" target="_blank" rel="noopener noreferrer">WordPress developer documentation</a> is also surprisingly good if you ever want to dig into the technical side.</p>
 
-<p>If you're just getting started with WordPress itself — choosing hosting, installing WordPress, picking a theme — check out our <a href="/start-here/">Start Here</a> guide. For hosting comparisons and recommendations, head to <a href="/wordpress-hosting/">WordPress Hosting</a>. And if you want to know which plugins are worth installing, the <a href="/wordpress-plugins/">WordPress Plugins</a> hub has you covered.</p>
+<p>If you're just getting started with WordPress itself — choosing hosting, installing WordPress, picking a theme — check out our <a href="/start-here/">Start Here</a> guide. For hosting comparisons and recommendations, head to <a href="/wordpress-hosting/">WordPress Hosting</a>. And if you want to know which plugins are worth installing, the <a href="/wordpress-plugins/">WordPress Plugins</a> hub has you covered. For the AI side of WordPress in 2026, see my guides to <a href="/build-wordpress-website-with-ai/">building a WordPress site with AI</a> and <a href="/connect-ai-agents-to-wordpress-mcp-setup/">connecting AI agents via MCP</a>.</p>
 
 <h2>Frequently Asked Questions</h2>
 

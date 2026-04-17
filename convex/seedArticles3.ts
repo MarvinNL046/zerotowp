@@ -362,6 +362,7 @@ const pillarContent = `
 <li><strong>Explore more plugins</strong> — There are plugins for everything. My <a href="/wordpress-plugins">WordPress plugins guide</a> breaks down the best options by category.</li>
 <li><strong>Troubleshoot issues</strong> — If something goes wrong (and eventually something will), my guide to <a href="/common-wordpress-errors/">common WordPress errors</a> will help you diagnose and fix it fast.</li>
 <li><strong>Customize your design</strong> — If you want to go deeper on themes and page builders, my <a href="/wordpress-themes">WordPress themes guide</a> covers what's available and what's worth using.</li>
+<li><strong>Speed it up with AI</strong> — If you want to see how AI tools can shortcut much of this manual work, read my guide to <a href="/build-wordpress-website-with-ai/">building a WordPress website with AI</a> for the 2026 workflow.</li>
 </ul>
 
 <p>For the full structured learning path — a step-by-step sequence that covers everything in order — visit my <a href="/start-here">Start Here</a> page. You can also explore our <a href="/tutorials">step-by-step tutorials</a> for more hands-on walkthroughs. It maps out the journey from complete beginner to a confident WordPress site owner.</p>

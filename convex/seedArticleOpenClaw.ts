@@ -69,7 +69,7 @@ const articleContent = `
 
 <p>In this guide, I'll skip the generic setup walkthrough (there are plenty of those) and focus on what actually matters: <strong>5 real WordPress use cases</strong> where OpenClaw saves hours of tedious work. I'll show you exactly what prompts to use, what to expect, and where to watch out.</p>
 
-<p>If you're looking for a lighter option that doesn't require a VPS, check out my guide on <a href="/wordpress-claude-ai-mcp-connector">connecting WordPress to Claude AI via MCP</a> — it's simpler but less powerful.</p>
+<p>If you're looking for a lighter option that doesn't require a VPS, check out my guide on <a href="/wordpress-claude-ai-mcp-connector">connecting WordPress to Claude AI via MCP</a> — it's simpler but less powerful. For a deeper technical setup that wires Claude Desktop (or any MCP client) directly into WordPress via the official adapter, see my <a href="/connect-ai-agents-to-wordpress-mcp-setup/">WordPress MCP setup guide</a>.</p>
 
 <h2>What Is OpenClaw?</h2>
 

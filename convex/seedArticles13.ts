@@ -536,7 +536,7 @@ const costToBuildContent = `
 
 <p>My advice? Start small. Get a cheap domain and budget hosting, install a free theme, and focus on your content. You can always upgrade your hosting, switch to a premium theme, or add paid plugins later — and by then, you will be making informed decisions based on actual experience rather than marketing hype.</p>
 
-<p>If you are ready to get started, head over to my <a href="/how-to-make-a-wordpress-website">complete guide to building a WordPress website</a>. I will walk you through every step, from buying a domain to publishing your first post.</p>
+<p>If you are ready to get started, head over to my <a href="/how-to-make-a-wordpress-website">complete guide to building a WordPress website</a>. I will walk you through every step, from buying a domain to publishing your first post. If you want to lean on AI to cut hours off the design and content phase, I also break down the current AI-powered workflow in <a href="/build-wordpress-website-with-ai/">how to build a WordPress website with AI</a>.</p>
 
 <p>Got questions about WordPress costs that I did not cover? Feel free to leave a comment below — I am happy to help you figure out the right budget for your specific project.</p>
 `;

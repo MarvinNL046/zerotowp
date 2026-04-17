@@ -622,7 +622,7 @@ const hostingPillarContent = `
 <li><strong>Choose <a href="/bluehost-review">Bluehost</a></strong> if you want the simplest possible setup experience and the comfort of the WordPress.org endorsement.</li>
 </ul>
 
-<p>Whichever host you choose, remember: you can always switch later. The most important thing is to <a href="/start-here">start building your WordPress site today</a>. Don't get paralyzed by analysis. Pick a host, install WordPress, and start creating. You can optimize everything else as you go.</p>
+<p>Whichever host you choose, remember: you can always switch later. The most important thing is to <a href="/start-here">start building your WordPress site today</a>. Don't get paralyzed by analysis. Pick a host, install WordPress, and start creating. You can optimize everything else as you go. If you want a modern shortcut through theme picking, layout, and first-pass content, also read my guide on how to <a href="/build-wordpress-website-with-ai/">build a WordPress website with AI</a>.</p>
 
 <p>Happy hosting!</p>
 `;

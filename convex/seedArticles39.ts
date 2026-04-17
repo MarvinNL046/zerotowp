@@ -299,7 +299,7 @@ const improveWordPressSeoContent = `
 
 <h3>Which single SEO tip matters most?</h3>
 
-<p>Internal linking (tip #8). You can have perfect title tags and blazing fast load times, but if pages aren't connected through logical links, Google struggles to understand your topical authority. I've seen sites jump 20+ positions just by adding strategic internal links. It's free, under your control, and surprisingly fast. See our <a href="/wordpress-seo-guide/">complete WordPress SEO guide</a> for the full picture. If you'd rather bring in professional help, my guide to the <a href="/best-wordpress-seo-services/">best WordPress SEO services</a> covers what to look for and what to expect to pay.</p>
+<p>Internal linking (tip #8). You can have perfect title tags and blazing fast load times, but if pages aren't connected through logical links, Google struggles to understand your topical authority. I've seen sites jump 20+ positions just by adding strategic internal links. It's free, under your control, and surprisingly fast. See our <a href="/wordpress-seo-guide/">complete WordPress SEO guide</a> for the full picture. If you also want to be found inside AI answers (ChatGPT, Claude, Google AI Overviews), my <a href="/optimize-wordpress-for-ai-search-geo/">guide to optimizing WordPress for AI search (GEO)</a> is the natural next step. And if you'd rather bring in professional help, my guide to the <a href="/best-wordpress-seo-services/">best WordPress SEO services</a> covers what to look for and what to expect to pay.</p>
 
 <h3>How often should I audit my site's SEO?</h3>
 

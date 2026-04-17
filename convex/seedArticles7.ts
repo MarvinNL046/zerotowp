@@ -512,7 +512,7 @@ const pluginsPillarContent = `
 
 <p>And remember: plugins are tools, not solutions. The best plugin in the world won't help if you don't configure it properly, keep it updated, and understand what it's doing. Take the time to learn each plugin you install. Read the documentation. Explore the settings. Understand what each option does before toggling it.</p>
 
-<p>If you're just getting started with WordPress, check out my <a href="/start-here">Start Here guide</a> for a complete roadmap, or learn the basics with my <a href="/what-is-wordpress">What is WordPress?</a> explainer. For platform-specific guidance, see my articles on <a href="/wordpress-hosting">choosing the right hosting</a>, <a href="/wordpress-themes">picking a theme</a>, and <a href="/wordpress-speed">optimizing your site's speed</a>.</p>
+<p>If you're just getting started with WordPress, check out my <a href="/start-here">Start Here guide</a> for a complete roadmap, or learn the basics with my <a href="/what-is-wordpress">What is WordPress?</a> explainer. For platform-specific guidance, see my articles on <a href="/wordpress-hosting">choosing the right hosting</a>, <a href="/wordpress-themes">picking a theme</a>, and <a href="/wordpress-speed">optimizing your site's speed</a>. And if you're specifically interested in the AI category — chatbots, content optimization, automation — head to my <a href="/best-ai-plugins-wordpress-2026/">best AI plugins for WordPress in 2026</a> roundup for the tested picks.</p>
 
 <p>Happy plugin hunting!</p>
 `;
