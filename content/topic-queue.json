@@ -1,4 +1,7 @@
 {
+  "notes": [
+    "Batch 4 (2026-04-19) also shipped an out-of-queue news article: wordpress-7-0-release-delayed-april-2026 (category: news, tier: news-freshness pivot — not originally in this queue)."
+  ],
   "topics": [
     {
       "topic": "How to Install WordPress: Complete Beginner Guide (2026)",
@@ -12,14 +15,22 @@
       "category": "hosting",
       "targetKeyword": "best wordpress hosting",
       "searchVolume": 33100,
-      "priority": 1
+      "priority": 1,
+      "status": "used",
+      "usedInBatch": 4,
+      "usedAt": "2026-04-19",
+      "slug": "best-wordpress-hosting-providers-2026"
     },
     {
       "topic": "WordPress vs Squarespace vs Wix: Which Website Builder Is Best?",
       "category": "beginners-guide",
       "targetKeyword": "wordpress vs squarespace vs wix",
       "searchVolume": 22200,
-      "priority": 2
+      "priority": 2,
+      "status": "used",
+      "usedInBatch": 4,
+      "usedAt": "2026-04-19",
+      "slug": "wordpress-vs-squarespace-vs-wix-2026"
     },
     {
       "topic": "15 Must-Have WordPress Plugins for Every Website",
