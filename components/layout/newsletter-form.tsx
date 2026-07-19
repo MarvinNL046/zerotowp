@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { useAction } from "convex/react";
-import { api } from "@/convex/_generated/api";
 import { CheckCircle, Loader2 } from "lucide-react";
+
+const LEADS_API_URL = "https://beaming-ermine-172.convex.site";
 
 interface NewsletterFormProps {
   source: string;
@@ -14,8 +14,6 @@ export default function NewsletterForm({ source }: NewsletterFormProps) {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const subscribeAndEmail = useAction(api.subscribers.subscribeAndEmail);
-
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!email.trim()) return;
@@ -24,7 +22,14 @@ export default function NewsletterForm({ source }: NewsletterFormProps) {
     setErrorMessage("");
 
     try {
-      await subscribeAndEmail({ email: email.trim(), source });
+      const res = await fetch(`${LEADS_API_URL}/subscribe`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ site: "zerotowp", email: email.trim(), source }),
+      });
+      const data = await res.json();
+      // 200 with status "subscribed" | "already_subscribed" | "resubscribed"
+      if (!res.ok || !data.ok) throw new Error(data.error ?? "subscribe_failed");
       setStatus("success");
       setEmail("");
     } catch {

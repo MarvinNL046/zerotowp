@@ -14,15 +14,11 @@ export default function AdminDashboardPage() {
   const posts = useQuery(api.posts.listAll);
   const reviews = useQuery(api.reviews.listAll);
   const deals = useQuery(api.deals.listAll);
-  const subscribers = useQuery(api.subscribers.list);
 
   const activeDeals = deals?.filter((d: Doc<"deals">) => d.isActive) ?? [];
 
   const isLoading =
-    posts === undefined ||
-    reviews === undefined ||
-    deals === undefined ||
-    subscribers === undefined;
+    posts === undefined || reviews === undefined || deals === undefined;
 
   if (isLoading) {
     return (
@@ -45,16 +41,12 @@ export default function AdminDashboardPage() {
       title: "Active Deals",
       value: activeDeals.length,
     },
-    {
-      title: "Subscribers",
-      value: subscribers.length,
-    },
   ];
 
   return (
     <div>
       <h1 className="text-2xl font-bold mb-6">Dashboard</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {stats.map((stat) => (
           <Card key={stat.title}>
             <CardHeader>

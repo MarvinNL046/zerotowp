@@ -1,15 +1,14 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { useMutation } from "convex/react";
-import { api } from "@/convex/_generated/api";
 import { X, CheckCircle, Loader2 } from "lucide-react";
+
+const LEADS_API_URL = "https://beaming-ermine-172.convex.site";
 
 export default function ExitIntentPopup() {
   const [show, setShow] = useState(false);
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success">("idle");
-  const subscribe = useMutation(api.subscribers.subscribe);
 
   const handleShow = useCallback(() => {
     const dismissed = sessionStorage.getItem("exit-popup-dismissed");
@@ -64,7 +63,18 @@ export default function ExitIntentPopup() {
     if (!email.trim() || status === "loading") return;
     setStatus("loading");
     try {
-      await subscribe({ email: email.trim(), source: "exit-intent" });
+      const res = await fetch(`${LEADS_API_URL}/subscribe`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          site: "zerotowp",
+          email: email.trim(),
+          source: "exit-intent",
+        }),
+      });
+      const data = await res.json();
+      // 200 with status "subscribed" | "already_subscribed" | "resubscribed"
+      if (!res.ok || !data.ok) throw new Error(data.error ?? "subscribe_failed");
       setStatus("success");
       localStorage.setItem("ztw-subscribed", "1");
     } catch {

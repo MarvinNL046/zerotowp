@@ -1,14 +1,14 @@
 import { v } from "convex/values";
-import { query, mutation, internalMutation, action } from "./_generated/server";
+import { mutation, internalMutation, action } from "./_generated/server";
 import { makeFunctionReference } from "convex/server";
 
-export const list = query({
-  args: {},
-  handler: async (ctx) => {
-    return await ctx.db.query("subscribers").collect();
-  },
-});
+// NOTE: newsletter subscriptions now live in the shared wetry-sites-leads
+// backend (https://beaming-ermine-172.convex.site, site "zerotowp"). The
+// functions below are deprecated and no longer called by the UI; they are
+// kept only so old clients don't hard-crash. The public `list` query and
+// `remove` mutation were removed (public mailing-list leak).
 
+/** @deprecated Use the wetry-sites-leads HTTP API (POST /subscribe) instead. */
 export const subscribe = mutation({
   args: {
     email: v.string(),
@@ -34,6 +34,7 @@ export const subscribe = mutation({
   },
 });
 
+/** @deprecated Use the wetry-sites-leads HTTP API (POST /subscribe) instead. */
 export const subscribeInternal = internalMutation({
   args: {
     email: v.string(),
@@ -59,13 +60,7 @@ export const subscribeInternal = internalMutation({
   },
 });
 
-export const remove = mutation({
-  args: { id: v.id("subscribers") },
-  handler: async (ctx, args) => {
-    await ctx.db.delete(args.id);
-  },
-});
-
+/** @deprecated Use the wetry-sites-leads HTTP API (POST /subscribe) instead. */
 export const subscribeAndEmail = action({
   args: { email: v.string(), source: v.string() },
   handler: async (ctx, args): Promise<{ id: string; isNew: boolean }> => {
